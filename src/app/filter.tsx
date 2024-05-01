@@ -19,9 +19,9 @@ interface FilterProps {
   markerData: MarkerData[];
   open: boolean;
   onlyCurrentlyPlaying: boolean;
-  filteredGenres: Selection;
+  filteredGenres: Set<string>;
   setOnlyCurrentlyPlaying: (val: boolean) => void;
-  setFilteredGenres: (val: Selection) => void;
+  setFilteredGenres: (val: Set<string>) => void;
   onClose: () => void;
 }
 
@@ -61,13 +61,13 @@ export function Filter(props: FilterProps) {
               Clear
             </Button>
           </div>
-          <Label>Genres</Label>
+          <Label>Genres {props.filteredGenres.size}/{genreOpts.size}</Label>
           <ListBox
-            className="outline-0 p-1 border rounded-lg"
+            className="outline-0 p-1 border rounded-lg max-h-[400px] overflow-y-auto"
             aria-label="Genres"
-            onSelectionChange={props.setFilteredGenres}
+            onSelectionChange={(keys) => props.setFilteredGenres(keys as Set<string>)}
             selectionMode="multiple"
-            selectedKeys={props.filteredGenres}
+            selectedKeys={props.filteredGenres as Selection}
           >
             {Array.from(genreOpts).map((g) => (
               <ListBoxItem

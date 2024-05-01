@@ -36,7 +36,7 @@ export default function EventMap(props: EventMapProps) {
   const map = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
   const [searchFilter, setSearchFilter] = useState("");
-  const [filteredGenres, setFilteredGenres] = useState<Selection>(new Set([]));
+  const [filteredGenres, setFilteredGenres] = useState<Set<string>>(new Set([]));
   const [showSheet, setShowSheet] = useState(false);
 
   useEffect(() => {
@@ -48,8 +48,9 @@ export default function EventMap(props: EventMapProps) {
     const mtLayer = new Map({
       container: document.getElementById("map") as HTMLElement,
       apiKey: process.env.NEXT_PUBLIC_MAPTILER_API_KEY,
+      navigationControl: false,
       geolocate: true,
-      geolocateControl: "top-right",
+      geolocateControl: "bottom-right",
       zoom: 13,
       center: {
         lng: -71.10766319928621,
@@ -122,8 +123,6 @@ export default function EventMap(props: EventMapProps) {
       });
     };
   }, [props.markerData, onlyCurrentlyPlaying, searchFilter, filteredGenres]);
-
-  console.log(map.current?.getCenter())
 
   return (
     <div className="h-full w-full absolute" id="map">
