@@ -1,8 +1,11 @@
-import EventMap from "./event-map";
+import EventMap, { MarkerData } from "./event-map";
 
-import * as data from "../../public/output-2.json"
+import { promises as fs } from 'fs';
 
-export default function Home() {
+export default async function Home() {
+  const file = await fs.readFile(process.cwd() + '/public/output-2.json', 'utf8');
+  const data: MarkerData[] = JSON.parse(file);
+
   return (
     <EventMap markerData={data.map(d => d)} />
   )
