@@ -30,7 +30,7 @@ export default function RootLayout({
         >
           {children}
           {/* <SpeedInsights /> */}
-          <Analytics />
+          {/* <Analytics /> */}
         </ThemeProvider>
       </body>
     </html>
