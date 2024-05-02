@@ -1,17 +1,24 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { Selection } from "react-aria-components";
 
 import { Map, MapStyle, Marker, Popup } from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
-import { PopupContent } from "./popup-content";
-import { createRoot } from "react-dom/client";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import MixerIcon from "../../public/icons/mixer";
 import { Filter } from "./filter";
+import {
+  Drawer,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+} from "@/components/ui/drawer";
+import { Badge } from "@/components/ui/badge";
+import { Label } from "@/components/ui/label";
 
 type LocationData = {
   lat: number;
@@ -36,8 +43,11 @@ export default function EventMap(props: EventMapProps) {
   const map = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
   const [searchFilter, setSearchFilter] = useState("");
-  const [filteredGenres, setFilteredGenres] = useState<Set<string>>(new Set([]));
+  const [filteredGenres, setFilteredGenres] = useState<Set<string>>(
+    new Set([])
+  );
   const [showSheet, setShowSheet] = useState(false);
+  const [currMarker, setCurrMarker] = useState<MarkerData | null>(null);
 
   useEffect(() => {
     if (map.current !== null) {
@@ -54,7 +64,7 @@ export default function EventMap(props: EventMapProps) {
       zoom: 13,
       center: {
         lng: -71.10766319928621,
-        lat: 42.392251196294296
+        lat: 42.392251196294296,
       },
       style: MapStyle.BRIGHT,
     });
@@ -99,18 +109,19 @@ export default function EventMap(props: EventMapProps) {
         .addTo(m);
 
       marker.getElement().addEventListener("click", () => {
-        const popupContainer = document.createElement("div");
-        var popup = new Popup({
-          offset: 25,
-          maxWidth: "none",
-          closeButton: false,
-        }).setDOMContent(popupContainer);
+        setCurrMarker(d);
+        // const popupContainer = document.createElement("div");
+        // var popup = new Popup({
+        //   offset: 25,
+        //   maxWidth: "none",
+        //   closeButton: false,
+        // }).setDOMContent(popupContainer);
 
-        createRoot(popupContainer).render(
-          <PopupContent markerData={d} onClose={() => marker.togglePopup()} />
-        );
+        // createRoot(popupContainer).render(
+        //   <PopupContent markerData={d} onClose={() => marker.togglePopup()} />
+        // );
 
-        marker.setPopup(popup);
+        // marker.setPopup(popup);
       });
 
       return marker;
@@ -125,7 +136,7 @@ export default function EventMap(props: EventMapProps) {
   }, [props.markerData, onlyCurrentlyPlaying, searchFilter, filteredGenres]);
 
   return (
-    <div className="h-full w-full absolute" id="map">
+    <div className="h-dvh w-full absolute" id="map">
       <div className="relative top-10 z-10 flex justify-center">
         <Button
           variant="outline"
@@ -141,7 +152,56 @@ export default function EventMap(props: EventMapProps) {
           onChange={({ target }) => setSearchFilter(target.value)}
         />
       </div>
-      <Filter 
+
+      <Drawer open={!!currMarker} onClose={() => setCurrMarker(null)}>
+        <DrawerContent>
+          {currMarker && (
+            <>
+              <DrawerHeader>
+                <DrawerTitle>{currMarker.artist_name}</DrawerTitle>
+                <DrawerDescription>
+                  <div className="mr-2 inline-block">Genres:</div>
+                  {currMarker.genres.sort().map((g) => (
+                    <Badge key={g} className="mr-1 mb-2">
+                      {g}
+                    </Badge>
+                  ))}
+                </DrawerDescription>
+              </DrawerHeader>
+              <div className="grid w-full items-center gap-4 px-4">
+                <div className="flex flex-col space-y-1.5">
+                  <Label htmlFor="name" className="text-lg">
+                    Time
+                  </Label>
+                  <div className="flex gap-1">
+                    {formatTime(currMarker.start_time)}-
+                    {formatTime(currMarker.end_time)}
+                  </div>
+                </div>
+                <div className="flex flex-col space-y-1.5">
+                  <Label htmlFor="name" className="text-lg">
+                    Address
+                  </Label>
+                  <div>{currMarker.location.address}</div>
+                </div>
+              </div>
+
+              <DrawerFooter className="flex flex-row justify-between">
+                <Button
+                  variant="outline"
+                  className="w-full"
+                  onClick={() => setCurrMarker(null)}
+                >
+                  Close
+                </Button>
+                <Button className="w-full">About</Button>
+              </DrawerFooter>
+            </>
+          )}
+        </DrawerContent>
+      </Drawer>
+
+      <Filter
         open={showSheet}
         onClose={() => setShowSheet(false)}
         filteredGenres={filteredGenres}
@@ -152,4 +212,12 @@ export default function EventMap(props: EventMapProps) {
       />
     </div>
   );
+}
+
+function formatTime(timestamp: number) {
+  return new Date(timestamp).toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  });
 }
