@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
+import { Analytics } from "@vercel/analytics/react"
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
 import { ThemeProvider } from "./theme-provider";
@@ -27,6 +28,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
