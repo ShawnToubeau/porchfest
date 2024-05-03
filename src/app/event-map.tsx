@@ -20,6 +20,14 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
 
+const VisitedMarkerLSKey = "porchfest-data"
+const DefaultMarkerColor = "#3FB1CE";
+const VisitedMarkerColor = "#ff0000";
+
+type MarkerHistory = {
+  markers: string[]
+}
+
 type LocationData = {
   lat: number;
   long: number;
@@ -47,7 +55,7 @@ interface EventMapProps {
 }
 
 export default function EventMap(props: EventMapProps) {
-  const map = useRef<Map | null>(null);
+  const mapRef = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
   const [searchFilter, setSearchFilter] = useState("");
   const [filteredGenres, setFilteredGenres] = useState<Set<string>>(
@@ -67,17 +75,17 @@ export default function EventMap(props: EventMapProps) {
           console.log("EVENT: add click listener for drawer overlay");
           o.addEventListener("click", () => setCurrMarker(null));
         });
-      }, 20);
+      }, 200);
     }
   }, [currMarker]);
 
   useEffect(() => {
-    if (map.current !== null) {
+    if (mapRef.current !== null) {
       return;
     }
 
     console.log("EVENT: map created");
-    const mtLayer = new Map({
+    const map = new Map({
       container: document.getElementById("map") as HTMLElement,
       apiKey: process.env.NEXT_PUBLIC_MAPTILER_API_KEY,
       navigationControl: false,
@@ -91,11 +99,11 @@ export default function EventMap(props: EventMapProps) {
       style: MapStyle.BRIGHT,
     });
 
-    map.current = mtLayer;
+    mapRef.current = map;
   }, []);
 
   useEffect(() => {
-    const m = map.current;
+    const m = mapRef.current;
 
     if (!m) {
       return;
@@ -124,14 +132,42 @@ export default function EventMap(props: EventMapProps) {
       );
     }
 
+    let markerHistoryCookie: MarkerHistory | null = null
+    const markerHistoryLs = localStorage.getItem(VisitedMarkerLSKey);
+    if (markerHistoryLs !== null) {
+      markerHistoryCookie = JSON.parse(markerHistoryLs) as MarkerHistory
+    }
+    let markerHistorySet = new Set<string>(markerHistoryCookie?.markers ?? [])
+
     console.log("EVENT: added markers");
     const markers = filteredMarkers.map((d) => {
-      const marker = new Marker({})
+      const marker = new Marker({
+        color: markerHistorySet.has(d.artist_name) ? VisitedMarkerColor : DefaultMarkerColor
+      })
         .setLngLat([d.location.long, d.location.lat])
         .addTo(m);
 
       marker.getElement().addEventListener("click", () => {
         setCurrMarker(d);
+        mapRef.current?.flyTo({
+          center: [d.location.long, d.location.lat],
+          zoom: 16,
+        })
+        const svg = marker._element.children[0].children[0].children[1] as HTMLDivElement
+        svg.style.fill = VisitedMarkerColor
+
+        let markerHistoryCookie: MarkerHistory | null = null
+        const markerHistoryLs = localStorage.getItem(VisitedMarkerLSKey);
+        if (markerHistoryLs !== null) {
+          markerHistoryCookie = JSON.parse(markerHistoryLs) as MarkerHistory
+        }
+        let markerHistorySet = new Set<string>(markerHistoryCookie?.markers ?? [])
+        markerHistorySet.add(d.artist_name)
+        const updatedMarkerHistoryCookie: MarkerHistory = {
+          markers: Array.from(markerHistorySet)
+        }
+
+        localStorage.setItem(VisitedMarkerLSKey, JSON.stringify(updatedMarkerHistoryCookie));
       });
 
       return marker;

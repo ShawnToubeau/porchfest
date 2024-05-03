@@ -37,7 +37,8 @@ export function Filter(props: FilterProps) {
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Filter</SheetTitle>
-          <div className="flex justify-between">
+          </SheetHeader>
+          <div className="flex justify-between my-4">
             <Toggle
               variant="outline"
               className="w-max p-4"
@@ -63,7 +64,7 @@ export function Filter(props: FilterProps) {
           </div>
           <Label>Genres {props.filteredGenres.size}/{genreOpts.size}</Label>
           <ListBox
-            className="outline-0 p-1 border rounded-lg max-h-[400px] overflow-y-auto"
+            className="outline-0 p-1 border rounded-lg max-h-[400px] overflow-y-auto mt-2"
             aria-label="Genres"
             onSelectionChange={(keys) => props.setFilteredGenres(keys as Set<string>)}
             selectionMode="multiple"
@@ -88,7 +89,9 @@ export function Filter(props: FilterProps) {
               </ListBoxItem>
             ))}
           </ListBox>
-        </SheetHeader>
+        <Button variant="destructive" className="mt-4" onClick={() => {
+          localStorage.removeItem("porchfest-data")
+        }}>Clear Marker History</Button>
       </SheetContent>
     </Sheet>
   );
