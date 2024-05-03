@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-import { Map, MapStyle, Marker, Popup } from "@maptiler/sdk";
+import { Map, MapStyle, Marker } from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
 import { Input } from "@/components/ui/input";
@@ -48,6 +48,21 @@ export default function EventMap(props: EventMapProps) {
   );
   const [showSheet, setShowSheet] = useState(false);
   const [currMarker, setCurrMarker] = useState<MarkerData | null>(null);
+
+  useEffect(() => {
+    if (currMarker) {
+      setTimeout(() => {
+        const overlays = Array.from(
+          document.getElementsByClassName("drawer-overlay")
+        );
+
+        overlays.map((o) => {
+          console.log("EVENT: add click listener for drawer overlay");
+          o.addEventListener("click", () => setCurrMarker(null));
+        });
+      }, 20);
+    }
+  }, [currMarker]);
 
   useEffect(() => {
     if (map.current !== null) {
@@ -110,18 +125,6 @@ export default function EventMap(props: EventMapProps) {
 
       marker.getElement().addEventListener("click", () => {
         setCurrMarker(d);
-        // const popupContainer = document.createElement("div");
-        // var popup = new Popup({
-        //   offset: 25,
-        //   maxWidth: "none",
-        //   closeButton: false,
-        // }).setDOMContent(popupContainer);
-
-        // createRoot(popupContainer).render(
-        //   <PopupContent markerData={d} onClose={() => marker.togglePopup()} />
-        // );
-
-        // marker.setPopup(popup);
       });
 
       return marker;
@@ -154,7 +157,7 @@ export default function EventMap(props: EventMapProps) {
       </div>
 
       <Drawer open={!!currMarker} onClose={() => setCurrMarker(null)}>
-        <DrawerContent>
+        <DrawerContent onClick={() => console.log("close")}>
           {currMarker && (
             <>
               <DrawerHeader>
