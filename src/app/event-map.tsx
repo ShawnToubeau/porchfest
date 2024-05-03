@@ -37,7 +37,6 @@ export type MarkerData = {
 
 /**
  * TODO:
- * prevent zooming - esp for iphone
  * location not working on iphone
  * populate search results - fuzzy matching?
  *  selecting an item should take you to the location
@@ -56,23 +55,6 @@ export default function EventMap(props: EventMapProps) {
   );
   const [showSheet, setShowSheet] = useState(false);
   const [currMarker, setCurrMarker] = useState<MarkerData | null>(null);
-
-  useEffect(() => {
-    document.addEventListener("gesturestart", function (e) {
-      e.preventDefault();
-        document.body.style.zoom = "0.99";
-    });
-    
-    document.addEventListener("gesturechange", function (e) {
-      e.preventDefault();
-    
-      document.body.style.zoom = "0.99";
-    });
-    document.addEventListener("gestureend", function (e) {
-        e.preventDefault();
-        document.body.style.zoom = "1";
-    });
-  })
 
   useEffect(() => {
     if (currMarker) {

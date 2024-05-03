@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
 import { ThemeProvider } from "./theme-provider";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-dvh">
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+      </Head>
       <body className={clsx(inter.className, "h-full")}>
         <ThemeProvider
           attribute="class"
