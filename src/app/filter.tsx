@@ -23,6 +23,7 @@ interface FilterProps {
   setOnlyCurrentlyPlaying: (val: boolean) => void;
   setFilteredGenres: (val: Set<string>) => void;
   onClose: () => void;
+  onCacheClear: () => void;
 }
 
 export function Filter(props: FilterProps) {
@@ -89,9 +90,7 @@ export function Filter(props: FilterProps) {
               </ListBoxItem>
             ))}
           </ListBox>
-        <Button variant="destructive" className="mt-4" onClick={() => {
-          localStorage.removeItem("porchfest-data")
-        }}>Clear Marker History</Button>
+        <Button variant="destructive" className="mt-4" onClick={() => props.onCacheClear()}>Reset Visited Markers</Button>
       </SheetContent>
     </Sheet>
   );
