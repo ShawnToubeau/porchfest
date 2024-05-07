@@ -205,9 +205,10 @@ export default function EventMap(props: EventMapProps) {
           break;
         case MarkerAction.UN_BOOKMARK:
           if (marker) {
-            updateMarkerColor(marker, DefaultMarkerColor);
-            updateMarkerLocalStorage(marker, (bookmarkSet, _) => {
+            updateMarkerColor(marker, VisitedMarkerColor);
+            updateMarkerLocalStorage(marker, (bookmarkSet, visitSet) => {
               bookmarkSet.delete(marker._lngLat.toString());
+              visitSet.add(marker._lngLat.toString());
             });
           }
           break;
