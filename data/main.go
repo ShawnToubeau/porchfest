@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -122,6 +123,24 @@ func main() {
 			genres = strings.Split(strings.TrimSpace(genreStr), ", ")
 		}
 
+		originalGMapsUrl := strings.Split(strings.Split(entry[4], "href=\"")[1], "\"")[0]
+		parsedURL, err := url.Parse(originalGMapsUrl)
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			return
+		}
+
+		// Replace the domain
+		parsedURL.Host = "maps.google.com"
+
+		// Set the query parameter
+		queryParams := parsedURL.Query()
+		queryParams.Set("q", strings.ReplaceAll(parsedURL.Path, "/maps/place/", ""))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Get the updated URL
+		updatedURL := parsedURL.String()
+
 		event := Event{
 			ArtistName: strings.Split(strings.Split(entry[0], "\">")[1], "</a>")[0],
 			StartTime:  parsedStartTime.UnixMilli(),
@@ -131,7 +150,7 @@ func main() {
 				Lat:            lat,
 				Long:           long,
 				Address:        address,
-				GoogleMapsLink: strings.Split(strings.Split(entry[4], "href=\"")[1], "\"")[0],
+				GoogleMapsLink: updatedURL,
 			},
 		}
 		events = append(events, event)
