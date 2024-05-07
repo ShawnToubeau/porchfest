@@ -402,7 +402,8 @@ export default function EventMap(props: EventMapProps) {
                     Time
                   </Label>
                   <div className="flex gap-1">
-                    {formatTime(currMarker.start_time)}-
+                    {formatTime(currMarker.start_time)}
+                    <div>-</div>
                     {formatTime(currMarker.end_time)}
                   </div>
                 </div>
@@ -456,8 +457,6 @@ export default function EventMap(props: EventMapProps) {
 
 function formatTime(timestamp: number) {
   return new Date(timestamp).toLocaleTimeString("en-US", {
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
+    timeStyle: "short",
   });
 }
