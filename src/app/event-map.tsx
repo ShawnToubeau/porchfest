@@ -410,13 +410,9 @@ export default function EventMap(props: EventMapProps) {
                     Address
                   </Label>
                   <a
-                    className="text-[#0090FF]"
-                    href="#"
                     target="_blank"
-                    onClick={() =>
-                      (window.location.href =
-                        currMarker.location.google_maps_link)
-                    }
+                    className="text-[#0090FF]"
+                    href={currMarker.location.google_maps_link}
                   >
                     {currMarker.location.address}
                   </a>
