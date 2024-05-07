@@ -386,11 +386,13 @@ export default function EventMap(props: EventMapProps) {
                 </DrawerTitle>
                 <DrawerDescription className="text-left mt-1">
                   <div className="mr-2 inline-block">Genres:</div>
-                  {currMarker.genres.sort().map((g) => (
-                    <Badge key={g} className="mr-1 mb-2">
-                      {g}
-                    </Badge>
-                  ))}
+                  {currMarker.genres.length ? (
+                    currMarker.genres.sort().map((g) => (
+                      <Badge key={g} className="mr-1 mb-2">
+                        {g}
+                      </Badge>
+                    ))
+                  ) : "n/a"}
                 </DrawerDescription>
               </DrawerHeader>
               <div className="grid w-full items-center gap-4 px-4">

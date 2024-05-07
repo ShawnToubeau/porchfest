@@ -114,11 +114,19 @@ func main() {
 			return
 		}
 
+		genreStr := entry[3]
+		genres := []string{}
+		if len(strings.TrimSpace(genreStr)) == 0 {
+			fmt.Println("empty genre list")
+		} else {
+			genres = strings.Split(strings.TrimSpace(genreStr), ", ")
+		}
+
 		event := Event{
 			ArtistName: strings.Split(strings.Split(entry[0], "\">")[1], "</a>")[0],
 			StartTime:  parsedStartTime.UnixMilli(),
 			EndTime:    parsedEndTime.UnixMilli(),
-			Genres:     strings.Split(strings.TrimSpace(entry[3]), ", "),
+			Genres:     genres,
 			Location: Location{
 				Lat:            lat,
 				Long:           long,
