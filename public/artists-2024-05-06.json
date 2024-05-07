@@ -219,7 +219,7 @@
     }
   },
   {
-    "artist_name": "Day Grazer/ Weatherless/ Human Masc…",
+    "artist_name": "Day Grazer/ Weatherless/ Human Mascot",
     "start_time": 1715443200000,
     "end_time": 1715450400000,
     "genres": [
@@ -454,7 +454,7 @@
     }
   },
   {
-    "artist_name": "John Civello - Mystic River Drifter…",
+    "artist_name": "John Civello - Mystic River Drifters",
     "start_time": 1715443200000,
     "end_time": 1715450400000,
     "genres": [
@@ -498,7 +498,7 @@
     }
   },
   {
-    "artist_name": "Live indie pop rock from 362 Highla…",
+    "artist_name": "Live indie pop rock from 362 Highland!",
     "start_time": 1715443200000,
     "end_time": 1715450400000,
     "genres": [
@@ -865,7 +865,7 @@
     }
   },
   {
-    "artist_name": "Ramble on Rose - Recreating the mus…",
+    "artist_name": "Ramble on Rose - Recreating the music of the Grateful Dead",
     "start_time": 1715443200000,
     "end_time": 1715450400000,
     "genres": [
@@ -1046,7 +1046,7 @@
     }
   },
   {
-    "artist_name": "Stop Calling Me Frank, The Haymaker…",
+    "artist_name": "The Lucky 88s, The Haymakers, Shaggahs, The Angel Martins",
     "start_time": 1715443200000,
     "end_time": 1715450400000,
     "genres": [
@@ -1082,7 +1082,8 @@
       "Indie",
       "Pop",
       "Punk",
-      "Rock…"
+      "Rock",
+      "Singer/songwriter"
     ],
     "location": {
       "lat": 42.39911835,
@@ -1215,7 +1216,9 @@
       "Bluegrass",
       "Blues",
       "Folk",
-      "Jazz…"
+      "Jazz",
+      "Pop",
+      "Singer/songwriter"
     ],
     "location": {
       "lat": 42.40464205,
@@ -1233,7 +1236,8 @@
       "Country",
       "Indie",
       "Pop",
-      "Punk…"
+      "Punk",
+      "Rock"
     ],
     "location": {
       "lat": 42.401007500000006,
@@ -1367,7 +1371,8 @@
       "Indie",
       "Pop",
       "Rock",
-      "R and B…"
+      "R and B",
+      "Singer/songwriter"
     ],
     "location": {
       "lat": 42.4028773,
@@ -1566,7 +1571,7 @@
     }
   },
   {
-    "artist_name": "Kristen Strezo and David Shapiro an…",
+    "artist_name": "Kristen Strezo and David Shapiro and Andrea Caruth – Vox and Keys",
     "start_time": 1715445000000,
     "end_time": 1715449500000,
     "genres": [
@@ -1693,7 +1698,7 @@
     }
   },
   {
-    "artist_name": "Christina Lacoste \u0026 Elisabeth Hoffm…",
+    "artist_name": "Christina Lacoste \u0026 Elisabeth Hoffman",
     "start_time": 1715446800000,
     "end_time": 1715450400000,
     "genres": [
@@ -2130,7 +2135,7 @@
     }
   },
   {
-    "artist_name": "Cassie Kollman and Friends (3:00-4:…",
+    "artist_name": "Cassie Kollman and Friends (3:00-4:00) with Combo Combo w/Stacy Springs (2:00-3:00)",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2158,7 +2163,7 @@
     }
   },
   {
-    "artist_name": "Circuit Happy \u0026 Friends Techno Jam…",
+    "artist_name": "Circuit Happy & Friends Techno Jam III",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2232,7 +2237,7 @@
     }
   },
   {
-    "artist_name": "Combo Combo w/Stacy Springs (2-3) a…",
+    "artist_name": "Combo Combo w/Stacy Springs (2-3) and Cassie Kollman & Friends (3-4)",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2246,7 +2251,7 @@
     }
   },
   {
-    "artist_name": "Connor Storms \u0026 His Bouquet and Nic…",
+    "artist_name": "Connor Storms & His Bouquet and Nick Paraggio",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2305,7 +2310,7 @@
     }
   },
   {
-    "artist_name": "Craigie Street Crew (Feat. Baldwin…",
+    "artist_name": "Craigie Street Crew (Feat. Baldwin School Singers)",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [],
@@ -2331,7 +2336,7 @@
     }
   },
   {
-    "artist_name": "Daughter of the Vine w/ the Concern…",
+    "artist_name": "Daughter of the Vine w/ the Concerns",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2459,7 +2464,7 @@
     }
   },
   {
-    "artist_name": "Eva Gertz, Talia Rose, Miss Christi…",
+    "artist_name": "Eva Gertz, Talia Rose, Miss Christine",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2473,7 +2478,7 @@
     }
   },
   {
-    "artist_name": "FLOF (featuring Jon Bernhardt, Ther…",
+    "artist_name": "FLOF (featuring Jon Bernhardt, Thereminist)",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2557,7 +2562,7 @@
     }
   },
   {
-    "artist_name": "Gov't Disco, Esor Rose, The Rapid D…",
+    "artist_name": "Gov't Disco, Esor Rose, The Rapid Decline",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -2652,7 +2657,22 @@
       "Bluegrass",
       "Blues",
       "Classical",
-      "Country…"
+      "Country",
+      "Electronic",
+      "Folk",
+      "Funk",
+      "Hiphop/techno",
+      "Indie",
+      "Jazz",
+      "Latin",
+      "Metal",
+      "Pop",
+      "Punk",
+      "Rock",
+      "R and B",
+      "Singer/songwriter",
+      "Soul",
+      "World"
     ],
     "location": {
       "lat": 42.3945923,
@@ -2735,7 +2755,7 @@
     }
   },
   {
-    "artist_name": "Joey T \u0026 The Dirty Burners, Feat. B…",
+    "artist_name": "Joey T & The Dirty Burners, Feat. Bleach The Sky, with guest appearance by Seandog Millionaire",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -3145,7 +3165,8 @@
       "Indie",
       "Jazz",
       "Pop",
-      "Rock…"
+      "Rock",
+      "Soul"
     ],
     "location": {
       "lat": 42.390106,
@@ -3359,7 +3380,7 @@
     }
   },
   {
-    "artist_name": "The Better End (feat. special guest…",
+    "artist_name": "The Better End (feat. special guest Cyan)",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -3599,7 +3620,7 @@
     }
   },
   {
-    "artist_name": "The Vintage Mintys and James Perett…",
+    "artist_name": "The Vintage Mintys and James Peretta & Anna Fisher-Roberts",
     "start_time": 1715450400000,
     "end_time": 1715457600000,
     "genres": [
@@ -4358,7 +4379,7 @@
     }
   },
   {
-    "artist_name": "Blazers Over Turtlenecks + Scove Co…",
+    "artist_name": "Blazers Over Turtlenecks + Scove Cone",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -4472,7 +4493,7 @@
     }
   },
   {
-    "artist_name": "Daisy hill puppy farm featuring Gre…",
+    "artist_name": "Daisy hill puppy farm featuring Greg Moon",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -4480,7 +4501,8 @@
       "Bluegrass",
       "Blues",
       "Funk",
-      "Jazz…"
+      "Jazz",
+      "Rock"
     ],
     "location": {
       "lat": 42.3844905,
@@ -4504,7 +4526,7 @@
     }
   },
   {
-    "artist_name": "Dave Bonaiuto, James Hooper \u0026 Frien…",
+    "artist_name": "Dave Bonaiuto, James Hooper \u0026 Friends",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -4632,7 +4654,7 @@
     }
   },
   {
-    "artist_name": "Emperor Norton's Stationary Marchin…",
+    "artist_name": "Emperor Norton's Stationary Marching Band",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -4881,7 +4903,7 @@
     }
   },
   {
-    "artist_name": "Linnea's Garden and Happy Little Cl…",
+    "artist_name": "Linnea's Garden and Happy Little Clouds",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -4910,7 +4932,7 @@
     }
   },
   {
-    "artist_name": "Local DJ Take Over - Illusion Night…",
+    "artist_name": "Local DJ Take Over - Illusion Night & Friends",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -5169,7 +5191,7 @@
     }
   },
   {
-    "artist_name": "Sean Atch Music + Daddy and the Boy…",
+    "artist_name": "Sean Atch Music + Daddy and the Boy/LSD Fathers B2B DJ Set (Bangers Only)",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [],
@@ -5221,7 +5243,7 @@
     }
   },
   {
-    "artist_name": "Sinhaus, Louie Lanka, Cakewalk, DJ…",
+    "artist_name": "Sinhaus, Louie Lanka, Cakewalk, DJ DONUTS, Oral Allergy, DJ Panda",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [],
@@ -5276,7 +5298,7 @@
     }
   },
   {
-    "artist_name": "Sundrifter / Princess Bleach / The…",
+    "artist_name": "Sundrifter / Princess Bleach / The Cherry Fog / Tequila Sirens",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
@@ -5450,7 +5472,7 @@
     }
   },
   {
-    "artist_name": "The Sewall Street Soul (w/ special…",
+    "artist_name": "The Sewall Street Soul (w/ special guests The Late Bloomer Jazz Quartet)",
     "start_time": 1715457600000,
     "end_time": 1715464800000,
     "genres": [
