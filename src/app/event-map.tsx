@@ -409,14 +409,13 @@ export default function EventMap(props: EventMapProps) {
                   <Label htmlFor="name" className="text-lg">
                     Address
                   </Label>
-                  <a
-                    target="_blank"
-                    className="text-[#0090FF]"
+                  <Link
                     href={currMarker.location.google_maps_link}
+                    className="text-[#0090FF]"
+                    target="_blank"
                   >
                     {currMarker.location.address}
-                  </a>
-                  {/* <Link href={currMarker.location.google_maps_link} className="text-[#0090FF]" target="_blank"></Link> */}
+                  </Link>
                 </div>
               </div>
 
