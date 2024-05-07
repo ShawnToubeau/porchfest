@@ -21,6 +21,7 @@ import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
+import Link from "next/link";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
@@ -352,7 +353,6 @@ export default function EventMap(props: EventMapProps) {
                     <Button
                       variant="outline"
                       onClick={() => {
-                        console.log("click", currMarker.isBookmarked);
                         if (currMarker.isBookmarked) {
                           handleMarkerAction(
                             MarkerAction.UN_BOOKMARK,
@@ -409,7 +409,7 @@ export default function EventMap(props: EventMapProps) {
                   <Label htmlFor="name" className="text-lg">
                     Address
                   </Label>
-                  <div>{currMarker.location.address}</div>
+                  <Link href={currMarker.location.google_maps_link} className="text-[#0090FF]" target="_blank">{currMarker.location.address}</Link>
                 </div>
               </div>
 
