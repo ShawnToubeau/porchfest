@@ -385,7 +385,7 @@ export default function EventMap(props: EventMapProps) {
                     </Button>
                   </div>
                 </DrawerTitle>
-                <DrawerDescription className="text-left mt-1">
+                <DrawerDescription className="text-left mt-1 pr-16">
                   <div className="mr-2 inline-block">Genres:</div>
                   {currMarker.genres.length
                     ? currMarker.genres.sort().map((g) => (
