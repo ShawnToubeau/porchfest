@@ -98,6 +98,10 @@ export default function EventMap(props: EventMapProps) {
       return;
     }
 
+    if(navigator.userAgent.indexOf('iPhone') > -1 ) {
+          document.querySelector("[name=viewport]")?.setAttribute("content","width=device-width, initial-scale=1, maximum-scale=1");
+    }
+
     console.log("EVENT: map created");
     const map = new Map({
       container: document.getElementById("map") as HTMLElement,
