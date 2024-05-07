@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"html"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -115,7 +116,7 @@ func main() {
 			return
 		}
 
-		genreStr := entry[3]
+		genreStr := html.UnescapeString(entry[3])
 		genres := []string{}
 		if len(strings.TrimSpace(genreStr)) == 0 {
 			fmt.Println("empty genre list")
@@ -123,7 +124,8 @@ func main() {
 			genres = strings.Split(strings.TrimSpace(genreStr), ", ")
 		}
 
-		originalGMapsUrl := strings.Split(strings.Split(entry[4], "href=\"")[1], "\"")[0]
+		genreList, _ := strconv.Unquote(`"` + strings.Split(strings.Split(entry[4], "href=\"")[1], "\"")[0] + `"`)
+		originalGMapsUrl := html.UnescapeString(genreList)
 		parsedURL, err := url.Parse(originalGMapsUrl)
 		if err != nil {
 			fmt.Println("Error parsing URL:", err)
@@ -141,8 +143,10 @@ func main() {
 		// Get the updated URL
 		updatedURL := parsedURL.String()
 
+		artistName, _ := strconv.Unquote(`"` + strings.Split(strings.Split(entry[0], "\">")[1], "</a>")[0] + `"`)
+
 		event := Event{
-			ArtistName: strings.Split(strings.Split(entry[0], "\">")[1], "</a>")[0],
+			ArtistName: html.UnescapeString(artistName),
 			StartTime:  parsedStartTime.UnixMilli(),
 			EndTime:    parsedEndTime.UnixMilli(),
 			Genres:     genres,
