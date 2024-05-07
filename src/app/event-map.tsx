@@ -386,13 +386,13 @@ export default function EventMap(props: EventMapProps) {
                 </DrawerTitle>
                 <DrawerDescription className="text-left mt-1">
                   <div className="mr-2 inline-block">Genres:</div>
-                  {currMarker.genres.length ? (
-                    currMarker.genres.sort().map((g) => (
-                      <Badge key={g} className="mr-1 mb-2">
-                        {g}
-                      </Badge>
-                    ))
-                  ) : "n/a"}
+                  {currMarker.genres.length
+                    ? currMarker.genres.sort().map((g) => (
+                        <Badge key={g} className="mr-1 mb-2">
+                          {g}
+                        </Badge>
+                      ))
+                    : "n/a"}
                 </DrawerDescription>
               </DrawerHeader>
               <div className="grid w-full items-center gap-4 px-4">
@@ -409,7 +409,18 @@ export default function EventMap(props: EventMapProps) {
                   <Label htmlFor="name" className="text-lg">
                     Address
                   </Label>
-                  <Link href={currMarker.location.google_maps_link} className="text-[#0090FF]" target="_blank">{currMarker.location.address}</Link>
+                  <a
+                    className="text-[#0090FF]"
+                    href="#"
+                    target="_blank"
+                    onClick={() =>
+                      (window.location.href =
+                        currMarker.location.google_maps_link)
+                    }
+                  >
+                    {currMarker.location.address}
+                  </a>
+                  {/* <Link href={currMarker.location.google_maps_link} className="text-[#0090FF]" target="_blank"></Link> */}
                 </div>
               </div>
 
