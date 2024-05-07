@@ -22,7 +22,7 @@ import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
 
-const VisitedMarkerLSKey = "porchfest-data"
+const VisitedMarkerLSKey = "porchfest-data";
 
 const DefaultMarkerColor = "#3B9EFF";
 const VisitedMarkerColor = "#5A6169";
@@ -33,13 +33,13 @@ enum MarkerAction {
   BOOKMARK,
   UN_BOOKMARK,
   CLEAR_VISITS,
-  APPLY_COLORS
+  APPLY_COLORS,
 }
 
 type MarkerState = {
   bookmarked: string[];
   visited: string[];
-}
+};
 
 type LocationData = {
   lat: number;
@@ -70,13 +70,16 @@ interface EventMapProps {
 export default function EventMap(props: EventMapProps) {
   const mapRef = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
+  const [onlyBookmarked, setOnlyBookmarked] = useState(false);
   const [searchFilter, setSearchFilter] = useState("");
   const [filteredGenres, setFilteredGenres] = useState<Set<string>>(
     new Set([])
   );
   const [showSheet, setShowSheet] = useState(false);
-  const [currMarker, setCurrMarker] = useState<MarkerData & {isBookmarked: boolean, mapMarker: Marker} | null>(null);
-  const [markers, setMarkers] = useState<Marker[]>([])
+  const [currMarker, setCurrMarker] = useState<
+    (MarkerData & { isBookmarked: boolean; mapMarker: Marker }) | null
+  >(null);
+  const [markers, setMarkers] = useState<Marker[]>([]);
 
   useEffect(() => {
     if (currMarker) {
@@ -98,8 +101,13 @@ export default function EventMap(props: EventMapProps) {
       return;
     }
 
-    if(navigator.userAgent.indexOf('iPhone') > -1 ) {
-          document.querySelector("[name=viewport]")?.setAttribute("content","width=device-width, initial-scale=1, maximum-scale=1");
+    if (navigator.userAgent.indexOf("iPhone") > -1) {
+      document
+        .querySelector("[name=viewport]")
+        ?.setAttribute(
+          "content",
+          "width=device-width, initial-scale=1, maximum-scale=1"
+        );
     }
 
     console.log("EVENT: map created");
@@ -121,101 +129,114 @@ export default function EventMap(props: EventMapProps) {
   }, []);
 
   const updateMarkerColor = useCallback((marker: Marker, color: string) => {
-    const svg = marker._element.children[0].children[0].children[1] as HTMLDivElement
-    svg.style.fill = color
-  }, [])
+    const svg = marker._element.children[0].children[0]
+      .children[1] as HTMLDivElement;
+    svg.style.fill = color;
+  }, []);
 
   const getMarkerLocalStorage = useCallback(() => {
-    let markerState: MarkerState | null = null
+    let markerState: MarkerState | null = null;
     const markerStateLS = localStorage.getItem(VisitedMarkerLSKey);
     if (markerStateLS !== null) {
-      markerState = JSON.parse(markerStateLS) as MarkerState
+      markerState = JSON.parse(markerStateLS) as MarkerState;
     }
 
-    let bookmarkSet = new Set<string>(markerState?.bookmarked ?? [])
-    let visitSet = new Set<string>(markerState?.visited ?? [])
+    let bookmarkSet = new Set<string>(markerState?.bookmarked ?? []);
+    let visitSet = new Set<string>(markerState?.visited ?? []);
 
     return {
       bookmarkSet,
       visitSet,
-    }
-  }, [])
+    };
+  }, []);
 
-  const updateMarkerLocalStorage = useCallback((marker: Marker, updateFn: (bookmarkSet: Set<string>, visitSet: Set<string>) => void) => {
-    let markerState: MarkerState | null = null
-    const markerStateLS = localStorage.getItem(VisitedMarkerLSKey);
-    if (markerStateLS !== null) {
-      markerState = JSON.parse(markerStateLS) as MarkerState
-    }
+  const updateMarkerLocalStorage = useCallback(
+    (
+      marker: Marker,
+      updateFn: (bookmarkSet: Set<string>, visitSet: Set<string>) => void
+    ) => {
+      let markerState: MarkerState | null = null;
+      const markerStateLS = localStorage.getItem(VisitedMarkerLSKey);
+      if (markerStateLS !== null) {
+        markerState = JSON.parse(markerStateLS) as MarkerState;
+      }
 
-    let bookmarkSet = new Set<string>(markerState?.bookmarked ?? [])
-    let visitSet = new Set<string>(markerState?.visited ?? [])
-    updateFn(bookmarkSet, visitSet)
+      let bookmarkSet = new Set<string>(markerState?.bookmarked ?? []);
+      let visitSet = new Set<string>(markerState?.visited ?? []);
+      updateFn(bookmarkSet, visitSet);
 
-    const newMarkerStateLS: MarkerState = {
-      bookmarked: Array.from(bookmarkSet),
-      visited: Array.from(visitSet),
-    }
+      const newMarkerStateLS: MarkerState = {
+        bookmarked: Array.from(bookmarkSet),
+        visited: Array.from(visitSet),
+      };
 
-    localStorage.setItem(VisitedMarkerLSKey, JSON.stringify(newMarkerStateLS));
-  }, [])
+      localStorage.setItem(
+        VisitedMarkerLSKey,
+        JSON.stringify(newMarkerStateLS)
+      );
+    },
+    []
+  );
 
-  const handleMarkerAction = useCallback((action: MarkerAction, markers: Marker[], marker?: Marker) => {
-    switch(action) {
-      case MarkerAction.VISIT:
-        if (marker && !getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString())) {
-
-          updateMarkerColor(marker, VisitedMarkerColor)
-          updateMarkerLocalStorage(marker, (_, visitSet) => {
-            visitSet.add(marker._lngLat.toString())
-          })
-        }
-        break;
-      case MarkerAction.BOOKMARK:
-        console.log("bm", marker)
-        if (marker) {
-
-          updateMarkerColor(marker, BookmarkedMarkerColor)
-          updateMarkerLocalStorage(marker, (bookmarkSet, visitSet) => {
-            bookmarkSet.add(marker._lngLat.toString())
-            visitSet.delete(marker._lngLat.toString())
-          })
-        }
-        break;
-      case MarkerAction.UN_BOOKMARK:
-        if (marker) {
-
-          updateMarkerColor(marker, DefaultMarkerColor)
-          updateMarkerLocalStorage(marker, (bookmarkSet, _) => {
-            bookmarkSet.delete(marker._lngLat.toString())
-          })
-        }  
-        break;
-      case MarkerAction.CLEAR_VISITS:
-        console.log("clears", markers)
-        markers.forEach(m => {
-          updateMarkerLocalStorage(m, (_, visitSet) => {
-            if (visitSet.has(m._lngLat.toString())) {
-              updateMarkerColor(m, DefaultMarkerColor)
-              visitSet.delete(m._lngLat.toString())
-            }
-          })
-        })
-        break;
+  const handleMarkerAction = useCallback(
+    (action: MarkerAction, markers: Marker[], marker?: Marker) => {
+      switch (action) {
+        case MarkerAction.VISIT:
+          if (
+            marker &&
+            !getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString())
+          ) {
+            updateMarkerColor(marker, VisitedMarkerColor);
+            updateMarkerLocalStorage(marker, (_, visitSet) => {
+              visitSet.add(marker._lngLat.toString());
+            });
+          }
+          break;
+        case MarkerAction.BOOKMARK:
+          console.log("bm", marker);
+          if (marker) {
+            updateMarkerColor(marker, BookmarkedMarkerColor);
+            updateMarkerLocalStorage(marker, (bookmarkSet, visitSet) => {
+              bookmarkSet.add(marker._lngLat.toString());
+              visitSet.delete(marker._lngLat.toString());
+            });
+          }
+          break;
+        case MarkerAction.UN_BOOKMARK:
+          if (marker) {
+            updateMarkerColor(marker, DefaultMarkerColor);
+            updateMarkerLocalStorage(marker, (bookmarkSet, _) => {
+              bookmarkSet.delete(marker._lngLat.toString());
+            });
+          }
+          break;
+        case MarkerAction.CLEAR_VISITS:
+          console.log("clears", markers);
+          markers.forEach((m) => {
+            updateMarkerLocalStorage(m, (_, visitSet) => {
+              if (visitSet.has(m._lngLat.toString())) {
+                updateMarkerColor(m, DefaultMarkerColor);
+                visitSet.delete(m._lngLat.toString());
+              }
+            });
+          });
+          break;
         case MarkerAction.APPLY_COLORS:
-        markers.forEach(m => {
-          updateMarkerLocalStorage(m, (bookmarkSet, visitSet) => {
-            if (visitSet.has(m._lngLat.toString())) {
-              updateMarkerColor(m, VisitedMarkerColor)
-            }
-            if (bookmarkSet.has(m._lngLat.toString())) {
-              updateMarkerColor(m, BookmarkedMarkerColor)
-            }
-          })
-        })
-        break;
-    }
-  }, [getMarkerLocalStorage, updateMarkerColor, updateMarkerLocalStorage])
+          markers.forEach((m) => {
+            updateMarkerLocalStorage(m, (bookmarkSet, visitSet) => {
+              if (visitSet.has(m._lngLat.toString())) {
+                updateMarkerColor(m, VisitedMarkerColor);
+              }
+              if (bookmarkSet.has(m._lngLat.toString())) {
+                updateMarkerColor(m, BookmarkedMarkerColor);
+              }
+            });
+          });
+          break;
+      }
+    },
+    [getMarkerLocalStorage, updateMarkerColor, updateMarkerLocalStorage]
+  );
 
   useEffect(() => {
     const m = mapRef.current;
@@ -225,12 +246,17 @@ export default function EventMap(props: EventMapProps) {
     }
 
     let filteredMarkers = props.markerData;
+    const now = new Date().getTime();
     if (onlyCurrentlyPlaying) {
       filteredMarkers = filteredMarkers.filter(
-        (m) =>
-          onlyCurrentlyPlaying &&
-          m.start_time <= 1715457600001 &&
-          1715457600001 <= m.end_time
+        (m) => onlyCurrentlyPlaying && m.start_time <= now && now <= m.end_time
+      );
+    }
+
+    if (onlyBookmarked) {
+      const { bookmarkSet } = getMarkerLocalStorage();
+      filteredMarkers = filteredMarkers.filter((m) =>
+        bookmarkSet.has(new LngLat(m.location.long, m.location.lat).toString())
       );
     }
 
@@ -256,25 +282,30 @@ export default function EventMap(props: EventMapProps) {
         .addTo(m);
 
       marker.getElement().addEventListener("click", () => {
-        console.log("is bm", getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString()))
+        console.log(
+          "is bm",
+          getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString())
+        );
         setCurrMarker({
           ...d,
           mapMarker: marker,
-          isBookmarked: getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString()),
+          isBookmarked: getMarkerLocalStorage().bookmarkSet.has(
+            marker._lngLat.toString()
+          ),
         });
         mapRef.current?.flyTo({
           center: [d.location.long, d.location.lat],
           zoom: 16,
-        })
+        });
 
-        handleMarkerAction(MarkerAction.VISIT, [], marker)
+        handleMarkerAction(MarkerAction.VISIT, [], marker);
       });
 
       return marker;
     });
 
-    handleMarkerAction(MarkerAction.APPLY_COLORS, markers, undefined)
-    setMarkers(markers)
+    handleMarkerAction(MarkerAction.APPLY_COLORS, markers, undefined);
+    setMarkers(markers);
 
     return () => {
       console.log("EVENT: removed markers");
@@ -282,7 +313,15 @@ export default function EventMap(props: EventMapProps) {
         m.remove();
       });
     };
-  }, [props.markerData, onlyCurrentlyPlaying, searchFilter, filteredGenres, handleMarkerAction, getMarkerLocalStorage]);
+  }, [
+    props.markerData,
+    onlyCurrentlyPlaying,
+    searchFilter,
+    filteredGenres,
+    handleMarkerAction,
+    getMarkerLocalStorage,
+    onlyBookmarked,
+  ]);
 
   return (
     <div className="h-dvh w-full absolute" id="map">
@@ -310,23 +349,38 @@ export default function EventMap(props: EventMapProps) {
                 <DrawerTitle className="relative pr-12 text-left">
                   {currMarker.artist_name}
                   <div className="absolute right-0 top-0">
-                    <Button variant="outline" onClick={() => {
-                      console.log("click", currMarker.isBookmarked)
-                      if (currMarker.isBookmarked) {
-                        handleMarkerAction(MarkerAction.UN_BOOKMARK, [], currMarker.mapMarker)
-                        setCurrMarker({
-                          ...currMarker,
-                          isBookmarked: false
-                        })
-                      } else {
-                        handleMarkerAction(MarkerAction.BOOKMARK, [], currMarker.mapMarker)
-                        setCurrMarker({
-                          ...currMarker,
-                          isBookmarked: true
-                        })
-                      }
-                    }}>
-                      {currMarker.isBookmarked ? <BookmarkFilledIcon /> : <BookmarkIcon />}
+                    <Button
+                      variant="outline"
+                      onClick={() => {
+                        console.log("click", currMarker.isBookmarked);
+                        if (currMarker.isBookmarked) {
+                          handleMarkerAction(
+                            MarkerAction.UN_BOOKMARK,
+                            [],
+                            currMarker.mapMarker
+                          );
+                          setCurrMarker({
+                            ...currMarker,
+                            isBookmarked: false,
+                          });
+                        } else {
+                          handleMarkerAction(
+                            MarkerAction.BOOKMARK,
+                            [],
+                            currMarker.mapMarker
+                          );
+                          setCurrMarker({
+                            ...currMarker,
+                            isBookmarked: true,
+                          });
+                        }
+                      }}
+                    >
+                      {currMarker.isBookmarked ? (
+                        <BookmarkFilledIcon />
+                      ) : (
+                        <BookmarkIcon />
+                      )}
                     </Button>
                   </div>
                 </DrawerTitle>
@@ -365,7 +419,8 @@ export default function EventMap(props: EventMapProps) {
                 >
                   Close
                 </Button>
-                <Button className="w-full">About</Button>
+                {/* TODO individual artist pages? */}
+                {/* <Button className="w-full">About</Button> */}
               </DrawerFooter>
             </>
           )}
@@ -380,8 +435,10 @@ export default function EventMap(props: EventMapProps) {
         markerData={props.markerData}
         onlyCurrentlyPlaying={onlyCurrentlyPlaying}
         setOnlyCurrentlyPlaying={setOnlyCurrentlyPlaying}
+        onlyBookmarked={onlyBookmarked}
+        setOnlyBookmarked={setOnlyBookmarked}
         onCacheClear={() => {
-          handleMarkerAction(MarkerAction.CLEAR_VISITS, markers)
+          handleMarkerAction(MarkerAction.CLEAR_VISITS, markers);
         }}
       />
     </div>
