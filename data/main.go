@@ -38,7 +38,7 @@ func main() {
 	}
 
 	// build filepath to video files
-	filePath := filepath.Join(currentDir, "data/raw-2024-04-26.json")
+	filePath := filepath.Join(currentDir, "data/raw-2024-05-06.json")
 
 	// Read JSON file
 	raw, err := os.ReadFile(filePath)
@@ -137,7 +137,7 @@ func main() {
 	}
 
 	// Write JSON to file
-	err = os.WriteFile("data/output-2.json", output, 0644)
+	err = os.WriteFile("data/artists-2024-05-06.json", output, 0644)
 	if err != nil {
 		fmt.Println("Error writing JSON to file:", err)
 		return
@@ -174,7 +174,7 @@ func geocode(address string) (GeocodeResult, error) {
 	}
 
 	if len(locations) == 0 {
-		return GeocodeResult{}, fmt.Errorf("no geocoding results found")
+		return GeocodeResult{}, fmt.Errorf("no geocoding results found: address - %v", address)
 	}
 
 	return locations[0], nil
