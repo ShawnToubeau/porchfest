@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import { LngLat, Map, MapStyle, Marker } from "@maptiler/sdk";
+import { LngLat, Map, MapStyle, Marker, data } from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
 import { Input } from "@/components/ui/input";
@@ -124,6 +124,27 @@ export default function EventMap(props: EventMapProps) {
         lat: 42.392251196294296,
       },
       style: MapStyle.BRIGHT,
+    });
+
+    map.on("load", async function () {
+      const geojson = await data.get("f0b1de41-68a0-4b78-8dc3-0387b35d8d5a");
+      map.addSource("artists", {
+        type: "geojson",
+        data: geojson,
+      });
+
+      map.addLayer({
+        id: "artists",
+        type: "circle",
+        source: "artists",
+        layout: {
+          visibility: "visible",
+        },
+        paint: {
+          "circle-radius": 5,
+          "circle-color": DefaultMarkerColor,
+        },
+      });
     });
 
     mapRef.current = map;
@@ -279,9 +300,8 @@ export default function EventMap(props: EventMapProps) {
     const markers = filteredMarkers.map((d) => {
       const marker = new Marker({
         color: DefaultMarkerColor,
-      })
-        .setLngLat([d.location.long, d.location.lat])
-        .addTo(m);
+      }).setLngLat([d.location.long, d.location.lat]);
+      // .addTo(m);
 
       marker.getElement().addEventListener("click", () => {
         console.log(
