@@ -28,6 +28,7 @@ import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
 import Link from "next/link";
+import { CrossIcon } from "../../public/icons/cross";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
@@ -74,7 +75,7 @@ export default function EventMap() {
   const [bookmarked, setBookmarked] = useState<Set<number>>(new Set([]));
   const [showSheet, setShowSheet] = useState(false);
   const [currMarker, setCurrMarker] = useState<MarkerData | null>(null);
-  const [genreOpts, setGenreOpts] = useState<Set<string>>(new Set())
+  const [genreOpts, setGenreOpts] = useState<Set<string>>(new Set());
 
   // add click handler to drawer overlay
   useEffect(() => {
@@ -124,9 +125,15 @@ export default function EventMap() {
 
     map.on("load", async function () {
       const geojson = await data.get("df58d12f-7db2-4f40-9ef7-ba486f579057");
-      setGenreOpts(new Set(
-        geojson.features.flatMap((f) => f.properties?.genres.filter((g: string) => g !== "")).sort()
-      ))
+      setGenreOpts(
+        new Set(
+          geojson.features
+            .flatMap((f) =>
+              f.properties?.genres.filter((g: string) => g !== "")
+            )
+            .sort()
+        )
+      );
 
       map.addSource("artists", {
         type: "geojson",
@@ -146,15 +153,20 @@ export default function EventMap() {
             "interpolate",
             ["linear"],
             ["zoom"],
-            2, 1,
-            8, 6,
-            12, 10,
+            2,
+            1,
+            8,
+            6,
+            12,
+            10,
           ],
           "circle-color": [
             "case",
-            ["==", ["feature-state", "bookmarked"], true], BookmarkedMarkerColor,
-            ["==", ["feature-state", "visited"], true], VisitedMarkerColor,
-            DefaultMarkerColor
+            ["==", ["feature-state", "bookmarked"], true],
+            BookmarkedMarkerColor,
+            ["==", ["feature-state", "visited"], true],
+            VisitedMarkerColor,
+            DefaultMarkerColor,
           ],
         },
       });
@@ -169,7 +181,7 @@ export default function EventMap() {
       });
 
       // store bookmarks in state because feature state can't be used in filters
-      setBookmarked(bookmarkSet)
+      setBookmarked(bookmarkSet);
     });
 
     map.on("click", "artists-fills", function (e) {
@@ -192,10 +204,10 @@ export default function EventMap() {
         // track the state change in localstorage
         updateMarkerLocalStorage({
           visitSet: visitSet.add(feature.id as number),
-        })
+        });
 
         setCurrMarker({
-          ...feature.properties as MarkerData,
+          ...(feature.properties as MarkerData),
           id: feature.id as number,
           isBookmarked: bookmarkSet.has(feature.id as number),
           genres: JSON.parse(feature.properties.genres),
@@ -245,13 +257,23 @@ export default function EventMap() {
         }
 
         if (onlyBookmarked) {
-          filters.push(["in", ["number", ["id"]], ["literal", Array.from(bookmarked)]]);
+          filters.push([
+            "in",
+            ["number", ["id"]],
+            ["literal", Array.from(bookmarked)],
+          ]);
         }
 
         map.setFilter("artists-fills", filters);
       }
     }
-  }, [bookmarked, filteredGenres, onlyBookmarked, onlyCurrentlyPlaying, searchFilter]);
+  }, [
+    bookmarked,
+    filteredGenres,
+    onlyBookmarked,
+    onlyCurrentlyPlaying,
+    searchFilter,
+  ]);
 
   return (
     <div className="h-dvh w-full absolute" id="map">
@@ -263,12 +285,22 @@ export default function EventMap() {
         >
           <MixerIcon />
         </Button>
-        <Input
-          className="w-[300px] rounded-l-none"
-          placeholder="Search an artist"
-          value={searchFilter}
-          onChange={({ target }) => setSearchFilter(target.value)}
-        />
+        <div className="relative">
+          <Input
+            className="w-[300px] rounded-l-none"
+            placeholder="Search an artist"
+            value={searchFilter}
+            onChange={({ target }) => setSearchFilter(target.value)}
+          />
+          <div className="absolute right-4 z-20 h-full top-0 flex items-center">
+            <div
+              onClick={() => setSearchFilter("")}
+              className="cursor-pointer bg-slate-800 p-1"
+            >
+              <CrossIcon />
+            </div>
+          </div>
+        </div>
       </div>
 
       <Drawer open={!!currMarker} onClose={() => setCurrMarker(null)}>
@@ -283,37 +315,43 @@ export default function EventMap() {
                       variant="outline"
                       onClick={() => {
                         if (currMarker.isBookmarked) {
-                          mapRef.current?.setFeatureState({ source: "artists", id: currMarker.id }, { bookmarked: false });
-                          bookmarked.delete(currMarker.id)
+                          mapRef.current?.setFeatureState(
+                            { source: "artists", id: currMarker.id },
+                            { bookmarked: false }
+                          );
+                          bookmarked.delete(currMarker.id);
                           updateMarkerLocalStorage({
                             bookmarkSet: bookmarked,
-                          })
-                          setBookmarked(bookmarked)
-                          setCurrMarker(s => {
+                          });
+                          setBookmarked(bookmarked);
+                          setCurrMarker((s) => {
                             if (s) {
                               return {
                                 ...s,
-                                isBookmarked: false
-                              }
+                                isBookmarked: false,
+                              };
                             }
-                            return s
-                          })
+                            return s;
+                          });
                         } else {
-                          mapRef.current?.setFeatureState({ source: "artists", id: currMarker.id }, { bookmarked: true });
-                          const updatedSet = bookmarked.add(currMarker.id)
+                          mapRef.current?.setFeatureState(
+                            { source: "artists", id: currMarker.id },
+                            { bookmarked: true }
+                          );
+                          const updatedSet = bookmarked.add(currMarker.id);
                           updateMarkerLocalStorage({
-                            bookmarkSet: updatedSet
-                          })
-                          setBookmarked(updatedSet)
-                          setCurrMarker(s => {
+                            bookmarkSet: updatedSet,
+                          });
+                          setBookmarked(updatedSet);
+                          setCurrMarker((s) => {
                             if (s) {
                               return {
                                 ...s,
-                                isBookmarked: true
-                              }
+                                isBookmarked: true,
+                              };
                             }
-                            return s
-                          })
+                            return s;
+                          });
                         }
                       }}
                     >
@@ -388,15 +426,18 @@ export default function EventMap() {
         onlyBookmarked={onlyBookmarked}
         setOnlyBookmarked={setOnlyBookmarked}
         onCacheClear={() => {
-          const map = mapRef.current
+          const map = mapRef.current;
           if (map) {
             const { visitSet } = getMarkerLocalStorage();
             Array.from(visitSet).forEach((v) => {
-              map.setFeatureState({ source: "artists", id: v }, { visited: false });
+              map.setFeatureState(
+                { source: "artists", id: v },
+                { visited: false }
+              );
             });
             updateMarkerLocalStorage({
               visitSet: new Set(),
-            })
+            });
           }
         }}
       />
@@ -428,13 +469,16 @@ function getMarkerLocalStorage() {
 
 function updateMarkerLocalStorage({
   bookmarkSet,
-  visitSet
-}: {bookmarkSet?: Set<number>, visitSet?: Set<number>}) {
-  const lsState = getMarkerLocalStorage()
+  visitSet,
+}: {
+  bookmarkSet?: Set<number>;
+  visitSet?: Set<number>;
+}) {
+  const lsState = getMarkerLocalStorage();
 
   let markerState: MarkerState = {
     bookmarked: Array.from(bookmarkSet ?? lsState.bookmarkSet),
-    visited: Array.from(visitSet ?? lsState.visitSet)
+    visited: Array.from(visitSet ?? lsState.visitSet),
   };
 
   localStorage.setItem(VisitedMarkerLSKey, JSON.stringify(markerState));
