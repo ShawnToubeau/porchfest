@@ -1,15 +1,12 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import {
   ExpressionSpecification,
   FilterSpecification,
-  LngLat,
   Map,
   MapStyle,
-  Marker,
-  Popup,
   data,
 } from "@maptiler/sdk";
 
@@ -38,14 +35,6 @@ const DefaultMarkerColor = "#3B9EFF";
 const VisitedMarkerColor = "#5A6169";
 const BookmarkedMarkerColor = "#f3bb01";
 
-enum MarkerAction {
-  VISIT,
-  BOOKMARK,
-  UN_BOOKMARK,
-  CLEAR_VISITS,
-  APPLY_COLORS,
-}
-
 type MarkerState = {
   bookmarked: number[];
   visited: number[];
@@ -70,16 +59,11 @@ export type MarkerData = {
 
 /**
  * TODO:
- * location not working on iphone
  * populate search results - fuzzy matching?
- *  selecting an item should take you to the location
+ *  selecting an item from the search should take you to the location
  */
 
-interface EventMapProps {
-  markerData: MarkerData[];
-}
-
-export default function EventMap(props: EventMapProps) {
+export default function EventMap() {
   const mapRef = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
   const [onlyBookmarked, setOnlyBookmarked] = useState(false);
@@ -90,27 +74,31 @@ export default function EventMap(props: EventMapProps) {
   const [bookmarked, setBookmarked] = useState<Set<number>>(new Set([]));
   const [showSheet, setShowSheet] = useState(false);
   const [currMarker, setCurrMarker] = useState<MarkerData | null>(null);
+  const [genreOpts, setGenreOpts] = useState<Set<string>>(new Set())
 
+  // add click handler to drawer overlay
   useEffect(() => {
     if (currMarker) {
+      // delay to give the DOM time to render
       setTimeout(() => {
         const overlays = Array.from(
           document.getElementsByClassName("drawer-overlay")
         );
 
         overlays.map((o) => {
-          console.log("EVENT: add click listener for drawer overlay");
           o.addEventListener("click", () => setCurrMarker(null));
         });
       }, 200);
     }
   }, [currMarker]);
 
+  // init map and load data source
   useEffect(() => {
     if (mapRef.current !== null) {
       return;
     }
 
+    // prevent auto-zooming on search bar focus on iPhones
     if (navigator.userAgent.indexOf("iPhone") > -1) {
       document
         .querySelector("[name=viewport]")
@@ -120,7 +108,6 @@ export default function EventMap(props: EventMapProps) {
         );
     }
 
-    console.log("EVENT: map created");
     const map = new Map({
       container: document.getElementById("map") as HTMLElement,
       apiKey: process.env.NEXT_PUBLIC_MAPTILER_API_KEY,
@@ -137,8 +124,9 @@ export default function EventMap(props: EventMapProps) {
 
     map.on("load", async function () {
       const geojson = await data.get("df58d12f-7db2-4f40-9ef7-ba486f579057");
-
-      console.log("GEOJSON:", geojson);
+      setGenreOpts(new Set(
+        geojson.features.flatMap((f) => f.properties?.genres.filter((g: string) => g !== "")).sort()
+      ))
 
       map.addSource("artists", {
         type: "geojson",
@@ -162,6 +150,7 @@ export default function EventMap(props: EventMapProps) {
         },
       });
 
+      // color visited and bookmarked points
       const { visitSet, bookmarkSet } = getMarkerLocalStorage();
       Array.from(bookmarkSet).forEach((v) => {
         map.setFeatureState({ source: "artists", id: v }, { bookmarked: true });
@@ -170,12 +159,12 @@ export default function EventMap(props: EventMapProps) {
         map.setFeatureState({ source: "artists", id: v }, { visited: true });
       });
 
+      // store bookmarks in state because feature state can't be used in filters
       setBookmarked(bookmarkSet)
     });
 
     map.on("click", "artists-fills", function (e) {
       if (e?.features) {
-        console.log(e.features[0].id);
         const feature = e.features[0];
         if (feature.geometry.type === "Point") {
           map.flyTo({
@@ -184,30 +173,17 @@ export default function EventMap(props: EventMapProps) {
           });
         }
 
-        console.log("F", feature);
-        console.log("FID", feature.id);
-
+        // set point to visited
         map.setFeatureState(
           { source: "artists", id: feature.id },
           { visited: true }
         );
 
         const { visitSet, bookmarkSet } = getMarkerLocalStorage();
-
-        // let bookmarkSet = new Set<string>(markerState?.bookmarked ?? []);
-        // let visitSet = new Set<string>(markerState?.visited ?? []);
-        // updateFn(bookmarkSet, visitSet);
-        visitSet.add(feature.id as number);
-
-        const newMarkerStateLS: MarkerState = {
-          bookmarked: Array.from(bookmarkSet),
-          visited: Array.from(visitSet),
-        };
-
-        localStorage.setItem(
-          VisitedMarkerLSKey,
-          JSON.stringify(newMarkerStateLS)
-        );
+        // track the state change in localstorage
+        updateMarkerLocalStorage({
+          visitSet: visitSet.add(feature.id as number),
+        })
 
         setCurrMarker({
           ...feature.properties as MarkerData,
@@ -222,7 +198,6 @@ export default function EventMap(props: EventMapProps) {
     map.on("mouseenter", "artists", function () {
       map.getCanvas().style.cursor = "pointer";
     });
-
     map.on("mouseleave", "artists", function () {
       map.getCanvas().style.cursor = "";
     });
@@ -230,159 +205,7 @@ export default function EventMap(props: EventMapProps) {
     mapRef.current = map;
   }, []);
 
-  const handleMarkerAction = useCallback((action: MarkerAction) => {
-    const map = mapRef.current;
-    if (!map) {
-      throw Error("no map");
-    }
-
-    switch (action) {
-      case MarkerAction.VISIT:
-        // if (
-        //   marker &&
-        //   !getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString())
-        // ) {
-        //   updateMarkerColor(marker, VisitedMarkerColor);
-        //   updateMarkerLocalStorage(marker, (_, visitSet) => {
-        //     visitSet.add(marker._lngLat.toString());
-        //   });
-        // }
-        break;
-      case MarkerAction.BOOKMARK:
-        // console.log("bm", marker);
-        // if (marker) {
-        //   updateMarkerColor(marker, BookmarkedMarkerColor);
-        //   updateMarkerLocalStorage(marker, (bookmarkSet, visitSet) => {
-        //     bookmarkSet.add(marker._lngLat.toString());
-        //     visitSet.delete(marker._lngLat.toString());
-        //   });
-        // }
-        break;
-      case MarkerAction.UN_BOOKMARK:
-        // if (marker) {
-        //   updateMarkerColor(marker, VisitedMarkerColor);
-        //   updateMarkerLocalStorage(marker, (bookmarkSet, visitSet) => {
-        //     bookmarkSet.delete(marker._lngLat.toString());
-        //     visitSet.add(marker._lngLat.toString());
-        //   });
-        // }
-        break;
-      case MarkerAction.CLEAR_VISITS:
-        const { visitSet } = getMarkerLocalStorage();
-        Array.from(visitSet).forEach((v) => {
-          map.setFeatureState({ source: "artists", id: v }, { visited: false });
-        });
-        updateMarkerLocalStorage({
-          visitSet: new Set(),
-        })
-        // console.log("clears", markers);
-        // markers.forEach((m) => {
-        //   updateMarkerLocalStorage(m, (_, visitSet) => {
-        //     if (visitSet.has(m._lngLat.toString())) {
-        //       updateMarkerColor(m, DefaultMarkerColor);
-        //       visitSet.delete(m._lngLat.toString());
-        //     }
-        //   });
-        // });
-        break;
-      case MarkerAction.APPLY_COLORS:
-        // markers.forEach((m) => {
-        //   updateMarkerLocalStorage(m, (bookmarkSet, visitSet) => {
-        //     if (visitSet.has(m._lngLat.toString())) {
-        //       updateMarkerColor(m, VisitedMarkerColor);
-        //     }
-        //     if (bookmarkSet.has(m._lngLat.toString())) {
-        //       updateMarkerColor(m, BookmarkedMarkerColor);
-        //     }
-        //   });
-        // });
-        break;
-    }
-  }, []);
-
-  // useEffect(() => {
-  //   const m = mapRef.current;
-
-  //   if (!m) {
-  //     return;
-  //   }
-
-  //   let filteredMarkers = props.markerData;
-  //   const now = new Date().getTime();
-  //   if (onlyCurrentlyPlaying) {
-  //     filteredMarkers = filteredMarkers.filter(
-  //       (m) => onlyCurrentlyPlaying && m.start_time <= now && now <= m.end_time
-  //     );
-  //   }
-
-  //   if (onlyBookmarked) {
-  //     const { bookmarkSet } = getMarkerLocalStorage();
-  //     filteredMarkers = filteredMarkers.filter((m) =>
-  //       bookmarkSet.has(new LngLat(m.location.long, m.location.lat).toString())
-  //     );
-  //   }
-
-  //   const fg = filteredGenres as Set<string>;
-  //   if (fg.size > 0) {
-  //     filteredMarkers = filteredMarkers.filter((m) =>
-  //       m.genres.some((v) => fg.has(v))
-  //     );
-  //   }
-
-  //   if (searchFilter.length > 0) {
-  //     filteredMarkers = filteredMarkers.filter((m) =>
-  //       m.artist_name.toLowerCase().includes(searchFilter.toLowerCase())
-  //     );
-  //   }
-
-  //   console.log("EVENT: added markers");
-  //   const markers = filteredMarkers.map((d) => {
-  //     const marker = new Marker({
-  //       color: DefaultMarkerColor,
-  //     }).setLngLat([d.location.long, d.location.lat]);
-  //     // .addTo(m);
-
-  //     marker.getElement().addEventListener("click", () => {
-  //       console.log(
-  //         "is bm",
-  //         getMarkerLocalStorage().bookmarkSet.has(marker._lngLat.toString())
-  //       );
-  //       setCurrMarker({
-  //         ...d,
-  //         mapMarker: marker,
-  //         isBookmarked: getMarkerLocalStorage().bookmarkSet.has(
-  //           marker._lngLat.toString()
-  //         ),
-  //       });
-  //       mapRef.current?.flyTo({
-  //         center: [d.location.long, d.location.lat],
-  //         zoom: 16,
-  //       });
-
-  //       handleMarkerAction(MarkerAction.VISIT, [], marker);
-  //     });
-
-  //     return marker;
-  //   });
-
-  //   handleMarkerAction(MarkerAction.APPLY_COLORS, markers, undefined);
-  //   setMarkers(markers);
-
-  //   return () => {
-  //     console.log("EVENT: removed markers");
-  //     markers.forEach((m) => {
-  //       m.remove();
-  //     });
-  //   };
-  // }, [
-  //   props.markerData,
-  //   onlyCurrentlyPlaying,
-  //   searchFilter,
-  //   filteredGenres,
-  //   handleMarkerAction,
-  //   onlyBookmarked,
-  // ]);
-
+  // filter points
   useEffect(() => {
     const map = mapRef.current;
     if (map) {
@@ -403,7 +226,6 @@ export default function EventMap(props: EventMapProps) {
           ).map((genre) => {
             return ["in", genre, ["array", ["get", "genres"]]];
           });
-
           filters.push(...genreFilters);
         }
 
@@ -412,17 +234,15 @@ export default function EventMap(props: EventMapProps) {
           filters.push(["<=", ["get", "start_time"], now]);
           filters.push([">=", ["get", "end_time"], now]);
         }
+
         if (onlyBookmarked) {
           filters.push(["in", ["number", ["id"]], ["literal", Array.from(bookmarked)]]);
         }
 
         map.setFilter("artists-fills", filters);
-        console.log(map.queryRenderedFeatures())
       }
     }
   }, [bookmarked, filteredGenres, onlyBookmarked, onlyCurrentlyPlaying, searchFilter]);
-
-  // const { bookmarkSet } = getMarkerLocalStorage()
 
   return (
     <div className="h-dvh w-full absolute" id="map">
@@ -550,16 +370,25 @@ export default function EventMap(props: EventMapProps) {
 
       <Filter
         open={showSheet}
+        genreOpts={genreOpts}
         onClose={() => setShowSheet(false)}
         filteredGenres={filteredGenres}
         setFilteredGenres={setFilteredGenres}
-        markerData={props.markerData}
         onlyCurrentlyPlaying={onlyCurrentlyPlaying}
         setOnlyCurrentlyPlaying={setOnlyCurrentlyPlaying}
         onlyBookmarked={onlyBookmarked}
         setOnlyBookmarked={setOnlyBookmarked}
         onCacheClear={() => {
-          handleMarkerAction(MarkerAction.CLEAR_VISITS);
+          const map = mapRef.current
+          if (map) {
+            const { visitSet } = getMarkerLocalStorage();
+            Array.from(visitSet).forEach((v) => {
+              map.setFeatureState({ source: "artists", id: v }, { visited: false });
+            });
+            updateMarkerLocalStorage({
+              visitSet: new Set(),
+            })
+          }
         }}
       />
     </div>
