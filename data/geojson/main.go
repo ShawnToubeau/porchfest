@@ -41,7 +41,7 @@ func main() {
 	}
 
 	// build filepath to video files
-	filePath := filepath.Join(currentDir, "public/artists-2024-05-06.json")
+	filePath := filepath.Join(currentDir, "data/artists-2024-05-06.json")
 
 	// Read JSON file
 	raw, err := os.ReadFile(filePath)
