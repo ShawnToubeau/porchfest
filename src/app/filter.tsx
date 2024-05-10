@@ -8,15 +8,13 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { Toggle } from "@/components/ui/toggle";
-import { useMemo } from "react";
 import { ListBox, ListBoxItem } from "react-aria-components";
 import type { Selection } from "react-aria-components";
-import { MarkerData } from "./event-map";
 import clsx from "clsx";
 import { Label } from "@/components/ui/label";
 
 interface FilterProps {
-  markerData: MarkerData[];
+  genreOpts: Set<string>;
   open: boolean;
   onlyCurrentlyPlaying: boolean;
   onlyBookmarked: boolean;
@@ -29,12 +27,6 @@ interface FilterProps {
 }
 
 export function Filter(props: FilterProps) {
-  const genreOpts = useMemo(() => {
-    return new Set(
-      props.markerData.flatMap((d) => d.genres.filter((g) => g !== "")).sort()
-    );
-  }, [props.markerData]);
-
   return (
     <Sheet open={props.open} onOpenChange={() => props.onClose()}>
       <SheetContent>
@@ -78,7 +70,7 @@ export function Filter(props: FilterProps) {
           </Button>
         </div>
         <Label>
-          Genres {props.filteredGenres.size}/{genreOpts.size}
+          Genres {props.filteredGenres.size}/{props.genreOpts.size}
         </Label>
         <ListBox
           className="outline-0 p-1 border rounded-lg max-h-[400px] overflow-y-auto mt-2"
@@ -89,7 +81,7 @@ export function Filter(props: FilterProps) {
           selectionMode="multiple"
           selectedKeys={props.filteredGenres as Selection}
         >
-          {Array.from(genreOpts).map((g) => (
+          {Array.from(props.genreOpts).map((g) => (
             <ListBoxItem
               key={g}
               id={g}
