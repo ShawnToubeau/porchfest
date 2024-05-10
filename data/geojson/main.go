@@ -23,6 +23,7 @@ type Event struct {
 }
 
 type GeoJSONFeature struct {
+	Id         int64       `json:"id"`
 	Type       string      `json:"type"`
 	Geometry   GeoJSONGeom `json:"geometry"`
 	Properties Event       `json:"properties"`
@@ -58,8 +59,10 @@ func main() {
 
 	var features []GeoJSONFeature
 
+	count := 0
 	for _, event := range rawData {
 		feature := GeoJSONFeature{
+			Id:   int64(count),
 			Type: "Feature",
 			Geometry: GeoJSONGeom{
 				Type:        "Point",
@@ -68,6 +71,7 @@ func main() {
 			Properties: event,
 		}
 
+		count++
 		features = append(features, feature)
 	}
 
