@@ -422,7 +422,7 @@ export default function EventMap(props: EventMapProps) {
     }
   }, [bookmarked, filteredGenres, onlyBookmarked, onlyCurrentlyPlaying, searchFilter]);
 
-  const { bookmarkSet } = getMarkerLocalStorage()
+  // const { bookmarkSet } = getMarkerLocalStorage()
 
   return (
     <div className="h-dvh w-full absolute" id="map">
@@ -455,11 +455,11 @@ export default function EventMap(props: EventMapProps) {
                       onClick={() => {
                         if (currMarker.isBookmarked) {
                           mapRef.current?.setFeatureState({ source: "artists", id: currMarker.id }, { bookmarked: false });
-                          bookmarkSet.delete(currMarker.id)
+                          bookmarked.delete(currMarker.id)
                           updateMarkerLocalStorage({
-                            bookmarkSet: bookmarkSet,
+                            bookmarkSet: bookmarked,
                           })
-                          setBookmarked(bookmarkSet)
+                          setBookmarked(bookmarked)
                           setCurrMarker(s => {
                             if (s) {
                               return {
@@ -471,7 +471,7 @@ export default function EventMap(props: EventMapProps) {
                           })
                         } else {
                           mapRef.current?.setFeatureState({ source: "artists", id: currMarker.id }, { bookmarked: true });
-                          const updatedSet = bookmarkSet.add(currMarker.id)
+                          const updatedSet = bookmarked.add(currMarker.id)
                           updateMarkerLocalStorage({
                             bookmarkSet: updatedSet
                           })
