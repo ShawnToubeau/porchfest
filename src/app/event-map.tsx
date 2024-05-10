@@ -140,7 +140,16 @@ export default function EventMap() {
         source: "artists",
         layout: {},
         paint: {
-          "circle-radius": 8,
+          "circle-stroke-color": "#fff",
+          "circle-stroke-width": 2,
+          "circle-radius": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            2, 1,
+            8, 6,
+            12, 10,
+          ],
           "circle-color": [
             "case",
             ["==", ["feature-state", "bookmarked"], true], BookmarkedMarkerColor,
@@ -195,10 +204,10 @@ export default function EventMap() {
       }
     });
 
-    map.on("mouseenter", "artists", function () {
+    map.on("mouseenter", "artists-fills", function () {
       map.getCanvas().style.cursor = "pointer";
     });
-    map.on("mouseleave", "artists", function () {
+    map.on("mouseleave", "artists-fills", function () {
       map.getCanvas().style.cursor = "";
     });
 
