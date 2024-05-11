@@ -64,7 +64,7 @@ export function SearchBar(props: SearchBarProps) {
           </div>
           <div
             className={clsx(
-              "absolute top-full left-0 z-20 w-full rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-800 dark:bg-gray-950 h-0 border-none peer-focus:h-[500px] peer-focus:border overflow-y-auto",
+              "absolute top-full left-0 z-20 w-full rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-800 dark:bg-gray-950 h-0 border-none peer-focus:h-[200px] peer-focus:border overflow-y-auto",
               {
                 hidden: results.length === 0,
               }
