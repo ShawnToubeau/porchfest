@@ -44,13 +44,13 @@ export function SearchBar(props: SearchBarProps) {
 
   return (
     <>
-      <div className="relative flex-1 md:grow-0">
+      <div className="relative ">
         <div className="relative">
           <SearchIcon className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input
             value={searchValue}
             onChange={({ target }) => setSearchValue(target.value)}
-            className="w-full rounded-lg peer rounded-r-none bg-background pl-8 md:w-[200px] lg:w-[336px]"
+            className="w-[300px] rounded-lg peer rounded-r-none bg-background pl-8"
             placeholder="Search artists"
             type="search"
           />
