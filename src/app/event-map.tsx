@@ -124,7 +124,12 @@ export default function EventMap() {
     });
 
     map.on("load", async function () {
-      const geojson = await data.get("df58d12f-7db2-4f40-9ef7-ba486f579057");
+      if (!process.env.NEXT_PUBLIC_MAPTILER_DATA_ID) {
+        console.error("missing NEXT_PUBLIC_MAPTILER_DATA_ID")
+        return
+      }
+
+      const geojson = await data.get(process.env.NEXT_PUBLIC_MAPTILER_DATA_ID);
       setGenreOpts(
         new Set(
           geojson.features
