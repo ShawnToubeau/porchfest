@@ -1,0 +1,11 @@
+services:
+  nominatim:
+    image: mediagis/nominatim:5.1
+    container_name: nominatim
+    ports:
+      - "8080:8080"
+    environment:
+      - PBF_URL=https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf
+      - REPLICATION_URL=https://download.geofabrik.de/north-america/us/massachusetts-updates
+    stdin_open: true
+    tty: true
