@@ -32,7 +32,7 @@ import { CrossIcon } from "../../public/icons/cross";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
-const DefaultMarkerColor = "#3B9EFF";
+const DefaultMarkerColor = "#d85240";
 const VisitedMarkerColor = "#5A6169";
 const BookmarkedMarkerColor = "#f3bb01";
 
