@@ -1,0 +1,6047 @@
+[
+  {
+    "artist_name": "40 Lashes",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.4003204,
+      "long": -71.11522815678906,
+      "address": "14 Liberty Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/14+Liberty+Ave+Somerville%2C+MA?q=14%2BLiberty%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Air Traffic Controller",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie",
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.4018529,
+      "long": -71.12112369821429,
+      "address": "21 Burnham St",
+      "google_maps_link": "https://maps.google.com/maps/place/21+Burnham+St+Somerville%2C+MA?q=21%2BBurnham%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Baby Bowler",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.402306,
+      "long": -71.123259,
+      "address": "41 Whitman St",
+      "google_maps_link": "https://maps.google.com/maps/place/41+Whitman+St+Somerville%2C+MA?q=41%2BWhitman%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Band of Bubs",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Blues",
+      "Funk",
+      "Jazz",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.40138005,
+      "long": -71.11965544974314,
+      "address": "44 Walker St",
+      "google_maps_link": "https://maps.google.com/maps/place/44+Walker+St+Somerville%2C+MA?q=44%2BWalker%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Barely Educated",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.3983614,
+      "long": -71.12164715091322,
+      "address": "50R College Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/50R+College+Ave+Somerville%2C+MA?q=50R%2BCollege%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Big Rav",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39502175,
+      "long": -71.11985424290685,
+      "address": "32 Cutter Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Cutter+Ave+Somerville%2C+MA?q=32%2BCutter%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Binge Magick",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "Indie",
+      "Rock",
+      "World"
+    ],
+    "location": {
+      "lat": 42.40435425,
+      "long": -71.11552280000001,
+      "address": "115 Pearson Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/115+Pearson+Rd+Somerville%2C+MA?q=115%2BPearson%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Bird Friend",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39923095,
+      "long": -71.12123243026385,
+      "address": "9 Chapel Street",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Chapel+Street+Somerville%2C+MA?q=9%2BChapel%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Birds Already \u0026 The Far Out",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.399167250000005,
+      "long": -71.12604279715083,
+      "address": "23 Gorham St",
+      "google_maps_link": "https://maps.google.com/maps/place/23+Gorham+St+Somerville%2C+MA?q=23%2BGorham%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Blues On Tap",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Blues"
+    ],
+    "location": {
+      "lat": 42.39799755,
+      "long": -71.11958165683339,
+      "address": "27 Hall Ave,",
+      "google_maps_link": "https://maps.google.com/maps/place/27+Hall+Ave%2C+Apt+1%2C+Somerville%2C+MA?q=27%2BHall%2BAve%2C%2BApt%2B1%2C%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "bog berries",
+    "start_time": 1715443200000,
+    "end_time": 1715445900000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.411529900000005,
+      "long": -71.127815,
+      "address": "178 North St",
+      "google_maps_link": "https://maps.google.com/maps/place/178+North+St+Somerville%2C+MA?q=178%2BNorth%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Buddy V's Black Wing Revue",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.40433255000001,
+      "long": -71.12993813009328,
+      "address": "10 Farragut Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/10+Farragut+Ave+Somerville%2C+MA?q=10%2BFarragut%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Carey; Stadia",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39912205,
+      "long": -71.11654370253606,
+      "address": "55 Liberty Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/55+Liberty+Ave+Somerville%2C+MA?q=55%2BLiberty%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Chicken Scratch",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.3995529,
+      "long": -71.116222947505,
+      "address": "39 Powder house Terrace",
+      "google_maps_link": "https://maps.google.com/maps/place/39+Powderhouse+Terrace+Somerville%2C+MA?q=39%2BPowderhouse%2BTerrace%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "CIDOZ",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.39596195,
+      "long": -71.11821603795036,
+      "address": "97 Winslow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/97+Winslow+Ave+Somerville%2C+MA?q=97%2BWinslow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Day Grazer/ Weatherless/ Human Mascot",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.405770849999996,
+      "long": -71.13031315,
+      "address": "9 Barton Street",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Barton+Street+Somerville%2C+MA?q=9%2BBarton%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Andrew \u0026 Company",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.41531995,
+      "long": -71.12902603063684,
+      "address": "31 Irvington Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/31+Irvington+Rd+Somerville%2C+MA?q=31%2BIrvington%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Doc Huth \u0026 The Uncouth Youth",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Bluegrass",
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.401205649999994,
+      "long": -71.12269595,
+      "address": "72 Simpson Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/72+Simpson+Ave+Somerville%2C+MA?q=72%2BSimpson%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Eight Foot Manchild",
+    "start_time": 1715443200000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Metal"
+    ],
+    "location": {
+      "lat": 42.401108699999995,
+      "long": -71.11503033114535,
+      "address": "773 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/773+Broadway+Somerville%2C+MA?q=773%2BBroadway%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Electra Volcana",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.392393850000005,
+      "long": -71.11952356872905,
+      "address": "167 Elm Street",
+      "google_maps_link": "https://maps.google.com/maps/place/167+Elm+Street+Somerville%2C+MA?q=167%2BElm%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Fen Levy",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Jazz",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39860075,
+      "long": -71.11729955104519,
+      "address": "43 Kidder Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/43+Kidder+Ave+Somerville%2C+MA?q=43%2BKidder%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Float Stanley",
+    "start_time": 1715443200000,
+    "end_time": 1715445000000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39502175,
+      "long": -71.11985424290685,
+      "address": "32 Cutter Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Cutter+Ave+Somerville%2C+MA?q=32%2BCutter%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Flying Turtle",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3969699,
+      "long": -71.1225754,
+      "address": "37 Davis Square",
+      "google_maps_link": "https://maps.google.com/maps/place/37+Davis+Square+Somerville%2C+MA?q=37%2BDavis%2BSquare%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Gale",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.39951985,
+      "long": -71.12286976923077,
+      "address": "39 Irving Street",
+      "google_maps_link": "https://maps.google.com/maps/place/39+Irving+Street+Somerville%2C+MA?q=39%2BIrving%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Good Trouble Brass Band",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.4016737,
+      "long": -71.12506785765294,
+      "address": "1060 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/1060+Broadway+%E2%80%93+Lou+Ann+David+Park+Somerville%2C+MA?q=1060%2BBroadway%2B%E2%80%93%2BLou%2BAnn%2BDavid%2BPark%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hazy Space",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "Indie",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39965545,
+      "long": -71.11897103959406,
+      "address": "102 College Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/102+College+Ave+Somerville%2C+MA?q=102%2BCollege%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hot Lunch",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39677025,
+      "long": -71.11888125579082,
+      "address": "178 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/178+Morrison+Ave+Somerville%2C+MA?q=178%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "IslandVibezOnly",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "R and B",
+      "Soul",
+      "World"
+    ],
+    "location": {
+      "lat": 42.3981102,
+      "long": -71.11673934500595,
+      "address": "84 Liberty Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/84+Liberty+Avenue+Somerville%2C+MA?q=84%2BLiberty%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jan Marie \u0026 The Mean Reds",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.3976778,
+      "long": -71.12303911539973,
+      "address": "27 Winter St.",
+      "google_maps_link": "https://maps.google.com/maps/place/27+Winter+St.+Somerville%2C+MA?q=27%2BWinter%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jazz Rats",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.395504700000004,
+      "long": -71.11890126699163,
+      "address": "14 Ellington Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/14+Ellington+Rd+Somerville%2C+MA?q=14%2BEllington%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jesse",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.4015056,
+      "long": -71.11886799999999,
+      "address": "29 Walker St",
+      "google_maps_link": "https://maps.google.com/maps/place/29+Walker+St+Somerville%2C+MA?q=29%2BWalker%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "John Civello - Mystic River Drifters",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39498304999999,
+      "long": -71.11916155,
+      "address": "378 Highland Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/378+Highland+Avenue+Somerville%2C+MA?q=378%2BHighland%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lemon Queens and Friends",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.39702715,
+      "long": -71.12561829584246,
+      "address": "17 Kingston St",
+      "google_maps_link": "https://maps.google.com/maps/place/17+Kingston+St+Somerville%2C+MA?q=17%2BKingston%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Leonard da Vincis",
+    "start_time": 1715443200000,
+    "end_time": 1715447700000,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.4015069,
+      "long": -71.12033316662469,
+      "address": "15 Leonard St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Leonard+St+Somerville%2C+MA?q=15%2BLeonard%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Live indie pop rock from 362 Highland!",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39442995,
+      "long": -71.11801495,
+      "address": "362 Highland Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/362+Highland+Avenue+Unit+2+Somerville%2C+MA?q=362%2BHighland%2BAvenue%2BUnit%2B2%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Los Sugar Kings",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.397227,
+      "long": -71.1163789,
+      "address": "32 Foskett St",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Foskett+St+Somerville%2C+MA?q=32%2BFoskett%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lou Mace/Fegan... the Dog",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.408008800000005,
+      "long": -71.12766515,
+      "address": "65 Conwell Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/65+Conwell+Ave+Somerville%2C+MA?q=65%2BConwell%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Louder Than Milk",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.39722825,
+      "long": -71.11814459533142,
+      "address": "11 Morrison Place Somerville, MA, USA",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Morrison+Place+Somerville%2C+MA%2C+USA+Somerville%2C+MA?q=11%2BMorrison%2BPlace%2BSomerville%2C%2BMA%2C%2BUSA%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lowden Sound",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.3975572,
+      "long": -71.11521805690121,
+      "address": "82 Lowden Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/82+Lowden+Ave+Somerville%2C+MA?q=82%2BLowden%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lucky 88s and Friends",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3976146,
+      "long": -71.11611150591838,
+      "address": "88 Bay State Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/88+Bay+State+Ave+Somerville%2C+MA?q=88%2BBay%2BState%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Luigi's Fishtank",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39359605,
+      "long": -71.1215020519085,
+      "address": "51 Russell St",
+      "google_maps_link": "https://maps.google.com/maps/place/51+Russell+St+Somerville%2C+MA?q=51%2BRussell%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Magnificent Danger",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.40098895,
+      "long": -71.11910489484004,
+      "address": "901 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/901+Broadway+Somerville%2C+MA?q=901%2BBroadway%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mary Greylocks",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.393399900000006,
+      "long": -71.12258881591373,
+      "address": "95 Orchard St.",
+      "google_maps_link": "https://maps.google.com/maps/place/95+Orchard+St.+Somerville%2C+MA?q=95%2BOrchard%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mellow",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.405350049999996,
+      "long": -71.12893654999999,
+      "address": "19 russell road",
+      "google_maps_link": "https://maps.google.com/maps/place/19+russell+road+Somerville%2C+MA?q=19%2Brussell%2Broad%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Michael Boezi \u0026 the Stipulations",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Indie",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39843405,
+      "long": -71.1207094636423,
+      "address": "63 College Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/63+College+Ave+Somerville%2C+MA?q=63%2BCollege%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mnemonist x Alex and the People",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk",
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.398938099999995,
+      "long": -71.12397051218949,
+      "address": "10 Irving Street",
+      "google_maps_link": "https://maps.google.com/maps/place/10+Irving+Street+Somerville%2C+MA?q=10%2BIrving%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Moretti Fam Jam Band",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.4001837,
+      "long": -71.12084935,
+      "address": "68 Chandler St",
+      "google_maps_link": "https://maps.google.com/maps/place/68+Chandler+St+Somerville%2C+MA?q=68%2BChandler%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Morningside Music Studio Ensembles",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.401086750000005,
+      "long": -71.12913209720762,
+      "address": "58 Newbury Street",
+      "google_maps_link": "https://maps.google.com/maps/place/58+Newbury+Street+Somerville%2C+MA?q=58%2BNewbury%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Newfane",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39881475,
+      "long": -71.1258065016892,
+      "address": "32 Gorham St",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Gorham+St+Somerville%2C+MA?q=32%2BGorham%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "No Koudai",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.400501750000004,
+      "long": -71.11769602639234,
+      "address": "130 College Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/130+College+Avenue+Somerville%2C+MA?q=130%2BCollege%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "No Stalgia",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.4051667,
+      "long": -71.13226156747166,
+      "address": "24 Waterhouse St",
+      "google_maps_link": "https://maps.google.com/maps/place/24+Waterhouse+St+Somerville%2C+MA?q=24%2BWaterhouse%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Nowhere Lights / Le Prestige",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.404105099999995,
+      "long": -71.1314938136894,
+      "address": "38 Garrison Ave.",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Garrison+Ave.+Somerville%2C+MA?q=38%2BGarrison%2BAve.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Our Neighbours Will Be Thrilled",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39295115,
+      "long": -71.12269555,
+      "address": "90 Orchard St",
+      "google_maps_link": "https://maps.google.com/maps/place/90+Orchard+St+Somerville%2C+MA?q=90%2BOrchard%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Parallel Beats Sound System",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno",
+      "Jazz",
+      "World"
+    ],
+    "location": {
+      "lat": 42.409542450000004,
+      "long": -71.12770591656404,
+      "address": "15 Bailey St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Bailey+St+Somerville%2C+MA?q=15%2BBailey%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pick Up Your Hat",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Blues",
+      "Country",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39846695,
+      "long": -71.11985093168266,
+      "address": "18 Hall Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/18+Hall+Ave+Somerville%2C+MA?q=18%2BHall%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pond Scum",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.40456185,
+      "long": -71.12801516241876,
+      "address": "28 Fairmount Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/28+Fairmount+Ave+Somerville%2C+MA?q=28%2BFairmount%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Porch Rats",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Electronic",
+      "Funk",
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.4031871,
+      "long": -71.12274975,
+      "address": "22 Ossipee Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/22+Ossipee+Rd+Somerville%2C+MA?q=22%2BOssipee%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Porchfish",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Blues"
+    ],
+    "location": {
+      "lat": 42.40170945,
+      "long": -71.12950557137691,
+      "address": "62 Clarendon Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/62+Clarendon+Ave+Somerville%2C+MA?q=62%2BClarendon%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pyramid Scheme",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3992863,
+      "long": -71.11546464371004,
+      "address": "41 Bay State Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/41+Bay+State+Ave+Somerville%2C+MA?q=41%2BBay%2BState%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ramble on Rose - Recreating the music of the Grateful Dead",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Blues",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39814835,
+      "long": -71.12171382412683,
+      "address": "40 College Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/40+College+Ave%2C+Somerville+Public+Library+West+Branch+Somerville%2C+MA?q=40%2BCollege%2BAve%2C%2BSomerville%2BPublic%2BLibrary%2BWest%2BBranch%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Rocket Ship",
+    "start_time": 1715443200000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Pop",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.396847550000004,
+      "long": -71.11923952628413,
+      "address": "186 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/186+Morrison+Ave+Somerville%2C+MA?q=186%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "RPO",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.395984350000006,
+      "long": -71.1249430849274,
+      "address": "69 Dover St",
+      "google_maps_link": "https://maps.google.com/maps/place/69+Dover+St+Somerville%2C+MA?q=69%2BDover%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sarcasmatics",
+    "start_time": 1715443200000,
+    "end_time": 1715446800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.4063958,
+      "long": -71.12713445,
+      "address": "183 Powder House Blvd",
+      "google_maps_link": "https://maps.google.com/maps/place/183+Powder+House+Blvd+Somerville%2C+MA?q=183%2BPowder%2BHouse%2BBlvd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "SASHA",
+    "start_time": 1715443200000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.40386515,
+      "long": -71.1271655991554,
+      "address": "12 Curtis Street",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Curtis+Street+Somerville%2C+MA?q=12%2BCurtis%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Scrivener",
+    "start_time": 1715443200000,
+    "end_time": 1715446800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39865345,
+      "long": -71.11306475621325,
+      "address": "100 Josephine Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/100+Josephine+Avenue+Somerville%2C+MA?q=100%2BJosephine%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "See You At Rogers",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.40459615,
+      "long": -71.12445198905537,
+      "address": "136 Powder House Blvd",
+      "google_maps_link": "https://maps.google.com/maps/place/136+Powder+House+Blvd+Somerville%2C+MA?q=136%2BPowder%2BHouse%2BBlvd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Similar Jones",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Blues",
+      "Pop",
+      "Rock",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.398374000000004,
+      "long": -71.11851229466106,
+      "address": "29 Francesca Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/29+Francesca+Ave+Somerville%2C+MA?q=29%2BFrancesca%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Slidewalk",
+    "start_time": 1715443200000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.403204099999996,
+      "long": -71.13276095543782,
+      "address": "76 Hooker Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/76+Hooker+Ave+Somerville%2C+MA?q=76%2BHooker%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sly Fang",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.401345199999994,
+      "long": -71.12656980576614,
+      "address": "192 Holland St",
+      "google_maps_link": "https://maps.google.com/maps/place/192+Holland+St+Somerville%2C+MA?q=192%2BHolland%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Smith and Company",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.4014803,
+      "long": -71.1275473,
+      "address": "30 Moore St",
+      "google_maps_link": "https://maps.google.com/maps/place/30+Moore+St+Somerville%2C+MA?q=30%2BMoore%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sorry, Ma!",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.393163,
+      "long": -71.11902545000001,
+      "address": "25 Elston St",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Elston+St+Somerville%2C+MA?q=25%2BElston%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Lucky 88s, The Haymakers, Shaggahs, The Angel Martins",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3976146,
+      "long": -71.11611150591838,
+      "address": "88 Bay State Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/88+Bay+State+Ave+Somerville%2C+MA?q=88%2BBay%2BState%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tailwind and Siblings",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3966423,
+      "long": -71.1162276,
+      "address": "2 Appleton Street",
+      "google_maps_link": "https://maps.google.com/maps/place/2+Appleton+Street+Somerville%2C+MA?q=2%2BAppleton%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Birds of North America",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Pop",
+      "Punk",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39911835,
+      "long": -71.12691314022109,
+      "address": "44 Elmwood St",
+      "google_maps_link": "https://maps.google.com/maps/place/44+Elmwood+St+Somerville%2C+MA?q=44%2BElmwood%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Blue Chairs",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39989035000001,
+      "long": -71.1216392972602,
+      "address": "71 Wallace St",
+      "google_maps_link": "https://maps.google.com/maps/place/71+Wallace+St+Somerville%2C+MA?q=71%2BWallace%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Brendan Eig Band",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.3997529,
+      "long": -71.1253228,
+      "address": "47 Gorham St",
+      "google_maps_link": "https://maps.google.com/maps/place/47+Gorham+St+Somerville%2C+MA?q=47%2BGorham%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Echo Bridge Band",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.402133000000006,
+      "long": -71.12006011159218,
+      "address": "52 Powder House Blvd",
+      "google_maps_link": "https://maps.google.com/maps/place/52+Powder+House+Blvd+Somerville%2C+MA?q=52%2BPowder%2BHouse%2BBlvd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Jazz Collective",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3890262,
+      "long": -71.11777016729118,
+      "address": "32 White St",
+      "google_maps_link": "https://maps.google.com/maps/place/32+White+St+Somerville%2C+MA?q=32%2BWhite%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Lads",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39965155,
+      "long": -71.1172591,
+      "address": "20 Powder House Terrace",
+      "google_maps_link": "https://maps.google.com/maps/place/20+Powder+House+Terrace+Somerville%2C+MA?q=20%2BPowder%2BHouse%2BTerrace%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Magnus Quintet",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.398235150000005,
+      "long": -71.11371920992647,
+      "address": "227 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/227+Willow+Ave+Somerville%2C+MA?q=227%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Moscas",
+    "start_time": 1715443200000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Americana",
+      "Blues",
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.398110450000004,
+      "long": -71.11888885639257,
+      "address": "40 Hall Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/40+Hall+Ave+Somerville%2C+MA?q=40%2BHall%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Pitfalls",
+    "start_time": 1715443200000,
+    "end_time": 1715468400000,
+    "genres": [
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.38335165,
+      "long": -71.10587165406187,
+      "address": "515 Somerville Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/515+Somerville+Ave+Somerville%2C+MA?q=515%2BSomerville%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Quasi-Eclectics",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Bluegrass",
+      "Blues",
+      "Folk",
+      "Jazz",
+      "Pop",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.40464205,
+      "long": -71.13333359652783,
+      "address": "51 Waterhouse St",
+      "google_maps_link": "https://maps.google.com/maps/place/51+Waterhouse+St+Somerville%2C+MA?q=51%2BWaterhouse%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Resignation / Alright, Thanks",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Blues",
+      "Country",
+      "Indie",
+      "Pop",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.401007500000006,
+      "long": -71.12241145,
+      "address": "71 Simpson Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/71+Simpson+Avenue+Somerville%2C+MA?q=71%2BSimpson%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Ruckus",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39422505,
+      "long": -71.11918116594828,
+      "address": "46 Hawthorne Street",
+      "google_maps_link": "https://maps.google.com/maps/place/46+Hawthorne+Street+Somerville%2C+MA?q=46%2BHawthorne%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Ruth \u0026 Ben String Band",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.3992344,
+      "long": -71.11500569553166,
+      "address": "38 Bay State Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Bay+State+Ave+Somerville%2C+MA?q=38%2BBay%2BState%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "These Stains Are Who I Am",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.405171249999995,
+      "long": -71.12848498699941,
+      "address": "47 Fairmount Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/47+Fairmount+Ave+Somerville%2C+MA?q=47%2BFairmount%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Three Eyed Willie",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39667755,
+      "long": -71.11874814510281,
+      "address": "174 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/174+Morrison+Ave+Somerville%2C+MA?q=174%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tiny Heart Explosions",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.4038389,
+      "long": -71.1329663802423,
+      "address": "66 Victoria Street",
+      "google_maps_link": "https://maps.google.com/maps/place/66+Victoria+Street+Somerville%2C+MA?q=66%2BVictoria%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "TPT (Tiny Perfect Things)",
+    "start_time": 1715443200000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Pop",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.40399285,
+      "long": -71.12971453758968,
+      "address": "11 Endicott Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Endicott+Ave+Somerville%2C+MA?q=11%2BEndicott%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Trash Mangos",
+    "start_time": 1715443200000,
+    "end_time": 1715446800000,
+    "genres": [
+      "Folk",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.40321325,
+      "long": -71.13082019976568,
+      "address": "45 Endicott Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/45+Endicott+Ave+Somerville%2C+MA?q=45%2BEndicott%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Velour",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.402826450000006,
+      "long": -71.13127587473984,
+      "address": "67 Endicott Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/67+Endicott+Ave+Somerville%2C+MA?q=67%2BEndicott%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Vibe Tribe/Dave",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "Indie",
+      "Pop",
+      "Rock",
+      "R and B",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.4028773,
+      "long": -71.12577578346924,
+      "address": "1097 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/1097+Broadway+Somerville%2C+MA?q=1097%2BBroadway%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "we broke the weather",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.393439349999994,
+      "long": -71.11858571933917,
+      "address": "337 Summer St",
+      "google_maps_link": "https://maps.google.com/maps/place/337+Summer+St+Somerville%2C+MA?q=337%2BSummer%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Weasel Collider",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.408630599999995,
+      "long": -71.12682920145028,
+      "address": "127 Hillsdale Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/127+Hillsdale+Rd+Somerville%2C+MA?q=127%2BHillsdale%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Will and Rowan",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39348495,
+      "long": -71.12334545464756,
+      "address": "104 Orchard St",
+      "google_maps_link": "https://maps.google.com/maps/place/104+Orchard+St+Somerville%2C+MA?q=104%2BOrchard%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Zaddy Roost",
+    "start_time": 1715443200000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.398037349999996,
+      "long": -71.12510771754899,
+      "address": "21 Thorndike St",
+      "google_maps_link": "https://maps.google.com/maps/place/21+Thorndike+St+Somerville%2C+MA?q=21%2BThorndike%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "六佰 Liu Bai",
+    "start_time": 1715443200000,
+    "end_time": 1715446800000,
+    "genres": [
+      "Indie",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3966288,
+      "long": -71.11579340587738,
+      "address": "9 Appleton St",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Appleton+St+Somerville%2C+MA?q=9%2BAppleton%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Creamcheeseboy7",
+    "start_time": 1715444100000,
+    "end_time": 1715446800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.3968548,
+      "long": -71.11538232954166,
+      "address": "8 Foskett St",
+      "google_maps_link": "https://maps.google.com/maps/place/8+Foskett+St+Somerville%2C+MA?q=8%2BFoskett%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Davey Knight",
+    "start_time": 1715444100000,
+    "end_time": 1715447700000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.405865500000004,
+      "long": -71.13024820262018,
+      "address": "15 Barton St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Barton+St+Somerville%2C+MA?q=15%2BBarton%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "100 Mondays",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.3969243,
+      "long": -71.11995000781654,
+      "address": "64 Grove St",
+      "google_maps_link": "https://maps.google.com/maps/place/64+Grove+St+Somerville%2C+MA?q=64%2BGrove%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "All Over The Place",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39537945,
+      "long": -71.11927635,
+      "address": "383 Highland Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/383+Highland+Ave+Somerville%2C+MA?q=383%2BHighland%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Billy Dodge Moody",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Folk",
+      "Indie",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.400627150000005,
+      "long": -71.11891904208846,
+      "address": "898 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/898+Broadway+Somerville%2C+MA?q=898%2BBroadway%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Buck Lonesome and the Table for One",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Country"
+    ],
+    "location": {
+      "lat": 42.39455355,
+      "long": -71.11625709999998,
+      "address": "105 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/105+Willow+Ave+Somerville%2C+MA?q=105%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cheer Camp",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.397187,
+      "long": -71.114689,
+      "address": "128 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/128+Willow+Ave+Somerville%2C+MA?q=128%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Keyon \u0026 Associates",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.398779649999994,
+      "long": -71.11681538141892,
+      "address": "48 Kidder Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/48+Kidder+Ave+Somerville%2C+MA?q=48%2BKidder%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Kristen Strezo and David Shapiro and Andrea Caruth – Vox and Keys",
+    "start_time": 1715445000000,
+    "end_time": 1715449500000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.3997539,
+      "long": -71.11718064977194,
+      "address": "24 Powder House Terrace",
+      "google_maps_link": "https://maps.google.com/maps/place/24+Powder+House+Terrace+Somerville%2C+MA?q=24%2BPowder%2BHouse%2BTerrace%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Niagara Moon",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39349275,
+      "long": -71.1179346513052,
+      "address": "51 St James Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/51+St+James+Ave+Somerville%2C+MA?q=51%2BSt%2BJames%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pop Covers Till We Drop",
+    "start_time": 1715445000000,
+    "end_time": 1715449500000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39846565,
+      "long": -71.11461170574754,
+      "address": "56 Lowden Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/56+Lowden+Ave+Somerville%2C+MA?q=56%2BLowden%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Reading Room and Funk Safari",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.40439875,
+      "long": -71.12888620988215,
+      "address": "1 Watson St Somerville ma",
+      "google_maps_link": "https://maps.google.com/maps/place/1+Watson+St+Somerville+ma+Somerville%2C+MA?q=1%2BWatson%2BSt%2BSomerville%2Bma%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ryan Finkst and his Neon Cowboys",
+    "start_time": 1715445000000,
+    "end_time": 1715450400000,
+    "genres": [],
+    "location": {
+      "lat": 42.399462850000006,
+      "long": -71.12822020000002,
+      "address": "53 Cameron Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/53+Cameron+Ave+Somerville%2C+MA?q=53%2BCameron%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Zion Rodman",
+    "start_time": 1715445000000,
+    "end_time": 1715447700000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.397187,
+      "long": -71.114689,
+      "address": "128 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/128+Willow+Ave+Somerville%2C+MA?q=128%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ensemble InEdit",
+    "start_time": 1715445900000,
+    "end_time": 1715447700000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.4003064,
+      "long": -71.1295037115573,
+      "address": "95 yorktown st",
+      "google_maps_link": "https://maps.google.com/maps/place/95+yorktown+st+Somerville%2C+MA?q=95%2Byorktown%2Bst%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Waking Habit",
+    "start_time": 1715445900000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.4003048,
+      "long": -71.11869020097225,
+      "address": "14 Kenwood St",
+      "google_maps_link": "https://maps.google.com/maps/place/14+Kenwood+St+Somerville%2C+MA?q=14%2BKenwood%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Captain Sunbeam",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.400661299999996,
+      "long": -71.12433944596324,
+      "address": "27 Paulina St",
+      "google_maps_link": "https://maps.google.com/maps/place/27+Paulina+St+Somerville%2C+MA?q=27%2BPaulina%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Christina Lacoste \u0026 Elisabeth Hoffman",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3985507,
+      "long": -71.11314749735294,
+      "address": "98 Josephine Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/98+Josephine+Ave+Somerville%2C+MA?q=98%2BJosephine%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Condition Baker",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.396333549999994,
+      "long": -71.1169448432356,
+      "address": "139 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/139+Morrison+Ave+Somerville%2C+MA?q=139%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Danielle Dominguez",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.3934579,
+      "long": -71.1205137,
+      "address": "197 Elm St.",
+      "google_maps_link": "https://maps.google.com/maps/place/197+Elm+St.+Somerville%2C+MA?q=197%2BElm%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Full on Wednesday",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39456905,
+      "long": -71.11742878207667,
+      "address": "359 Highland Ave.",
+      "google_maps_link": "https://maps.google.com/maps/place/359+Highland+Ave.+Somerville%2C+MA?q=359%2BHighland%2BAve.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "funkwaffle",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Funk",
+      "Jazz",
+      "Pop",
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.39829655,
+      "long": -71.12040109821429,
+      "address": "7 Hall Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/7+Hall+Avenue+Somerville%2C+MA?q=7%2BHall%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "GloveBalks",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.396909750000006,
+      "long": -71.1183734,
+      "address": "173 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/173+Morrison+Ave+Somerville%2C+MA?q=173%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Honeywave",
+    "start_time": 1715446800000,
+    "end_time": 1715448600000,
+    "genres": [
+      "Indie",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.40792325,
+      "long": -71.12942954908016,
+      "address": "101 Raymond Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/101+Raymond+Ave+Somerville%2C+MA?q=101%2BRaymond%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "JP Honk Band",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39906365,
+      "long": -71.1219378020119,
+      "address": "32 Chandler Street",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Chandler+Street+Somerville%2C+MA?q=32%2BChandler%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Le Prestige",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.404105099999995,
+      "long": -71.1314938136894,
+      "address": "38 Garrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Garrison+Ave+Somerville%2C+MA?q=38%2BGarrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Muck Fit",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.398977200000004,
+      "long": -71.12042054427238,
+      "address": "76 College Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/76+College+Ave+Somerville%2C+MA?q=76%2BCollege%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Radio Unfriendly",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Metal",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.393782349999995,
+      "long": -71.12304909083022,
+      "address": "105 Orchard St",
+      "google_maps_link": "https://maps.google.com/maps/place/105+Orchard+St+Somerville%2C+MA?q=105%2BOrchard%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Wes Nickerson and Friends",
+    "start_time": 1715446800000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Americana",
+      "Folk",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.395984350000006,
+      "long": -71.1249430849274,
+      "address": "69 Dover St",
+      "google_maps_link": "https://maps.google.com/maps/place/69+Dover+St+Somerville%2C+MA?q=69%2BDover%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "GLUTTY",
+    "start_time": 1715447700000,
+    "end_time": 1715450400000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.397187,
+      "long": -71.114689,
+      "address": "128 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/128+Willow+Ave+Somerville%2C+MA?q=128%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Custer's Last Band",
+    "start_time": 1715448600000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3978944,
+      "long": -71.11312670577746,
+      "address": "79 Josephine Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/79+Josephine+Ave+Somerville%2C+MA?q=79%2BJosephine%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "(H)AAL of Fame",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3916093,
+      "long": -71.11425363266565,
+      "address": "26 Hall St",
+      "google_maps_link": "https://maps.google.com/maps/place/26+Hall+St+Somerville%2C+MA?q=26%2BHall%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "90% Lobster",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.397152000000006,
+      "long": -71.11143324782867,
+      "address": "78 Pearson Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/78+Pearson+Ave+Somerville%2C+MA?q=78%2BPearson%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Andrew Mason McIntosh \u0026 Friends",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Country",
+      "Folk",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.393650300000004,
+      "long": -71.111864,
+      "address": "7 Lexington Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/7+Lexington+Ave+Somerville%2C+MA?q=7%2BLexington%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Antarctica",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.394545449999995,
+      "long": -71.11430513191002,
+      "address": "67 Lexington Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/67+Lexington+Avenue+Somerville%2C+MA?q=67%2BLexington%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Aqua Hamster",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.397378,
+      "long": -71.10956050341227,
+      "address": "89 Boston Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/89+Boston+Ave+Somerville%2C+MA?q=89%2BBoston%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Aquatic Underground",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.39179115,
+      "long": -71.112952,
+      "address": "92 Cedar St",
+      "google_maps_link": "https://maps.google.com/maps/place/92+Cedar+St+Somerville%2C+MA?q=92%2BCedar%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "BAABES",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.39297515,
+      "long": -71.11655827656763,
+      "address": "18 Charnwood Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/18+Charnwood+Rd+Somerville%2C+MA?q=18%2BCharnwood%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Balla Kouyaté \u0026 Mike Block Duo",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.38784795,
+      "long": -71.10523094999999,
+      "address": "23 Cambria St",
+      "google_maps_link": "https://maps.google.com/maps/place/23+Cambria+St+Somerville%2C+MA?q=23%2BCambria%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "bayleaf.",
+    "start_time": 1715450400000,
+    "end_time": 1715453100000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.391329150000004,
+      "long": -71.1113097294164,
+      "address": "270 Highland Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/270+Highland+Ave+Somerville%2C+MA?q=270%2BHighland%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Bell System and Friends",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3896152,
+      "long": -71.10441101561256,
+      "address": "26 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/26+Hudson+St+Somerville%2C+MA?q=26%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Big Jon \u0026 The Mattress Factory",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3870038,
+      "long": -71.11432703744569,
+      "address": "29 Elm Street",
+      "google_maps_link": "https://maps.google.com/maps/place/29+Elm+Street+Somerville%2C+MA?q=29%2BElm%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Blue Clouds",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3968864,
+      "long": -71.1122878,
+      "address": "1 Highland Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/1+Highland+Rd+Somerville%2C+MA?q=1%2BHighland%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Boston EDM Discord DJs",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3949303,
+      "long": -71.10988825414299,
+      "address": "11 Clyde St",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Clyde+St+Somerville%2C+MA?q=11%2BClyde%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Brassterisk and Fly By Brass Band",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3892943,
+      "long": -71.1121859,
+      "address": "234 Summer St",
+      "google_maps_link": "https://maps.google.com/maps/place/234+Summer+St+Somerville%2C+MA?q=234%2BSummer%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Breada van Wheat",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Rock",
+      "R and B",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.38733275,
+      "long": -71.11462179980415,
+      "address": "35 Elm St",
+      "google_maps_link": "https://maps.google.com/maps/place/35+Elm+St+Somerville%2C+MA?q=35%2BElm%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Calcifer",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3970184,
+      "long": -71.1095448959432,
+      "address": "81 Boston Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/81+Boston+Ave+Somerville%2C+MA?q=81%2BBoston%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cassie Kollman and Friends (3:00-4:00) with Combo Combo w/Stacy Springs (2:00-3:00)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3907302,
+      "long": -71.10686658088665,
+      "address": "79 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/79+Hudson+St+Somerville%2C+MA?q=79%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Change Order",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39647405,
+      "long": -71.11453244796122,
+      "address": "30 Josephine Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/30+Josephine+Avenue+Somerville%2C+MA?q=30%2BJosephine%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Circuit Happy & Friends Techno Jam III",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.39324255,
+      "long": -71.10920598120455,
+      "address": "46 Alpine St",
+      "google_maps_link": "https://maps.google.com/maps/place/46+Alpine+St+Somerville%2C+MA?q=46%2BAlpine%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Class President (+ Friends!)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3888533,
+      "long": -71.1116025185846,
+      "address": "226 Summer St.",
+      "google_maps_link": "https://maps.google.com/maps/place/226+Summer+St.+Somerville%2C+MA?q=226%2BSummer%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Clever Hans",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38196245,
+      "long": -71.10894239999999,
+      "address": "15 Harrison St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Harrison+St+Somerville%2C+MA?q=15%2BHarrison%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cliff \u0026 Carl",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.393882500000004,
+      "long": -71.11669680843283,
+      "address": "83 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/83+Willow+Ave+Somerville%2C+MA?q=83%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Coastwise",
+    "start_time": 1715450400000,
+    "end_time": 1715457660000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.394463,
+      "long": -71.100368,
+      "address": "63 Adams St",
+      "google_maps_link": "https://maps.google.com/maps/place/63+Adams+St+Somerville%2C+MA?q=63%2BAdams%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Combo Combo w/Stacy Springs (2-3) and Cassie Kollman & Friends (3-4)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3907302,
+      "long": -71.10686658088665,
+      "address": "79 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/79+Hudson+St+Somerville%2C+MA?q=79%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Connor Storms & His Bouquet and Nick Paraggio",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Folk",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.390476050000004,
+      "long": -71.10414807765875,
+      "address": "33 Albion St Somerville, MA, USA",
+      "google_maps_link": "https://maps.google.com/maps/place/33+Albion+St+Somerville%2C+MA%2C+USA+Somerville%2C+MA?q=33%2BAlbion%2BSt%2BSomerville%2C%2BMA%2C%2BUSA%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Corinne Francesca (\u0026 Friends)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39037825,
+      "long": -71.10678119021651,
+      "address": "74 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/74+Hudson+St+Somerville%2C+MA?q=74%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cosmic Rush",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3910232,
+      "long": -71.1093118545421,
+      "address": "239 Highland Ave.",
+      "google_maps_link": "https://maps.google.com/maps/place/239+Highland+Ave.+Somerville%2C+MA?q=239%2BHighland%2BAve.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cosmografia",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.389613100000005,
+      "long": -71.11474315833911,
+      "address": "7 Sartwell Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/7+Sartwell+Ave+Somerville%2C+MA?q=7%2BSartwell%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Craigie Street Crew (Feat. Baldwin School Singers)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [],
+    "location": {
+      "lat": 42.3872671,
+      "long": -71.11173385568964,
+      "address": "52 Craigie Street",
+      "google_maps_link": "https://maps.google.com/maps/place/52+Craigie+Street+Somerville%2C+MA?q=52%2BCraigie%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dadda",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.394732950000005,
+      "long": -71.10801906986694,
+      "address": "60 MURDOCK ST",
+      "google_maps_link": "https://maps.google.com/maps/place/60+MURDOCK+ST+Somerville%2C+MA?q=60%2BMURDOCK%2BST%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Daughter of the Vine w/ the Concerns",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3880647,
+      "long": -71.10968203450304,
+      "address": "205 Summer Street",
+      "google_maps_link": "https://maps.google.com/maps/place/205+Summer+Street+Somerville%2C+MA?q=205%2BSummer%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Die Nacktschnecken",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.394042999999996,
+      "long": -71.10409824999999,
+      "address": "31 Trull Street",
+      "google_maps_link": "https://maps.google.com/maps/place/31+Trull+Street+Somerville%2C+MA?q=31%2BTrull%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dirty Water Brass Band",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.3910027,
+      "long": -71.1130503418391,
+      "address": "75 Cedar St.",
+      "google_maps_link": "https://maps.google.com/maps/place/75+Cedar+St.+Somerville%2C+MA?q=75%2BCedar%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Bookworm",
+    "start_time": 1715450400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3843144,
+      "long": -71.10065851954717,
+      "address": "68 Summer St Somerville MA",
+      "google_maps_link": "https://maps.google.com/maps/place/68+Summer+St+Somerville+MA+Somerville%2C+MA?q=68%2BSummer%2BSt%2BSomerville%2BMA%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Doondogg x DJ Hodgy",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.3982369,
+      "long": -71.11334194600771,
+      "address": "88 Josephine Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/88+Josephine+Ave+Somerville%2C+MA?q=88%2BJosephine%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Joey Finnz",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.400218,
+      "long": -71.112809,
+      "address": "88 Bristol Road",
+      "google_maps_link": "https://maps.google.com/maps/place/88+Bristol+Road+Somerville%2C+MA?q=88%2BBristol%2BRoad%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Truth",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [],
+    "location": {
+      "lat": 42.39305095,
+      "long": -71.1167205326364,
+      "address": "16 Charnwood Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/16+Charnwood+Rd+Somerville%2C+MA?q=16%2BCharnwood%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dusty Digital \u0026 Lenore",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.392210950000006,
+      "long": -71.1129279790724,
+      "address": "292 Highland Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/292+Highland+Ave+Somerville%2C+MA?q=292%2BHighland%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "East Hill",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana",
+      "Blues",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39134795,
+      "long": -71.11665274518467,
+      "address": "35 Burnside Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/35+Burnside+Ave+Somerville%2C+MA?q=35%2BBurnside%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Eva Gertz, Talia Rose, Miss Christine",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.391408150000004,
+      "long": -71.10178767114286,
+      "address": "120 Central St",
+      "google_maps_link": "https://maps.google.com/maps/place/120+Central+St+Somerville%2C+MA?q=120%2BCentral%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "FLOF (featuring Jon Bernhardt, Thereminist)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.392941949999994,
+      "long": -71.1171145,
+      "address": "9 Charnwood Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Charnwood+Rd+Somerville%2C+MA?q=9%2BCharnwood%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Gabby Tober Presents: Third Space",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Classical"
+    ],
+    "location": {
+      "lat": 42.39284225,
+      "long": -71.1041440987936,
+      "address": "5 Partridge Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/5+Partridge+Ave+Somerville%2C+MA?q=5%2BPartridge%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Giovanina Bucci",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.38704935,
+      "long": -71.11364640166845,
+      "address": "8 Parker Place",
+      "google_maps_link": "https://maps.google.com/maps/place/8+Parker+Place+Somerville%2C+MA?q=8%2BParker%2BPlace%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Girl Scout Cookies",
+    "start_time": 1715450400000,
+    "end_time": 1715452200000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39318,
+      "long": -71.10863106089964,
+      "address": "50 Alpine St",
+      "google_maps_link": "https://maps.google.com/maps/place/50+Alpine+St+Somerville%2C+MA?q=50%2BAlpine%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Gold Rush",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.3938635,
+      "long": -71.1132480849345,
+      "address": "38 Lexington Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Lexington+Ave+Somerville%2C+MA?q=38%2BLexington%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Good Day for Greg",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.38841465,
+      "long": -71.11025749519135,
+      "address": "213 Summer Street",
+      "google_maps_link": "https://maps.google.com/maps/place/213+Summer+Street+1R+Somerville%2C+MA?q=213%2BSummer%2BStreet%2B1R%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Gov't Disco, Esor Rose, The Rapid Decline",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3879613,
+      "long": -71.10347784765455,
+      "address": "75 Central St",
+      "google_maps_link": "https://maps.google.com/maps/place/75+Central+St+Somerville%2C+MA?q=75%2BCentral%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hannah Verre",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3900574,
+      "long": -71.11675370255915,
+      "address": "5 Hancock St",
+      "google_maps_link": "https://maps.google.com/maps/place/5+Hancock+St+Somerville%2C+MA?q=5%2BHancock%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Honey Badger Tea Party",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.389012050000005,
+      "long": -71.11671970865385,
+      "address": "86 Elm St",
+      "google_maps_link": "https://maps.google.com/maps/place/86+Elm+St+Somerville%2C+MA?q=86%2BElm%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hot Sauce Rhythm and Blues",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.395743949999996,
+      "long": -71.10607100000001,
+      "address": "52 Hinckley St",
+      "google_maps_link": "https://maps.google.com/maps/place/52+Hinckley+St+Somerville%2C+MA?q=52%2BHinckley%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hot Take",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Hiphop/techno",
+      "Pop",
+      "Rock",
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.3875324,
+      "long": -71.11652923500378,
+      "address": "6 Mossland St",
+      "google_maps_link": "https://maps.google.com/maps/place/6+Mossland+St+Somerville%2C+MA?q=6%2BMossland%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "House Husband",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.388210799999996,
+      "long": -71.11100821927236,
+      "address": "80 Craigie St",
+      "google_maps_link": "https://maps.google.com/maps/place/80+Craigie+St+Somerville%2C+MA?q=80%2BCraigie%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Improv Comedy!",
+    "start_time": 1715450400000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Americana",
+      "Bluegrass",
+      "Blues",
+      "Classical",
+      "Country",
+      "Electronic",
+      "Folk",
+      "Funk",
+      "Hiphop/techno",
+      "Indie",
+      "Jazz",
+      "Latin",
+      "Metal",
+      "Pop",
+      "Punk",
+      "Rock",
+      "R and B",
+      "Singer/songwriter",
+      "Soul",
+      "World"
+    ],
+    "location": {
+      "lat": 42.3945923,
+      "long": -71.11670469378846,
+      "address": "102 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/102+Willow+Ave+Somerville%2C+MA?q=102%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Incorrigible String Band",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.3857097,
+      "long": -71.10942108882304,
+      "address": "11 Belmont Place",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Belmont+Place+Somerville%2C+MA?q=11%2BBelmont%2BPlace%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "JAX and Friends",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3945783,
+      "long": -71.11204979024099,
+      "address": "26 Morrison Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/26+Morrison+Avenue+Somerville%2C+MA?q=26%2BMorrison%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jet Streak",
+    "start_time": 1715450400000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.39608895,
+      "long": -71.10227835758516,
+      "address": "86 Partridge Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/86+Partridge+Ave+Somerville%2C+MA?q=86%2BPartridge%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jim's Big Ego",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Folk",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39069545,
+      "long": -71.10011974439537,
+      "address": "74 SYCAMORE ST",
+      "google_maps_link": "https://maps.google.com/maps/place/74+SYCAMORE+ST+Somerville%2C+MA?q=74%2BSYCAMORE%2BST%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Joanne the Band",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.39204155,
+      "long": -71.11430819886598,
+      "address": "53 Cherry St",
+      "google_maps_link": "https://maps.google.com/maps/place/53+Cherry+St+Somerville%2C+MA?q=53%2BCherry%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Joey T & The Dirty Burners, Feat. Bleach The Sky, with guest appearance by Seandog Millionaire",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.397187,
+      "long": -71.114689,
+      "address": "67 Willow Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/67+Willow+Avenue+Somerville%2C+MA?q=67%2BWillow%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Kev on the Keys, Teresa and Ben",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39114575,
+      "long": -71.10503285988827,
+      "address": "10 Woodbine St",
+      "google_maps_link": "https://maps.google.com/maps/place/10+Woodbine+St+Somerville%2C+MA?q=10%2BWoodbine%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "King Zero",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39286875,
+      "long": -71.10722387565308,
+      "address": "32 Princeton St",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Princeton+St+Somerville%2C+MA?q=32%2BPrinceton%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Kingfisher",
+    "start_time": 1715450400000,
+    "end_time": 1715454900000,
+    "genres": [
+      "Americana",
+      "Bluegrass",
+      "Electronic",
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.39537,
+      "long": -71.1138454389451,
+      "address": "69 Morrison Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/69+Morrison+Avenue+Somerville%2C+MA?q=69%2BMorrison%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Kong",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.38983855,
+      "long": -71.11070576113163,
+      "address": "49 Crown St",
+      "google_maps_link": "https://maps.google.com/maps/place/49+Crown+St+Somerville%2C+MA?q=49%2BCrown%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Larner House Party Band",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [],
+    "location": {
+      "lat": 42.3914307,
+      "long": -71.1104142,
+      "address": "257 Highland Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/257+Highland+Ave+Somerville%2C+MA?q=257%2BHighland%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Late Night Idle",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.393105399999996,
+      "long": -71.11635681366835,
+      "address": "26 Windsor Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/26+Windsor+Rd+Somerville%2C+MA?q=26%2BWindsor%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lemon in the Weedpipe",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana",
+      "Indie",
+      "Pop",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.383732949999995,
+      "long": -71.112571357356,
+      "address": "91 Sacramento St",
+      "google_maps_link": "https://maps.google.com/maps/place/91+Sacramento+St+Somerville%2C+MA?q=91%2BSacramento%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "lightenup",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3966218,
+      "long": -71.11357822537961,
+      "address": "36 Rogers Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/36+Rogers+Ave+Somerville%2C+MA?q=36%2BRogers%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Litehouse/Rat of the Year",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3943699,
+      "long": -71.11639014762997,
+      "address": "101 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/101+Willow+Ave+Somerville%2C+MA?q=101%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Local Kid",
+    "start_time": 1715450400000,
+    "end_time": 1715453100000,
+    "genres": [],
+    "location": {
+      "lat": 42.3910831,
+      "long": -71.10788163109711,
+      "address": "97 Hudson St Somerville, MA",
+      "google_maps_link": "https://maps.google.com/maps/place/97+Hudson+St+Somerville%2C+MA+Somerville%2C+MA?q=97%2BHudson%2BSt%2BSomerville%2C%2BMA%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lucretia's Daggers",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.38446535,
+      "long": -71.11197441564445,
+      "address": "652 Somerville Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/652+Somerville+Ave+Somerville%2C+MA?q=652%2BSomerville%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lunatic Neighbor",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.39264645,
+      "long": -71.11502500367331,
+      "address": "81 Hancock St",
+      "google_maps_link": "https://maps.google.com/maps/place/81+Hancock+St+Somerville%2C+MA?q=81%2BHancock%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mary P \u0026 the Friendly Friends",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.3947955,
+      "long": -71.11291837101047,
+      "address": "44 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/44+Morrison+Ave+Somerville%2C+MA?q=44%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mel Starr",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39014985,
+      "long": -71.11283103227912,
+      "address": "249 Summer St",
+      "google_maps_link": "https://maps.google.com/maps/place/249+Summer+St+Somerville%2C+MA?q=249%2BSummer%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Meyer Lemon Louis",
+    "start_time": 1715450400000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Blues"
+    ],
+    "location": {
+      "lat": 42.38769095,
+      "long": -71.10865770435436,
+      "address": "65 Belmont St",
+      "google_maps_link": "https://maps.google.com/maps/place/65+Belmont+St+Somerville%2C+MA?q=65%2BBelmont%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Miss Jade Rock",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39691195,
+      "long": -71.11115319804989,
+      "address": "73 Pearson Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/73+Pearson+Ave+Somerville%2C+MA?q=73%2BPearson%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mixtape Misfits",
+    "start_time": 1715450400000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Pop",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3917396,
+      "long": -71.11340418377154,
+      "address": "12 Aberdeen Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Aberdeen+Rd+Somerville%2C+MA?q=12%2BAberdeen%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Nightjar",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.3900981,
+      "long": -71.11363174958166,
+      "address": "55 Cedar St",
+      "google_maps_link": "https://maps.google.com/maps/place/55+Cedar+St+Somerville%2C+MA?q=55%2BCedar%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Noncompliant",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Blues",
+      "Folk",
+      "Funk",
+      "Indie",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39019225,
+      "long": -71.1034033,
+      "address": "17 Albion St",
+      "google_maps_link": "https://maps.google.com/maps/place/17+Albion+St+Somerville%2C+MA?q=17%2BAlbion%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Otis Shanty",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3867368,
+      "long": -71.10606292086334,
+      "address": "163 Summer Street",
+      "google_maps_link": "https://maps.google.com/maps/place/163+Summer+Street+Somerville%2C+MA?q=163%2BSummer%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Overnight Parking Band",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3914091,
+      "long": -71.10758248288289,
+      "address": "98 Albion St",
+      "google_maps_link": "https://maps.google.com/maps/place/98+Albion+St+Somerville%2C+MA?q=98%2BAlbion%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "PK and the Mighty Seven",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk",
+      "Pop",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.396335699999995,
+      "long": -71.1123879,
+      "address": "53 Highland Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/53+Highland+Rd+Somerville%2C+MA?q=53%2BHighland%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pressure Cooker",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.39039,
+      "long": -71.102043,
+      "address": "20-20A Central St.",
+      "google_maps_link": "https://maps.google.com/maps/place/20-20A+Central+St.+Somerville%2C+MA?q=20-20A%2BCentral%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pretty Pantha",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3888338,
+      "long": -71.11503350503605,
+      "address": "18 CEDAR ST",
+      "google_maps_link": "https://maps.google.com/maps/place/18+CEDAR+ST+APT+2+Somerville%2C+MA?q=18%2BCEDAR%2BST%2BAPT%2B2%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Quahog Wild",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [],
+    "location": {
+      "lat": 42.3906935,
+      "long": -71.11033370045662,
+      "address": "111 Porter Street",
+      "google_maps_link": "https://maps.google.com/maps/place/111+Porter+Street+Somerville%2C+MA?q=111%2BPorter%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Real Gone",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.392836700000004,
+      "long": -71.11174883046627,
+      "address": "183 Hudson Street",
+      "google_maps_link": "https://maps.google.com/maps/place/183+Hudson+Street+Somerville%2C+MA?q=183%2BHudson%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Rian Flynn",
+    "start_time": 1715450400000,
+    "end_time": 1715452200000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3858479,
+      "long": -71.10663142684382,
+      "address": "23 Monmouth St",
+      "google_maps_link": "https://maps.google.com/maps/place/23+Monmouth+St+Somerville%2C+MA?q=23%2BMonmouth%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ruby Grove",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk",
+      "Indie",
+      "Jazz",
+      "Pop",
+      "Rock",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.390106,
+      "long": -71.10823913181451,
+      "address": "220 Highland Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/220+Highland+Ave+Somerville%2C+MA?q=220%2BHighland%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sam Mendales and Jonathan LaMaster",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.391264750000005,
+      "long": -71.1132757003913,
+      "address": "76 Cedar St",
+      "google_maps_link": "https://maps.google.com/maps/place/76+Cedar+St+Somerville%2C+MA?q=76%2BCedar%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Scam Likely",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3939485,
+      "long": -71.10222250192243,
+      "address": "60 Bartlett St",
+      "google_maps_link": "https://maps.google.com/maps/place/60+Bartlett+St+Somerville%2C+MA?q=60%2BBartlett%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Seltzer \u0026 the Juice",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38630365,
+      "long": -71.11186870624977,
+      "address": "29 Craigie St",
+      "google_maps_link": "https://maps.google.com/maps/place/29+Craigie+St+Somerville%2C+MA?q=29%2BCraigie%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Shy Husky",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3889348,
+      "long": -71.11350163295128,
+      "address": "36 Linden Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/36+Linden+Ave+Somerville%2C+MA?q=36%2BLinden%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ska-leton Crew",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.398387150000005,
+      "long": -71.11192415,
+      "address": "97 Rogers Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/97+Rogers+Ave+Somerville%2C+MA?q=97%2BRogers%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Some Assembly Required",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.396106399999994,
+      "long": -71.11215064744187,
+      "address": "40 Pearson Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/40+Pearson+Ave+Somerville%2C+MA?q=40%2BPearson%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Some Kind of Infernal Machine",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.3946134,
+      "long": -71.1160158324627,
+      "address": "102 Lexington Ave.",
+      "google_maps_link": "https://maps.google.com/maps/place/102+Lexington+Ave.+Somerville%2C+MA?q=102%2BLexington%2BAve.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Soundbites",
+    "start_time": 1715450400000,
+    "end_time": 1715452200000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.39121215,
+      "long": -71.1159231,
+      "address": "35 Hancock St",
+      "google_maps_link": "https://maps.google.com/maps/place/35+Hancock+St+Somerville%2C+MA?q=35%2BHancock%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Spunky Bliss",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Blues",
+      "Funk",
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.392738800000004,
+      "long": -71.11706341265122,
+      "address": "315 Summer St",
+      "google_maps_link": "https://maps.google.com/maps/place/315+Summer+St+Somerville%2C+MA?q=315%2BSummer%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "sunnydaze",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.399230149999994,
+      "long": -71.11184595080158,
+      "address": "122 Rogers Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/122+Rogers+Ave+Somerville%2C+MA?q=122%2BRogers%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sweet Harmony",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.388448,
+      "long": -71.11482289745268,
+      "address": "15 Cedar St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Cedar+St+Somerville%2C+MA?q=15%2BCedar%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tamiroquai",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.389573999999996,
+      "long": -71.11160811418338,
+      "address": "70 Porter St.",
+      "google_maps_link": "https://maps.google.com/maps/place/70+Porter+St.+Somerville%2C+MA?q=70%2BPorter%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Accusations",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.39183425,
+      "long": -71.11764220044316,
+      "address": "30 Banks St",
+      "google_maps_link": "https://maps.google.com/maps/place/30+Banks+St+Somerville%2C+MA?q=30%2BBanks%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Bare Minumums",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38777485,
+      "long": -71.11496715980803,
+      "address": "49 Elm Street",
+      "google_maps_link": "https://maps.google.com/maps/place/49+Elm+Street+Somerville%2C+MA?q=49%2BElm%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Better End (feat. special guest Cyan)",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.3863772,
+      "long": -71.11107180175085,
+      "address": "51 Ibbetson St",
+      "google_maps_link": "https://maps.google.com/maps/place/51+Ibbetson+St+Somerville%2C+MA?q=51%2BIbbetson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Bird Brains",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Blues",
+      "Country",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3916619,
+      "long": -71.1092118821885,
+      "address": "127 Hudson Street",
+      "google_maps_link": "https://maps.google.com/maps/place/127+Hudson+Street+Somerville%2C+MA?q=127%2BHudson%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Collect Pond",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3912552,
+      "long": -71.10822882345354,
+      "address": "107 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/107+Hudson+St+Somerville%2C+MA?q=107%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Dan DiBacco Trio",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39607545,
+      "long": -71.11518674647257,
+      "address": "157 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/157+Willow+Ave+Somerville%2C+MA?q=157%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Dancefloor",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39238225,
+      "long": -71.11641125,
+      "address": "303 Summer St",
+      "google_maps_link": "https://maps.google.com/maps/place/303+Summer+St+Somerville%2C+MA?q=303%2BSummer%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Deadliners",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.389004400000005,
+      "long": -71.11063759999999,
+      "address": "32 Brastow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Brastow+Ave+Somerville%2C+MA?q=32%2BBrastow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Good Guys",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [],
+    "location": {
+      "lat": 42.39585335,
+      "long": -71.1107658,
+      "address": "38 Boston Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Boston+Ave+Somerville%2C+MA?q=38%2BBoston%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Koiis",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3955238,
+      "long": -71.11434559391805,
+      "address": "2 Rogers Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/Corner+of+Morrison+Ave+and+Rogers+Ave+Somerville%2C+MA?q=Corner%2Bof%2BMorrison%2BAve%2Band%2BRogers%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The New Grown-Ups",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.38869055,
+      "long": -71.10875824594224,
+      "address": "131 Lowell Street",
+      "google_maps_link": "https://maps.google.com/maps/place/131+Lowell+Street+Somerville%2C+MA?q=131%2BLowell%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Only Nolan",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3877143,
+      "long": -71.11337231891264,
+      "address": "11 Williams Court",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Williams+Court+Somerville%2C+MA?q=11%2BWilliams%2BCourt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Roscoes w/ The Shirts and Shoes",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.388998799999996,
+      "long": -71.11489738922414,
+      "address": "22 Cedar St",
+      "google_maps_link": "https://maps.google.com/maps/place/22+Cedar+St+Somerville%2C+MA?q=22%2BCedar%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Spicy Condiments",
+    "start_time": 1715450400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.392655950000005,
+      "long": -71.09397758051773,
+      "address": "328 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/328+Broadway+Somerville%2C+MA?q=328%2BBroadway%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Spit",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.39978815,
+      "long": -71.11415285000001,
+      "address": "17 Lowden Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/17+Lowden+Ave+Somerville%2C+MA?q=17%2BLowden%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Splinters",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.390503100000004,
+      "long": -71.10990779999999,
+      "address": "11 Crocker Street",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Crocker+Street+Somerville%2C+MA?q=11%2BCrocker%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Sunday Slippers",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.38747655,
+      "long": -71.10607753738694,
+      "address": "17 Westwood Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/17+Westwood+Rd+Somerville%2C+MA?q=17%2BWestwood%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Tings Nurses Don't Know",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39509045,
+      "long": -71.1060535,
+      "address": "22 Henderson St",
+      "google_maps_link": "https://maps.google.com/maps/place/22+Henderson+St+Somerville%2C+MA?q=22%2BHenderson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Van Burens",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.39212895,
+      "long": -71.103874497217,
+      "address": "56 Vernon Street",
+      "google_maps_link": "https://maps.google.com/maps/place/56+Vernon+Street+Somerville%2C+MA?q=56%2BVernon%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Vintage Mintys and James Peretta & Anna Fisher-Roberts",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana",
+      "Blues",
+      "Classical",
+      "Country",
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.3903066,
+      "long": -71.10559858869385,
+      "address": "53 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/53+Hudson+St+Somerville%2C+MA?q=53%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Ways \u0026 Means Committee",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39208825,
+      "long": -71.11699990333094,
+      "address": "41 Banks St",
+      "google_maps_link": "https://maps.google.com/maps/place/41+Banks+St+Somerville%2C+MA?q=41%2BBanks%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "TIFFY with oldsoul and Unseemlier",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39613815,
+      "long": -71.11567031488073,
+      "address": "152 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/152+Willow+Ave+Somerville%2C+MA?q=152%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Time and Place",
+    "start_time": 1715450400000,
+    "end_time": 1715452500000,
+    "genres": [
+      "Folk",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39049145,
+      "long": -71.11093845599265,
+      "address": "100 Porter St",
+      "google_maps_link": "https://maps.google.com/maps/place/100+Porter+St+Somerville%2C+MA?q=100%2BPorter%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "TimmyG",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3938635,
+      "long": -71.1132480849345,
+      "address": "38 Lexington Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Lexington+Ave+Somerville%2C+MA?q=38%2BLexington%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tonal Eclipse",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Pop",
+      "R and B",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.394884000000005,
+      "long": -71.10149371602407,
+      "address": "94 Bartlett St",
+      "google_maps_link": "https://maps.google.com/maps/place/94+Bartlett+St+Somerville%2C+MA?q=94%2BBartlett%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Trip Report b2b Joe Tagessian",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3881308,
+      "long": -71.10613125,
+      "address": "38 Benton Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Benton+Rd+Somerville%2C+MA?q=38%2BBenton%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Übergrüv",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.3905466,
+      "long": -71.1072953910934,
+      "address": "84 Hudson Street",
+      "google_maps_link": "https://maps.google.com/maps/place/84+Hudson+Street+Somerville%2C+MA?q=84%2BHudson%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Vertigo Trio",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3897738,
+      "long": -71.10649795,
+      "address": "197 Highland Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/197+Highland+Avenue+Somerville%2C+MA?q=197%2BHighland%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Voided Shape",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3861158,
+      "long": -71.11568299436385,
+      "address": "363 Beacon St",
+      "google_maps_link": "https://maps.google.com/maps/place/363+Beacon+St+Somerville%2C+MA?q=363%2BBeacon%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Wax Harpoon",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39836535,
+      "long": -71.1102457457471,
+      "address": "119 Boston Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/119+Boston+Ave+Somerville%2C+MA?q=119%2BBoston%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "weeping in fits and starts",
+    "start_time": 1715450400000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.38709215,
+      "long": -71.10464529255852,
+      "address": "58 Central St",
+      "google_maps_link": "https://maps.google.com/maps/place/58+Central+St+Somerville%2C+MA?q=58%2BCentral%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Will Fassler",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39227495,
+      "long": -71.11835330054902,
+      "address": "28 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/28+Willow+Ave+Somerville%2C+MA?q=28%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "WonderBox",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3947472,
+      "long": -71.11516569114207,
+      "address": "85 Lexington Ave.",
+      "google_maps_link": "https://maps.google.com/maps/place/85+Lexington+Ave.+Somerville%2C+MA?q=85%2BLexington%2BAve.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "X-RAs",
+    "start_time": 1715450400000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.393269700000005,
+      "long": -71.11766305,
+      "address": "60 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/60+Willow+Ave+Somerville%2C+MA?q=60%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Amelia Wright Music (and friends)",
+    "start_time": 1715450460000,
+    "end_time": 1715457660000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.39081685,
+      "long": -71.10801056326304,
+      "address": "98 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/98+Hudson+St+Somerville%2C+MA?q=98%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mic Larceny",
+    "start_time": 1715451000000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39346545,
+      "long": -71.10256550311865,
+      "address": "44 Bartlett Street",
+      "google_maps_link": "https://maps.google.com/maps/place/44+Bartlett+Street+Somerville%2C+MA?q=44%2BBartlett%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Frank Obermeyer",
+    "start_time": 1715451300000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Americana",
+      "Folk",
+      "Indie",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39352205,
+      "long": -71.11509701654879,
+      "address": "327 Highland Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/327+Highland+Ave+Somerville%2C+MA?q=327%2BHighland%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jake in the Boxx",
+    "start_time": 1715451300000,
+    "end_time": 1715456700000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.395845550000004,
+      "long": -71.11186090491005,
+      "address": "33 Pearson Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/33+Pearson+Ave+Somerville%2C+MA?q=33%2BPearson%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Brice Green",
+    "start_time": 1715452200000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.38695715,
+      "long": -71.1134104998237,
+      "address": "16 Porter St",
+      "google_maps_link": "https://maps.google.com/maps/place/16+Porter+St+Somerville%2C+MA?q=16%2BPorter%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hummingbyrd",
+    "start_time": 1715452200000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39354485,
+      "long": -71.11160076657004,
+      "address": "1 Lexington Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/1+Lexington+Avenue+Somerville%2C+MA?q=1%2BLexington%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "ITBand",
+    "start_time": 1715452200000,
+    "end_time": 1715454000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3921506,
+      "long": -71.10845243535108,
+      "address": "119 Albion St",
+      "google_maps_link": "https://maps.google.com/maps/place/119+Albion+St+Somerville%2C+MA?q=119%2BAlbion%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Merry Merry",
+    "start_time": 1715452200000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.397187,
+      "long": -71.114689,
+      "address": "10 Willow Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/10+Willow+Ave+Somerville%2C+MA?q=10%2BWillow%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Morrison Meows",
+    "start_time": 1715452200000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.3953789,
+      "long": -71.11519723753861,
+      "address": "98 Morrison Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/98+Morrison+Ave+Somerville%2C+MA?q=98%2BMorrison%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Situation Normal",
+    "start_time": 1715452200000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3980396,
+      "long": -71.1138386125,
+      "address": "221 WILLOW AVE",
+      "google_maps_link": "https://maps.google.com/maps/place/221+WILLOW+AVE+%231+Somerville%2C+MA?q=221%2BWILLOW%2BAVE%2B%231%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Anchovies",
+    "start_time": 1715452200000,
+    "end_time": 1715459400000,
+    "genres": [
+      "Blues",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3840126,
+      "long": -71.10665633585555,
+      "address": "12 Central St",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Central+St+Somerville%2C+MA?q=12%2BCentral%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Darlings",
+    "start_time": 1715452200000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Country"
+    ],
+    "location": {
+      "lat": 42.397210650000005,
+      "long": -71.10994314561194,
+      "address": "88 Boston Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/88+Boston+Ave+Somerville%2C+MA?q=88%2BBoston%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "PINK SLIP",
+    "start_time": 1715452800000,
+    "end_time": 1715455200000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.39049145,
+      "long": -71.11093845599265,
+      "address": "100 Porter St",
+      "google_maps_link": "https://maps.google.com/maps/place/100+Porter+St+Somerville%2C+MA?q=100%2BPorter%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cam James \u0026 Friends",
+    "start_time": 1715453100000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Americana",
+      "Country",
+      "Folk",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3928064,
+      "long": -71.10823748477584,
+      "address": "68 Alpine St",
+      "google_maps_link": "https://maps.google.com/maps/place/68+Alpine+St.+2+Somerville%2C+MA?q=68%2BAlpine%2BSt.%2B2%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Meredith Irene",
+    "start_time": 1715453100000,
+    "end_time": 1715454900000,
+    "genres": [
+      "Americana",
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.3914091,
+      "long": -71.10758248288289,
+      "address": "98 Albion St",
+      "google_maps_link": "https://maps.google.com/maps/place/98+Albion+St+Somerville%2C+MA?q=98%2BAlbion%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Blue Hyenas",
+    "start_time": 1715454000000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3939485,
+      "long": -71.10222250192243,
+      "address": "60 Bartlett St",
+      "google_maps_link": "https://maps.google.com/maps/place/60+Bartlett+St+Somerville%2C+MA?q=60%2BBartlett%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Coffee Bong",
+    "start_time": 1715454000000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3858479,
+      "long": -71.10663142684382,
+      "address": "23 Monmouth St",
+      "google_maps_link": "https://maps.google.com/maps/place/23+Monmouth+St+Somerville%2C+MA?q=23%2BMonmouth%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Husbands",
+    "start_time": 1715454000000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3872836,
+      "long": -71.11025213562604,
+      "address": "82 Lowell St",
+      "google_maps_link": "https://maps.google.com/maps/place/82+Lowell+St+Somerville%2C+MA?q=82%2BLowell%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Janet Fang",
+    "start_time": 1715454000000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3921506,
+      "long": -71.10845243535108,
+      "address": "119 Albion St",
+      "google_maps_link": "https://maps.google.com/maps/place/119+Albion+St+Somerville%2C+MA?q=119%2BAlbion%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ken Mattsson, Singer/Songwriter",
+    "start_time": 1715454000000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.39510505,
+      "long": -71.11154500647727,
+      "address": "11 Prichard Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Prichard+Ave+Somerville%2C+MA?q=11%2BPrichard%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "On Regret",
+    "start_time": 1715454000000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.3910831,
+      "long": -71.10788163109711,
+      "address": "97 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/97+Hudson+St+Somerville%2C+MA?q=97%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "One Lonely Meerkat",
+    "start_time": 1715454000000,
+    "end_time": 1715455800000,
+    "genres": [
+      "Indie",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3893032,
+      "long": -71.09222773427594,
+      "address": "150 Walnut St",
+      "google_maps_link": "https://maps.google.com/maps/place/150+Walnut+St+Somerville%2C+MA?q=150%2BWalnut%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Roda de Choro",
+    "start_time": 1715454000000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3840005,
+      "long": -71.10794711183974,
+      "address": "10 Beech St",
+      "google_maps_link": "https://maps.google.com/maps/place/10+Beech+St+Somerville%2C+MA?q=10%2BBeech%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "State Parque",
+    "start_time": 1715454000000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie",
+      "Jazz",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39238225,
+      "long": -71.11641125,
+      "address": "303 Summer St.",
+      "google_maps_link": "https://maps.google.com/maps/place/303+Summer+St.+Somerville%2C+MA?q=303%2BSummer%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "West Of Vine",
+    "start_time": 1715454000000,
+    "end_time": 1715458500000,
+    "genres": [
+      "Country",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3801073,
+      "long": -71.0944706,
+      "address": "11 Sanborn Ct",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Sanborn+Ct+Somerville%2C+MA?q=11%2BSanborn%2BCt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ VSquared",
+    "start_time": 1715455500000,
+    "end_time": 1715457600000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.3910831,
+      "long": -71.10788163109711,
+      "address": "97 Hudson St",
+      "google_maps_link": "https://maps.google.com/maps/place/97+Hudson+St+Somerville%2C+MA?q=97%2BHudson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "the blends",
+    "start_time": 1715455800000,
+    "end_time": 1715457600000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3933941,
+      "long": -71.11293948310139,
+      "address": "25 Spencer Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Spencer+Ave+Somerville%2C+MA?q=25%2BSpencer%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "“Good News!”",
+    "start_time": 1715457600000,
+    "end_time": 1715460000000,
+    "genres": [
+      "Folk",
+      "Indie",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.384808899999996,
+      "long": -71.1045598942857,
+      "address": "40 Laurel St",
+      "google_maps_link": "https://maps.google.com/maps/place/40+Laurel+St+Somerville%2C+MA?q=40%2BLaurel%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "10% Bleach",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.37991409999999,
+      "long": -71.0985293952501,
+      "address": "4 Olive Sq",
+      "google_maps_link": "https://maps.google.com/maps/place/4+Olive+Sq+Somerville%2C+MA?q=4%2BOlive%2BSq%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ace Kelly and Friends",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.37762655,
+      "long": -71.10272434966987,
+      "address": "21 Lewis St",
+      "google_maps_link": "https://maps.google.com/maps/place/21+Lewis+St+Somerville%2C+MA?q=21%2BLewis%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Acid Basket",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.382034149999996,
+      "long": -71.09335724575735,
+      "address": "47 GREENVILLE STREET",
+      "google_maps_link": "https://maps.google.com/maps/place/47+GREENVILLE+STREET+Somerville%2C+MA?q=47%2BGREENVILLE%2BSTREET%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Audie Bird",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Blues",
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.377033600000004,
+      "long": -71.09791678051961,
+      "address": "93 Newton St",
+      "google_maps_link": "https://maps.google.com/maps/place/93+Newton+St+Somerville%2C+MA?q=93%2BNewton%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Audrey Ryan \u0026 Otis Grove",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38179715,
+      "long": -71.10233085801605,
+      "address": "440 Somerville Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/440+Somerville+Avenue+Somerville%2C+MA?q=440%2BSomerville%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Avernal Aeterna",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Metal",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3825238,
+      "long": -71.09708205,
+      "address": "19 Wesley Park",
+      "google_maps_link": "https://maps.google.com/maps/place/19+Wesley+Park+Somerville%2C+MA?q=19%2BWesley%2BPark%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Baker Thomas Band",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39250505,
+      "long": -71.08825635835785,
+      "address": "58 Fellsway W",
+      "google_maps_link": "https://maps.google.com/maps/place/58+Fellsway+W+Somerville%2C+MA?q=58%2BFellsway%2BW%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Banjovillian",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.384366150000005,
+      "long": -71.09039057821674,
+      "address": "21 Auburn Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/21+Auburn+Ave+Somerville%2C+MA?q=21%2BAuburn%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Big Blue World",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.388137900000004,
+      "long": -71.09384254156052,
+      "address": "12 James St",
+      "google_maps_link": "https://maps.google.com/maps/place/12+James+St+Somerville%2C+MA?q=12%2BJames%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Blazers Over Turtlenecks + Scove Cone",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.388675899999996,
+      "long": -71.08713905786026,
+      "address": "8 Autumn Street",
+      "google_maps_link": "https://maps.google.com/maps/place/8+Autumn+Street+Somerville%2C+MA?q=8%2BAutumn%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Blue Light Bandits",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.389253350000004,
+      "long": -71.0952488696995,
+      "address": "75 Marshall St.",
+      "google_maps_link": "https://maps.google.com/maps/place/75+Marshall+St.+Somerville%2C+MA?q=75%2BMarshall%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Bob Conroy - Classical Guitar",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Classical"
+    ],
+    "location": {
+      "lat": 42.3835813,
+      "long": -71.103317009877,
+      "address": "27 Loring St",
+      "google_maps_link": "https://maps.google.com/maps/place/27+Loring+St+Somerville%2C+MA?q=27%2BLoring%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Church \u0026 Puppets",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.39474905,
+      "long": -71.09148194791209,
+      "address": "67 Temple St",
+      "google_maps_link": "https://maps.google.com/maps/place/67+Temple+St+Somerville%2C+MA?q=67%2BTemple%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cool Guy Music",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.377097,
+      "long": -71.09945347227867,
+      "address": "36 Adrian St",
+      "google_maps_link": "https://maps.google.com/maps/place/36+Adrian+St.+%232+Somerville%2C+MA?q=36%2BAdrian%2BSt.%2B%232%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Crash Cadet",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3849674,
+      "long": -71.09796496188147,
+      "address": "48 Putnam St",
+      "google_maps_link": "https://maps.google.com/maps/place/48+Putnam+St+Somerville%2C+MA?q=48%2BPutnam%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Crow Follow",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.3835971,
+      "long": -71.0971618643617,
+      "address": "21 Aldersey St",
+      "google_maps_link": "https://maps.google.com/maps/place/21+Aldersey+St+Somerville%2C+MA?q=21%2BAldersey%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Cyberpunk",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.38218895,
+      "long": -71.10148960000001,
+      "address": "2 Quincy St",
+      "google_maps_link": "https://maps.google.com/maps/place/2+Quincy+St+Somerville%2C+MA?q=2%2BQuincy%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Daisy hill puppy farm featuring Greg Moon",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana",
+      "Bluegrass",
+      "Blues",
+      "Funk",
+      "Jazz",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3844905,
+      "long": -71.09640445864673,
+      "address": "22 Pleasant Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/22+Pleasant+Ave+Somerville%2C+MA?q=22%2BPleasant%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dan's Hot Sauce Collection",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.395391450000005,
+      "long": -71.09642795934585,
+      "address": "94 Heath St",
+      "google_maps_link": "https://maps.google.com/maps/place/94+Heath+St+Somerville%2C+MA?q=94%2BHeath%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dave Bonaiuto, James Hooper \u0026 Friends",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.38100885,
+      "long": -71.09229091119833,
+      "address": "25 Munroe St",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Munroe+St+%232+Somerville%2C+MA?q=25%2BMunroe%2BSt%2B%232%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dewpoint",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [],
+    "location": {
+      "lat": 42.3953082,
+      "long": -71.09682367063107,
+      "address": "16 Douglas Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/16+Douglas+Ave+Somerville%2C+MA?q=16%2BDouglas%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dinner Club",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Funk",
+      "Pop",
+      "Rock",
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.381099250000005,
+      "long": -71.10802941255898,
+      "address": "5 Morgan St",
+      "google_maps_link": "https://maps.google.com/maps/place/5+Morgan+St+Somerville%2C+MA?q=5%2BMorgan%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Direct 2 Rager",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.38499555,
+      "long": -71.10262924366434,
+      "address": "108 Summer St.",
+      "google_maps_link": "https://maps.google.com/maps/place/108+Summer+St.+Somerville%2C+MA?q=108%2BSummer%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Crydle",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Classical",
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3940913,
+      "long": -71.09049006774056,
+      "address": "50 Derby St",
+      "google_maps_link": "https://maps.google.com/maps/place/50+Derby+St+Somerville%2C+MA?q=50%2BDerby%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ DGRADE",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.375004450000006,
+      "long": -71.10037080333913,
+      "address": "34 Springfield Street",
+      "google_maps_link": "https://maps.google.com/maps/place/34+Springfield+Street+Somerville%2C+MA?q=34%2BSpringfield%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "DJ Migz",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.385007349999995,
+      "long": -71.09156781344572,
+      "address": "46 aldrich st",
+      "google_maps_link": "https://maps.google.com/maps/place/46+aldrich+st+Somerville%2C+MA?q=46%2Baldrich%2Bst%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Dumbest Fella Alive",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.37739195,
+      "long": -71.10273362510543,
+      "address": "87 Marion St",
+      "google_maps_link": "https://maps.google.com/maps/place/87+Marion+St+Somerville%2C+MA?q=87%2BMarion%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Earl on Earth",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3762734,
+      "long": -71.10185552345258,
+      "address": "15 Dimick St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Dimick+St+Somerville%2C+MA?q=15%2BDimick%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Emperor Norton's Stationary Marching Band",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.3813801,
+      "long": -71.09171971960204,
+      "address": "16  PROSPECT HILL AVE",
+      "google_maps_link": "https://maps.google.com/maps/place/16++PROSPECT+HILL+AVE+Somerville%2C+MA?q=16%2B%2BPROSPECT%2BHILL%2BAVE%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ethan Rossiter Band",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.383133650000005,
+      "long": -71.09762203319033,
+      "address": "19 Vinal Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/19+Vinal+Avenue+Somerville%2C+MA?q=19%2BVinal%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Extraño",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Latin",
+      "Pop",
+      "Rock",
+      "World"
+    ],
+    "location": {
+      "lat": 42.37656375,
+      "long": -71.10274765,
+      "address": "19 Buckingham Street",
+      "google_maps_link": "https://maps.google.com/maps/place/19+Buckingham+Street+Somerville%2C+MA?q=19%2BBuckingham%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "francis blow \u0026 ali garv",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [],
+    "location": {
+      "lat": 42.3799924,
+      "long": -71.0945161,
+      "address": "9 Sanborn Court",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Sanborn+Court+Somerville%2C+MA?q=9%2BSanborn%2BCourt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "FRIENDS OF THE PERCH",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.38438775,
+      "long": -71.10477017518447,
+      "address": "34 Laurel Street",
+      "google_maps_link": "https://maps.google.com/maps/place/34+Laurel+Street+Somerville%2C+MA?q=34%2BLaurel%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Groove Theory",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.37548725,
+      "long": -71.09572455500641,
+      "address": "219 Tremont St",
+      "google_maps_link": "https://maps.google.com/maps/place/219+Tremont+St+Somerville%2C+MA?q=219%2BTremont%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hanchett",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.37763185,
+      "long": -71.10257184966986,
+      "address": "25 Lewis St",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Lewis+St+Somerville%2C+MA?q=25%2BLewis%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hereboy",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.375787599999995,
+      "long": -71.09736402118432,
+      "address": "4 Bolton St",
+      "google_maps_link": "https://maps.google.com/maps/place/4+Bolton+St+Somerville%2C+MA?q=4%2BBolton%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hi Barbie!",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.396384499999996,
+      "long": -71.08632942735747,
+      "address": "25 Puritan Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Puritan+Rd+Somerville%2C+MA?q=25%2BPuritan%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ian",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.385422649999995,
+      "long": -71.09545687708838,
+      "address": "50 Highland Avenue, Somerville, MA, USA",
+      "google_maps_link": "https://maps.google.com/maps/place/50+Highland+Avenue%2C+Somerville%2C+MA%2C+USA+Somerville%2C+MA?q=50%2BHighland%2BAvenue%2C%2BSomerville%2C%2BMA%2C%2BUSA%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jonny FuFu Band",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Folk",
+      "Funk",
+      "Indie",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3834089,
+      "long": -71.0934165,
+      "address": "17A Hamlet St",
+      "google_maps_link": "https://maps.google.com/maps/place/17A+Hamlet+St+Somerville%2C+MA?q=17A%2BHamlet%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Jose Allende",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3784487,
+      "long": -71.09091547808285,
+      "address": "9 Rossmore st",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Rossmore+st+apt+3+Somerville%2C+MA?q=9%2BRossmore%2Bst%2Bapt%2B3%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Justice Cow and special guests",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.385143049999996,
+      "long": -71.08546870234329,
+      "address": "95 Pearl St",
+      "google_maps_link": "https://maps.google.com/maps/place/95+Pearl+St+Somerville%2C+MA?q=95%2BPearl%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Kathy Snax",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39022185,
+      "long": -71.09514686025722,
+      "address": "12 Maple Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Maple+Avenue+Somerville%2C+MA?q=12%2BMaple%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Kevin Madden Band",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.38467385,
+      "long": -71.10168796509826,
+      "address": "94 Summer st.",
+      "google_maps_link": "https://maps.google.com/maps/place/94+Summer+st.+Somerville%2C+MA?q=94%2BSummer%2Bst.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "KNTRL",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.38191415,
+      "long": -71.09564397264316,
+      "address": "76 Columbus Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/76+Columbus+Ave+Somerville%2C+MA?q=76%2BColumbus%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Lady in the Radiator",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic",
+      "Metal",
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3895181,
+      "long": -71.0873118,
+      "address": "12a Kensington Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/12a+Kensington+Ave+Somerville%2C+MA?q=12a%2BKensington%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Linnea's Garden and Happy Little Clouds",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.380753850000005,
+      "long": -71.09522998350911,
+      "address": "32 Stone Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Stone+Avenue+Somerville%2C+MA?q=32%2BStone%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "LiveCode Boston",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.379642849999996,
+      "long": -71.1059873,
+      "address": "34 Skehan Street",
+      "google_maps_link": "https://maps.google.com/maps/place/34+Skehan+Street+Somerville%2C+MA?q=34%2BSkehan%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Local DJ Take Over - Illusion Night & Friends",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.381955950000005,
+      "long": -71.08639593030375,
+      "address": "95R Franklin Street",
+      "google_maps_link": "https://maps.google.com/maps/place/95R+Franklin+Street+Somerville%2C+MA?q=95R%2BFranklin%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Midnight Motion",
+    "start_time": 1715457600000,
+    "end_time": 1715462100000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.38440545,
+      "long": -71.10101255883583,
+      "address": "78 SUMMER ST",
+      "google_maps_link": "https://maps.google.com/maps/place/78+SUMMER+ST+Somerville%2C+MA?q=78%2BSUMMER%2BST%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Mill Town Rounders",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana",
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.3990177,
+      "long": -71.09585460224719,
+      "address": "97 Moreland Street",
+      "google_maps_link": "https://maps.google.com/maps/place/97+Moreland+Street+Somerville%2C+MA?q=97%2BMoreland%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Modular On The Spot",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3832916,
+      "long": -71.10414194808021,
+      "address": "9 Park Place",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Park+Place+Somerville%2C+MA?q=9%2BPark%2BPlace%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Need a Band",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [],
+    "location": {
+      "lat": 42.38743105,
+      "long": -71.08116607529718,
+      "address": "9 Pennsylvania Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Pennsylvania+Ave+Somerville%2C+MA?q=9%2BPennsylvania%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Orchid Reed",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.382692649999996,
+      "long": -71.10356539627037,
+      "address": "465 Somerville Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/465+Somerville+Avenue+Somerville%2C+MA?q=465%2BSomerville%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Oversight feat Peter Morgan",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Funk",
+      "Indie",
+      "Rock",
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.387632249999996,
+      "long": -71.08931057049831,
+      "address": "38 Otis St",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Otis+St+Somerville%2C+MA?q=38%2BOtis%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "plastic Hamster",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.38157615,
+      "long": -71.09429461087896,
+      "address": "53 Columbus Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/53+Columbus+Ave+Somerville%2C+MA?q=53%2BColumbus%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pledge Pins",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Punk",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39022185,
+      "long": -71.09514686025722,
+      "address": "12 Maple Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Maple+Ave+Somerville%2C+MA?q=12%2BMaple%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pluto's Return",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3889518,
+      "long": -71.0922609,
+      "address": "45 Walnut St",
+      "google_maps_link": "https://maps.google.com/maps/place/45+Walnut+St+Somerville%2C+MA?q=45%2BWalnut%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pogues Tribute [The nÓgs]",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.3852443,
+      "long": -71.10137268293295,
+      "address": "20 AVON ST",
+      "google_maps_link": "https://maps.google.com/maps/place/20+AVON+ST+Somerville%2C+MA?q=20%2BAVON%2BST%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Polyjamorous \u0026 Tarciso Alves",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3816767,
+      "long": -71.0985645,
+      "address": "51 Bow St",
+      "google_maps_link": "https://maps.google.com/maps/place/51+Bow+St+%231+Somerville%2C+MA?q=51%2BBow%2BSt%2B%231%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Portronica",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Electronic",
+      "Funk",
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.386528549999994,
+      "long": -71.10076775,
+      "address": "34 Oxford St.",
+      "google_maps_link": "https://maps.google.com/maps/place/34+Oxford+St.+Somerville%2C+MA?q=34%2BOxford%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pothole Patrol",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Blues",
+      "Jazz",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3839766,
+      "long": -71.10045209748547,
+      "address": "55 School St",
+      "google_maps_link": "https://maps.google.com/maps/place/55+School+St+Somerville%2C+MA?q=55%2BSchool%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Proper Lovers \u0026 Co",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.38884005,
+      "long": -71.10038257432768,
+      "address": "46 Montrose Street",
+      "google_maps_link": "https://maps.google.com/maps/place/46+Montrose+Street+Somerville%2C+MA?q=46%2BMontrose%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Rich Murphy",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.37989505,
+      "long": -71.09790910731553,
+      "address": "14 Hawkins St",
+      "google_maps_link": "https://maps.google.com/maps/place/14+Hawkins+St+Somerville%2C+MA?q=14%2BHawkins%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Rooty Toots",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.385993400000004,
+      "long": -71.09905139799282,
+      "address": "105 School St.",
+      "google_maps_link": "https://maps.google.com/maps/place/105+School+St.+Somerville%2C+MA?q=105%2BSchool%2BSt.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ruby Golden Tiger",
+    "start_time": 1715457600000,
+    "end_time": 1715463000000,
+    "genres": [
+      "Funk"
+    ],
+    "location": {
+      "lat": 42.379663,
+      "long": -71.0956842,
+      "address": "22 Union Square",
+      "google_maps_link": "https://maps.google.com/maps/place/22+Union+Square+Somerville%2C+MA?q=22%2BUnion%2BSquare%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sean Atch Music + Daddy and the Boy/LSD Fathers B2B DJ Set (Bangers Only)",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [],
+    "location": {
+      "lat": 42.3838841,
+      "long": -71.09560447127107,
+      "address": "9 Summit Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Summit+Avenue+Somerville%2C+MA?q=9%2BSummit%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "SheBoom",
+    "start_time": 1715457600000,
+    "end_time": 1715463000000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.3815706,
+      "long": -71.09279469401994,
+      "address": "41 Munroe St, Somerville, MA 02143",
+      "google_maps_link": "https://maps.google.com/maps/place/41+Munro+Street+Somerville%2C+MA?q=41%2BMunro%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Shelby LeCuyer",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [],
+    "location": {
+      "lat": 42.38160895,
+      "long": -71.08753173590455,
+      "address": "14 Knowlton St",
+      "google_maps_link": "https://maps.google.com/maps/place/14+Knowlton+St+Somerville%2C+MA?q=14%2BKnowlton%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "sidebody",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.3829488,
+      "long": -71.09333043358993,
+      "address": "65 Boston St",
+      "google_maps_link": "https://maps.google.com/maps/place/65+Boston+St+Somerville%2C+MA?q=65%2BBoston%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sinhaus, Louie Lanka, Cakewalk, DJ DONUTS, Oral Allergy, DJ Panda",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [],
+    "location": {
+      "lat": 42.3778343,
+      "long": -71.0958377,
+      "address": "47b Webster Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/47b+Webster+Ave+Somerville%2C+MA?q=47b%2BWebster%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Soloonar",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38362155,
+      "long": -71.08505899016455,
+      "address": "51 Franklin St",
+      "google_maps_link": "https://maps.google.com/maps/place/51+Franklin+St+Somerville%2C+MA?q=51%2BFranklin%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Spoondrift",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3769765,
+      "long": -71.09631685442417,
+      "address": "9 Concord Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Concord+Ave+-+Van+Hardy+Community+Garden+Somerville%2C+MA?q=9%2BConcord%2BAve%2B-%2BVan%2BHardy%2BCommunity%2BGarden%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Stoop Troop 42",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38705385,
+      "long": -71.08513806160352,
+      "address": "5 Brook St",
+      "google_maps_link": "https://maps.google.com/maps/place/5+Brook+St+Somerville%2C+MA?q=5%2BBrook%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sundrifter / Princess Bleach / The Cherry Fog / Tequila Sirens",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3766998,
+      "long": -71.1042445,
+      "address": "22 Waldo Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/22+Waldo+Ave+Somerville%2C+MA?q=22%2BWaldo%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ten Hills Musical Thrills",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Jazz",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3977065,
+      "long": -71.0860584,
+      "address": "40 Ten Hills Road",
+      "google_maps_link": "https://maps.google.com/maps/place/40+Ten+Hills+Road+Somerville%2C+MA?q=40%2BTen%2BHills%2BRoad%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The DCM Project",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.3776219,
+      "long": -71.10303720034493,
+      "address": "11 Lewis St",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Lewis+St+Somerville%2C+MA?q=11%2BLewis%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Galvanics",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.37978045,
+      "long": -71.10659260809243,
+      "address": "45 Skehan Street",
+      "google_maps_link": "https://maps.google.com/maps/place/45+Skehan+Street+Somerville%2C+MA?q=45%2BSkehan%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Goonie Birds",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.3893121,
+      "long": -71.09552216568048,
+      "address": "9 Sellon Pl",
+      "google_maps_link": "https://maps.google.com/maps/place/9+Sellon+Pl+Somerville%2C+MA?q=9%2BSellon%2BPl%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Grownup Noise, Horsehands",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.38492105,
+      "long": -71.09918295010982,
+      "address": "32 Prescott st.",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Prescott+st.+Somerville%2C+MA?q=32%2BPrescott%2Bst.%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Lights Out",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.389301599999996,
+      "long": -71.101376657527,
+      "address": "25 Willoughby St",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Willoughby+St+Somerville%2C+MA?q=25%2BWilloughby%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Limit",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.37869925,
+      "long": -71.10329855302847,
+      "address": "10 Magnus Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/10+Magnus+Ave+Apt+3+Somerville%2C+MA?q=10%2BMagnus%2BAve%2BApt%2B3%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Love Shamans",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Punk"
+    ],
+    "location": {
+      "lat": 42.384238,
+      "long": -71.104546,
+      "address": "51 Laurel St",
+      "google_maps_link": "https://maps.google.com/maps/place/51+Laurel+St+Somerville%2C+MA?q=51%2BLaurel%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Magnificent Black Souls",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock",
+      "R and B"
+    ],
+    "location": {
+      "lat": 42.3773796,
+      "long": -71.09937042678114,
+      "address": "33 Adrian Street",
+      "google_maps_link": "https://maps.google.com/maps/place/33+Adrian+Street+Somerville%2C+MA?q=33%2BAdrian%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Non-Aligned Movement",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk",
+      "Latin",
+      "World"
+    ],
+    "location": {
+      "lat": 42.3799617,
+      "long": -71.10561588143327,
+      "address": "24 Hanson St",
+      "google_maps_link": "https://maps.google.com/maps/place/24+Hanson+St+Somerville%2C+MA?q=24%2BHanson%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Roland High Life",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie",
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.38553665,
+      "long": -71.08501304108935,
+      "address": "18 Webster St",
+      "google_maps_link": "https://maps.google.com/maps/place/18+Webster+St+Somerville%2C+MA?q=18%2BWebster%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Sewall Street Soul (w/ special guests The Late Bloomer Jazz Quartet)",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Jazz",
+      "Pop",
+      "Rock",
+      "R and B",
+      "Soul"
+    ],
+    "location": {
+      "lat": 42.393095,
+      "long": -71.09224592996406,
+      "address": "36 Sewall Street",
+      "google_maps_link": "https://maps.google.com/maps/place/36+Sewall+Street+Somerville%2C+MA?q=36%2BSewall%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Shallows",
+    "start_time": 1715457600000,
+    "end_time": 1715463000000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.3871179,
+      "long": -71.10227753982079,
+      "address": "70 Oxford St",
+      "google_maps_link": "https://maps.google.com/maps/place/70+Oxford+St+Somerville%2C+MA?q=70%2BOxford%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Westcock Dykes",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.38421765,
+      "long": -71.09643556453919,
+      "address": "23 Summit Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/23+Summit+Ave+Somerville%2C+MA?q=23%2BSummit%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Zajac Brothers Band",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.390392500000004,
+      "long": -71.10068329779197,
+      "address": "6 Pembroke Ct",
+      "google_maps_link": "https://maps.google.com/maps/place/6+Pembroke+Ct+Somerville%2C+MA?q=6%2BPembroke%2BCt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Three Weeks Notice",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.382515999999995,
+      "long": -71.10299958260885,
+      "address": "455 Somerville Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/455+Somerville+Ave+Somerville%2C+MA?q=455%2BSomerville%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tobyraps \u0026 Friends",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Hiphop/techno"
+    ],
+    "location": {
+      "lat": 42.3778329,
+      "long": -71.09855626436806,
+      "address": "16 Lincoln Pkwy",
+      "google_maps_link": "https://maps.google.com/maps/place/16+Lincoln+Pkwy+Somerville%2C+MA?q=16%2BLincoln%2BPkwy%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tunnel of Bees",
+    "start_time": 1715457600000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38260055,
+      "long": -71.10141294705882,
+      "address": "17 School St",
+      "google_maps_link": "https://maps.google.com/maps/place/17+School+St+Somerville%2C+MA?q=17%2BSchool%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "VRY",
+    "start_time": 1715457600000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Latin"
+    ],
+    "location": {
+      "lat": 42.3951036,
+      "long": -71.09906434069617,
+      "address": "404 Broadway",
+      "google_maps_link": "https://maps.google.com/maps/place/404+Broadway+Somerville%2C+MA?q=404%2BBroadway%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Dartmouth Street House Band",
+    "start_time": 1715457960000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Americana"
+    ],
+    "location": {
+      "lat": 42.39203755,
+      "long": -71.09604780723146,
+      "address": "41 DARTMOUTH STREET",
+      "google_maps_link": "https://maps.google.com/maps/place/41+DARTMOUTH+STREET+Somerville%2C+MA?q=41%2BDARTMOUTH%2BSTREET%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Alba And The Blizzards",
+    "start_time": 1715458320000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Blues",
+      "Funk",
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.3797613,
+      "long": -71.09235545951012,
+      "address": "215 Washington St",
+      "google_maps_link": "https://maps.google.com/maps/place/215+Washington+St+Somerville%2C+MA?q=215%2BWashington%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Bird Language \u0026 Ruin The Nite",
+    "start_time": 1715458500000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.376558450000005,
+      "long": -71.09567683566283,
+      "address": "70 Union Square",
+      "google_maps_link": "https://maps.google.com/maps/place/70+Union+Square+Somerville%2C+MA?q=70%2BUnion%2BSquare%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Eric G",
+    "start_time": 1715458500000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Electronic"
+    ],
+    "location": {
+      "lat": 42.3812529,
+      "long": -71.09381538591589,
+      "address": "41 Columbus Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/41+Columbus+Ave+Somerville%2C+MA?q=41%2BColumbus%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Pork and The Seans",
+    "start_time": 1715458500000,
+    "end_time": 1715463900000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3761345,
+      "long": -71.10063221962682,
+      "address": "82 Concord Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/82+Concord+Ave+Somerville%2C+MA?q=82%2BConcord%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The ABCs",
+    "start_time": 1715458500000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.386250849999996,
+      "long": -71.09996768814108,
+      "address": "16 Oxford St",
+      "google_maps_link": "https://maps.google.com/maps/place/16+Oxford+St+Somerville%2C+MA?q=16%2BOxford%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Rolling Who",
+    "start_time": 1715458500000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.3801073,
+      "long": -71.0944706,
+      "address": "11 Sanborn Ct",
+      "google_maps_link": "https://maps.google.com/maps/place/11+Sanborn+Ct+Somerville%2C+MA?q=11%2BSanborn%2BCt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "BOB",
+    "start_time": 1715459400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.382909749999996,
+      "long": -71.0887463938476,
+      "address": "18 Dell Street",
+      "google_maps_link": "https://maps.google.com/maps/place/18+Dell+Street+Somerville%2C+MA?q=18%2BDell%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Crossing the Line",
+    "start_time": 1715459400000,
+    "end_time": 1715462100000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.37732955,
+      "long": -71.10624074485715,
+      "address": "30 Line St",
+      "google_maps_link": "https://maps.google.com/maps/place/30+Line+St+Somerville%2C+MA?q=30%2BLine%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "God Bless Divorce",
+    "start_time": 1715459400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.387327850000005,
+      "long": -71.08877114814078,
+      "address": "28 Otis St",
+      "google_maps_link": "https://maps.google.com/maps/place/28+Otis+St+Somerville%2C+MA?q=28%2BOtis%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Liam Spain and Tim Krol",
+    "start_time": 1715459400000,
+    "end_time": 1715463000000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3910397,
+      "long": -71.0961961505669,
+      "address": "218 School St",
+      "google_maps_link": "https://maps.google.com/maps/place/218+School+St+Somerville%2C+MA?q=218%2BSchool%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "School of HONK",
+    "start_time": 1715459400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.3788778,
+      "long": -71.09885329627151,
+      "address": "290 Washington St",
+      "google_maps_link": "https://maps.google.com/maps/place/Lincoln+Park%2C+290+Washington+St+Somerville%2C+MA?q=Lincoln%2BPark%2C%2B290%2BWashington%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Punk Monk",
+    "start_time": 1715459400000,
+    "end_time": 1715463000000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.383125500000006,
+      "long": -71.0973915,
+      "address": "21 Vinal Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/21+Vinal+Ave+Somerville%2C+MA?q=21%2BVinal%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Tusken and The Raiders",
+    "start_time": 1715459400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38494115,
+      "long": -71.09606165076588,
+      "address": "18 Grand View Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/18+Grand+View+Ave+Somerville%2C+MA?q=18%2BGrand%2BView%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Typist",
+    "start_time": 1715459400000,
+    "end_time": 1715463000000,
+    "genres": [
+      "Electronic",
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.39240435,
+      "long": -71.09479015665681,
+      "address": "251 School Street",
+      "google_maps_link": "https://maps.google.com/maps/place/251+School+Street+Somerville%2C+MA?q=251%2BSchool%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Wet The Evil",
+    "start_time": 1715459400000,
+    "end_time": 1715461200000,
+    "genres": [
+      "Metal"
+    ],
+    "location": {
+      "lat": 42.380926200000005,
+      "long": -71.09505006342624,
+      "address": "38 Stone Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Stone+Ave+Somerville%2C+MA?q=38%2BStone%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Layzi",
+    "start_time": 1715460000000,
+    "end_time": 1715462400000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.384808899999996,
+      "long": -71.1045598942857,
+      "address": "40 Laurel St",
+      "google_maps_link": "https://maps.google.com/maps/place/40+Laurel+St+Somerville%2C+MA?q=40%2BLaurel%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Rosecomb",
+    "start_time": 1715460000000,
+    "end_time": 1715462100000,
+    "genres": [
+      "Indie",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.39022185,
+      "long": -71.09514686025722,
+      "address": "12 Maple Ave",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Maple+Ave+Somerville%2C+MA?q=12%2BMaple%2BAve%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Ambitchous",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Pop"
+    ],
+    "location": {
+      "lat": 42.37810925,
+      "long": -71.09770540090227,
+      "address": "32 Clark St",
+      "google_maps_link": "https://maps.google.com/maps/place/32+Clark+St+Somerville%2C+MA?q=32%2BClark%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Double Star",
+    "start_time": 1715461200000,
+    "end_time": 1715463900000,
+    "genres": [
+      "Indie",
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.387209150000004,
+      "long": -71.10311685999463,
+      "address": "88 Oxford St",
+      "google_maps_link": "https://maps.google.com/maps/place/88+Oxford+St+Somerville%2C+MA?q=88%2BOxford%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Galaxy Cake",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.389301599999996,
+      "long": -71.101376657527,
+      "address": "25 Willoughby St",
+      "google_maps_link": "https://maps.google.com/maps/place/25+Willoughby+St+Somerville%2C+MA?q=25%2BWilloughby%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Hog Eyed Baby",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Bluegrass"
+    ],
+    "location": {
+      "lat": 42.387632249999996,
+      "long": -71.08931057049831,
+      "address": "38 Otis St",
+      "google_maps_link": "https://maps.google.com/maps/place/38+Otis+St+Somerville%2C+MA?q=38%2BOtis%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "People Person Puzzle Tree",
+    "start_time": 1715461200000,
+    "end_time": 1715463000000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.3840836,
+      "long": -71.09704054393367,
+      "address": "34 Summit Avenue",
+      "google_maps_link": "https://maps.google.com/maps/place/34+Summit+Avenue+Somerville%2C+MA?q=34%2BSummit%2BAvenue%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Phil and the Flying Leap",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Singer/songwriter"
+    ],
+    "location": {
+      "lat": 42.3832084,
+      "long": -71.10095519256505,
+      "address": "35 School St",
+      "google_maps_link": "https://maps.google.com/maps/place/35+School+St+Somerville%2C+MA?q=35%2BSchool%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "PSA",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Pop",
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38074775,
+      "long": -71.09068406345884,
+      "address": "15 Boston St",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Boston+St+Somerville%2C+MA?q=15%2BBoston%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "SCROD",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Punk",
+      "World"
+    ],
+    "location": {
+      "lat": 42.378834100000006,
+      "long": -71.1030138,
+      "address": "5 Rose St",
+      "google_maps_link": "https://maps.google.com/maps/place/5+Rose+St+Somerville%2C+MA?q=5%2BRose%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Shelagh Rose",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Folk"
+    ],
+    "location": {
+      "lat": 42.375855,
+      "long": -71.0987635,
+      "address": "42 Oak Street",
+      "google_maps_link": "https://maps.google.com/maps/place/42+Oak+Street+Somerville%2C+MA?q=42%2BOak%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "The Massive Letdowns",
+    "start_time": 1715461200000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Rock"
+    ],
+    "location": {
+      "lat": 42.38260055,
+      "long": -71.10141294705882,
+      "address": "17 School Street",
+      "google_maps_link": "https://maps.google.com/maps/place/17+School+Street+Somerville%2C+MA?q=17%2BSchool%2BStreet%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Nigun Saloon",
+    "start_time": 1715462100000,
+    "end_time": 1715464800000,
+    "genres": [
+      "World"
+    ],
+    "location": {
+      "lat": 42.375674,
+      "long": -71.1007974,
+      "address": "Leon St",
+      "google_maps_link": "https://maps.google.com/maps/place/Leon+St+Somerville%2C+MA?q=Leon%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sister Somewhere",
+    "start_time": 1715462100000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.37890005,
+      "long": -71.09731308728055,
+      "address": "15 Kingman Rd",
+      "google_maps_link": "https://maps.google.com/maps/place/15+Kingman+Rd+Somerville%2C+MA?q=15%2BKingman%2BRd%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Viruette",
+    "start_time": 1715462400000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Indie"
+    ],
+    "location": {
+      "lat": 42.384808899999996,
+      "long": -71.1045598942857,
+      "address": "40 Laurel St",
+      "google_maps_link": "https://maps.google.com/maps/place/40+Laurel+St+Somerville%2C+MA?q=40%2BLaurel%2BSt%2BSomerville%2C%2BMA"
+    }
+  },
+  {
+    "artist_name": "Sal \u0026 Ana",
+    "start_time": 1715463000000,
+    "end_time": 1715464800000,
+    "genres": [
+      "Jazz"
+    ],
+    "location": {
+      "lat": 42.381637,
+      "long": -71.1058777,
+      "address": "12 Tyler St",
+      "google_maps_link": "https://maps.google.com/maps/place/12+Tyler+St+Somerville%2C+MA?q=12%2BTyler%2BSt%2BSomerville%2C%2BMA"
+    }
+  }
+]
