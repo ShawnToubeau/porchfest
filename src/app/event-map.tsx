@@ -372,7 +372,7 @@ export default function EventMap() {
         <div className="relative">
           <Input
             className="w-[300px] rounded-l-none"
-            placeholder="Search an artist"
+            placeholder="Search artists"
             value={searchFilter}
             onChange={({ target }) => setSearchFilter(target.value)}
           />
