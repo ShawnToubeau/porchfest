@@ -8,6 +8,7 @@ import {
   Map,
   MapStyle,
   data,
+  ControlPosition
 } from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
@@ -58,6 +59,17 @@ export type MarkerData = {
   location: LocationData;
 };
 
+type LegendItem = {
+  color: string;
+  label: string;
+}
+
+const legendItems: LegendItem[] = [
+  { color: DefaultMarkerColor, label: 'Not Viewed' },
+  { color: VisitedMarkerColor, label: 'Viewed' },
+  { color: BookmarkedMarkerColor, label: 'Bookmarked' },
+];
+
 /**
  * TODO:
  * populate search results - fuzzy matching?
@@ -65,12 +77,17 @@ export type MarkerData = {
  */
 
 class LegendControl {
-  constructor(items, position = 'top-right') {
-    this.items = items; // Array of { color, label }
+  private items: LegendItem[];
+  private position: ControlPosition;
+  private map?: Map;
+  private container!: HTMLElement;
+  
+  constructor(items: LegendItem[], position = 'top-right' as ControlPosition) {
+    this.items = items;
     this.position = position;
   }
 
-  onAdd(map) {
+  onAdd(map: Map) {
     this.map = map;
     this.container = document.createElement('div');
     this.container.className = 'maplibregl-ctrl legend-control';
@@ -113,20 +130,18 @@ class LegendControl {
   }
 
   onRemove() {
-    this.container.parentNode.removeChild(this.container);
-    this.map = undefined;
+    if (this.container.parentNode) {
+      this.container.parentNode.removeChild(this.container);
+    }
+    if (this.map) {
+      this.map = undefined;
+    }
   }
 
   getDefaultPosition() {
     return this.position;
   }
 }
-
-const legendItems = [
-  { color: DefaultMarkerColor, label: 'Not Viewed' },
-  { color: VisitedMarkerColor, label: 'Viewed' },
-  { color: BookmarkedMarkerColor, label: 'Bookmarked' },
-];
 
 export default function EventMap() {
   const mapRef = useRef<Map | null>(null);
