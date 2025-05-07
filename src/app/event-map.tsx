@@ -95,10 +95,11 @@ class LegendControl {
     const list = document.createElement('ul');
     list.style.listStyle = 'none';
     list.style.margin = '0px';
-    list.style.marginBottom = '12px';
-    list.style.marginLeft = '12px';
+    list.style.marginBottom = '8px';
+    list.style.marginLeft = '8px';
     list.style.padding = '12px';
     list.style.backgroundColor = "#fff";
+    list.style.borderRadius = "5px";
 
     for (const item of this.items) {
       const li = document.createElement('li');
@@ -106,21 +107,20 @@ class LegendControl {
       li.style.alignItems = 'center';
       li.style.marginBottom = '4px';
 
-      const colorBox = document.createElement('span');
-      colorBox.style.display = 'inline-block';
-      colorBox.style.width = '16px';
-      colorBox.style.height = '16px';
-      colorBox.style.borderRadius = "25px"
-      colorBox.style.backgroundColor = item.color;
-      colorBox.style.marginRight = '8px';
-      colorBox.style.border = '1px solid #ccc';
+      const colorDot = document.createElement('span');
+      colorDot.style.display = 'inline-block';
+      colorDot.style.width = '16px';
+      colorDot.style.height = '16px';
+      colorDot.style.borderRadius = "25px"
+      colorDot.style.backgroundColor = item.color;
+      colorDot.style.marginRight = '8px';
 
       const label = document.createElement('span');
       label.textContent = item.label;
       label.style.color = "#000"
       label.style.fontSize = "14px"
 
-      li.appendChild(colorBox);
+      li.appendChild(colorDot);
       li.appendChild(label);
       list.appendChild(li);
     }
@@ -240,12 +240,9 @@ export default function EventMap() {
             "interpolate",
             ["linear"],
             ["zoom"],
-            2,
-            1,
-            8,
-            6,
-            12,
-            10,
+            2, 1,
+            8, 5,
+            12, 8,
           ],
           "circle-color": [
             "case",
