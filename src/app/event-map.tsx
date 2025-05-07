@@ -64,6 +64,70 @@ export type MarkerData = {
  *  selecting an item from the search should take you to the location
  */
 
+class LegendControl {
+  constructor(items, position = 'top-right') {
+    this.items = items; // Array of { color, label }
+    this.position = position;
+  }
+
+  onAdd(map) {
+    this.map = map;
+    this.container = document.createElement('div');
+    this.container.className = 'maplibregl-ctrl legend-control';
+
+    const list = document.createElement('ul');
+    list.style.listStyle = 'none';
+    list.style.margin = '0px';
+    list.style.marginBottom = '12px';
+    list.style.marginLeft = '12px';
+    list.style.padding = '12px';
+    list.style.backgroundColor = "#fff";
+
+    for (const item of this.items) {
+      const li = document.createElement('li');
+      li.style.display = 'flex';
+      li.style.alignItems = 'center';
+      li.style.marginBottom = '4px';
+
+      const colorBox = document.createElement('span');
+      colorBox.style.display = 'inline-block';
+      colorBox.style.width = '16px';
+      colorBox.style.height = '16px';
+      colorBox.style.borderRadius = "25px"
+      colorBox.style.backgroundColor = item.color;
+      colorBox.style.marginRight = '8px';
+      colorBox.style.border = '1px solid #ccc';
+
+      const label = document.createElement('span');
+      label.textContent = item.label;
+      label.style.color = "#000"
+      label.style.fontSize = "14px"
+
+      li.appendChild(colorBox);
+      li.appendChild(label);
+      list.appendChild(li);
+    }
+
+    this.container.appendChild(list);
+    return this.container;
+  }
+
+  onRemove() {
+    this.container.parentNode.removeChild(this.container);
+    this.map = undefined;
+  }
+
+  getDefaultPosition() {
+    return this.position;
+  }
+}
+
+const legendItems = [
+  { color: DefaultMarkerColor, label: 'Not Viewed' },
+  { color: VisitedMarkerColor, label: 'Viewed' },
+  { color: BookmarkedMarkerColor, label: 'Bookmarked' },
+];
+
 export default function EventMap() {
   const mapRef = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
@@ -114,6 +178,7 @@ export default function EventMap() {
       apiKey: process.env.NEXT_PUBLIC_MAPTILER_API_KEY,
       navigationControl: false,
       geolocate: true,
+      logoPosition: "bottom-right",
       geolocateControl: "bottom-right",
       zoom: 13,
       center: {
@@ -122,6 +187,8 @@ export default function EventMap() {
       },
       style: MapStyle.BRIGHT,
     });
+
+    map.addControl(new LegendControl(legendItems), 'bottom-left');
 
     map.on("load", async function () {
       if (!process.env.NEXT_PUBLIC_MAPTILER_DATA_ID) {
