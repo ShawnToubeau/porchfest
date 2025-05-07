@@ -73,7 +73,7 @@ export function Filter(props: FilterProps) {
           Genres {props.filteredGenres.size}/{props.genreOpts.size}
         </Label>
         <ListBox
-          className="outline-0 p-1 border rounded-lg max-h-[400px] overflow-y-auto mt-2"
+          className="outline-0 p-1 border rounded-lg max-h-[360px] sm:max-h-[400px] overflow-y-auto mt-2"
           aria-label="Genres"
           onSelectionChange={(keys) =>
             props.setFilteredGenres(keys as Set<string>)
