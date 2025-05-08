@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import {
   ExpressionSpecification,
@@ -12,7 +12,6 @@ import {
 } from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import MixerIcon from "../../public/icons/mixer";
 import { Filter } from "./filter";
@@ -29,11 +28,12 @@ import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
 import Link from "next/link";
-import { CrossIcon } from "../../public/icons/cross";
+import {SearchBar} from "./searchbar";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
 const DefaultMarkerColor = "#d85240";
+const FocusedMarkerColor = "#0f0";
 const VisitedMarkerColor = "#5A6169";
 const BookmarkedMarkerColor = "#f3bb01";
 const BathroomColor = "#122878"
@@ -74,12 +74,6 @@ const legendItems: LegendItem[] = [
   { color: BookmarkedMarkerColor, label: 'Bookmarked' },
   { color: BathroomColor, label: 'Bathroom', icon: bathroomIcon },
 ];
-
-/**
- * TODO:
- * populate search results - fuzzy matching?
- *  selecting an item from the search should take you to the location
- */
 
 class LegendControl {
   private items: LegendItem[];
@@ -156,7 +150,6 @@ export default function EventMap() {
   const mapRef = useRef<Map | null>(null);
   const [onlyCurrentlyPlaying, setOnlyCurrentlyPlaying] = useState(false);
   const [onlyBookmarked, setOnlyBookmarked] = useState(false);
-  const [searchFilter, setSearchFilter] = useState("");
   const [filteredGenres, setFilteredGenres] = useState<Set<string>>(
     new Set([])
   );
@@ -164,6 +157,31 @@ export default function EventMap() {
   const [showSheet, setShowSheet] = useState(false);
   const [currMarker, setCurrMarker] = useState<MarkerData | null>(null);
   const [genreOpts, setGenreOpts] = useState<Set<string>>(new Set());
+
+  const [markers, setMarkers] = useState<MarkerData[]>([])
+
+  const closeDrawer = useCallback((marker: MarkerData) => {
+    const map = mapRef.current
+    if (!map) {
+      return
+    }
+    map.setFeatureState(
+      { source: "artists", id: marker.id },
+      { focused: false }
+    );
+    // set point to visited
+    map.setFeatureState(
+      { source: "artists", id: marker.id },
+      { visited: true }
+    );
+
+    const { visitSet } = getMarkerLocalStorage();
+    // track the state change in localstorage
+    updateMarkerLocalStorage({
+      visitSet: visitSet.add(marker.id as number),
+    });
+    setCurrMarker(null)
+  }, [])
 
   // add click handler to drawer overlay
   useEffect(() => {
@@ -175,11 +193,11 @@ export default function EventMap() {
         );
 
         overlays.map((o) => {
-          o.addEventListener("click", () => setCurrMarker(null));
+          o.addEventListener("click", () => closeDrawer(currMarker));
         });
       }, 200);
     }
-  }, [currMarker]);
+  }, [currMarker, closeDrawer]);
 
   // init map and load data source
   useEffect(() => {
@@ -221,6 +239,15 @@ export default function EventMap() {
       }
 
       const geojson = await data.get(process.env.NEXT_PUBLIC_MAPTILER_DATA_ID);
+
+      const mks = geojson.features.map((f , idx)=> {
+        return {
+          ...(f.properties as MarkerData),
+          id: idx,
+        }
+      })
+      setMarkers(mks)
+
       setGenreOpts(
         new Set(
           geojson.features
@@ -255,6 +282,8 @@ export default function EventMap() {
           ],
           "circle-color": [
             "case",
+            ["==", ["feature-state", "focused"], true],
+            FocusedMarkerColor,
             ["==", ["feature-state", "bookmarked"], true],
             BookmarkedMarkerColor,
             ["==", ["feature-state", "visited"], true],
@@ -321,17 +350,13 @@ export default function EventMap() {
           });
         }
 
-        // set point to visited
+        // set point to focused
         map.setFeatureState(
           { source: "artists", id: feature.id },
-          { visited: true }
+          { focused: true }
         );
 
-        const { visitSet, bookmarkSet } = getMarkerLocalStorage();
-        // track the state change in localstorage
-        updateMarkerLocalStorage({
-          visitSet: visitSet.add(feature.id as number),
-        });
+        const { bookmarkSet } = getMarkerLocalStorage();
 
         setCurrMarker({
           ...(feature.properties as MarkerData),
@@ -359,11 +384,11 @@ export default function EventMap() {
     if (map) {
       const source = map.getSource("artists");
       if (source) {
-        var filters: FilterSpecification = [
+        let filters: FilterSpecification = [
           "all",
           [
             "in",
-            searchFilter.toLowerCase(),
+            "".toLowerCase(),
             ["string", ["downcase", ["get", "artist_name"]]],
           ],
         ];
@@ -400,38 +425,56 @@ export default function EventMap() {
     filteredGenres,
     onlyBookmarked,
     onlyCurrentlyPlaying,
-    searchFilter,
   ]);
 
   return (
     <div className="h-dvh w-full absolute" id="map">
       <div className="relative top-10 z-10 flex justify-center">
+        <SearchBar 
+          markers={markers}
+          onResultClick={(marker) => {
+            const map = mapRef.current
+            if (!map) {
+              return
+            }
+
+            map.flyTo({
+              center: [marker.location.long, marker.location.lat],
+              zoom: 16,
+            });
+
+            // set point to visited
+            map.setFeatureState(
+              { source: "artists", id: marker.id },
+              { focused: true }
+            );
+
+            // const { visitSet } = getMarkerLocalStorage();
+            // // track the state change in localstorage
+            // updateMarkerLocalStorage({
+            //   visitSet: visitSet.add(marker.id as number),
+            // });
+
+            setCurrMarker(marker)
+          }}
+        />
         <Button
           variant="outline"
-          className="rounded-r-none"
+          className="rounded-l-none"
           onClick={() => setShowSheet((s) => !s)}
         >
           <MixerIcon />
         </Button>
-        <div className="relative">
-          <Input
-            className="w-[300px] rounded-l-none"
-            placeholder="Search artists"
-            value={searchFilter}
-            onChange={({ target }) => setSearchFilter(target.value)}
-          />
-          <div className="absolute right-4 z-20 h-full top-0 flex items-center">
-            <div
-              onClick={() => setSearchFilter("")}
-              className="cursor-pointer bg-slate-800 p-1"
-            >
-              <CrossIcon />
-            </div>
-          </div>
-        </div>
       </div>
 
-      <Drawer open={!!currMarker} onClose={() => setCurrMarker(null)}>
+      <Drawer open={!!currMarker} onClose={() => {
+        if (!currMarker) {
+          console.error("marker null")
+          return
+        }
+
+        closeDrawer(currMarker)
+      }}>
         <DrawerContent>
           {currMarker && (
             <>
@@ -531,7 +574,14 @@ export default function EventMap() {
                 <Button
                   variant="outline"
                   className="w-full"
-                  onClick={() => setCurrMarker(null)}
+                  onClick={() => {
+                    if (!currMarker) {
+                      console.error("marker null")
+                      return;
+                    }
+
+                    closeDrawer(currMarker)
+                  }}
                 >
                   Close
                 </Button>
@@ -573,7 +623,7 @@ export default function EventMap() {
   );
 }
 
-function formatTime(timestamp: number) {
+export function formatTime(timestamp: number) {
   return new Date(timestamp).toLocaleTimeString("en-US", {
     timeStyle: "short",
   });
