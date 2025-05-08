@@ -369,12 +369,13 @@ export default function EventMap() {
         ];
 
         if (filteredGenres.size > 0) {
-          const genreFilters: ExpressionSpecification[] = Array.from(
-            filteredGenres
-          ).map((genre) => {
-            return ["in", genre, ["array", ["get", "genres"]]];
-          });
-          filters.push(...genreFilters);
+          const genreArray = Array.from(filteredGenres);
+          const genreFilter: ExpressionSpecification = [
+            "any",
+            ...genreArray.map((genre): ExpressionSpecification => ["in", genre, ["get", "genres"]])
+          ];
+
+          filters.push(genreFilter);
         }
 
         if (onlyCurrentlyPlaying) {
