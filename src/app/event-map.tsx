@@ -283,7 +283,7 @@ export default function EventMap() {
       }
 
       // Create an image from SVG
-      const svgImage = new Image(42, 40);
+      const svgImage = new Image(42, 38);
       svgImage.onload = () => {
           map.addImage('bathroom-icon', svgImage)
       }
@@ -306,7 +306,7 @@ export default function EventMap() {
         source: "bathrooms",
         layout: {
           "icon-image": "bathroom-icon",
-          "icon-size": .8,
+          "icon-size": .6,
         },
       });
     });
