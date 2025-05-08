@@ -8,7 +8,7 @@ import {
   Map,
   MapStyle,
   data,
-  ControlPosition
+  ControlPosition,
 } from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
@@ -36,6 +36,9 @@ const VisitedMarkerLSKey = "porchfest-data";
 const DefaultMarkerColor = "#d85240";
 const VisitedMarkerColor = "#5A6169";
 const BookmarkedMarkerColor = "#f3bb01";
+const BathroomColor = "#122878"
+
+const bathroomIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><circle cx="320" cy="256" r="256" fill="${BathroomColor}"/><path fill="#fff" d="M200 152a24 24 0 1 1 48 0 24 24 0 1 1-48 0m20 152v64c0 8.85-7.15 16-16 16s-16-7.15-16-16v-77.4c-4.05 4.6-10.55 6.6-16.75 4.7-8.45-2.65-13.15-11.6-10.5-20.05l15.45-49.55C182.45 205.65 201 192 222 192h4c21 0 39.55 13.65 45.8 33.7l15.45 49.55c2.65 8.45-2.05 17.4-10.5 20.05-6.2 1.95-12.7-.1-16.75-4.7V368c0 8.85-7.15 16-16 16s-16-7.15-16-16v-64zm100-176c6.65 0 12 5.35 12 12v232c0 6.65-5.35 12-12 12s-12-5.35-12-12V140c0-6.65 5.35-12 12-12m72 24a24 24 0 1 1 48 0 24 24 0 1 1-48 0m-12 216v-48h-8.9c-5.45 0-9.3-5.35-7.6-10.55L368 296c-1.6 0-3.2-.25-4.75-.75-8.45-2.65-13.15-11.6-10.5-20.05l14.85-47.6c6.6-21.15 26.2-35.6 48.4-35.6s41.8 14.45 48.4 35.6l14.85 47.6c2.65 8.45-2.05 17.4-10.5 20.05-1.6.5-3.2.75-4.75.75l4.5 13.45c1.75 5.2-2.15 10.55-7.6 10.55H452v48c0 8.85-7.15 16-16 16s-16-7.15-16-16v-48h-8v48c0 8.85-7.15 16-16 16s-16-7.15-16-16"/></svg>`
 
 type MarkerState = {
   bookmarked: number[];
@@ -62,12 +65,14 @@ export type MarkerData = {
 type LegendItem = {
   color: string;
   label: string;
+  icon?: string;
 }
 
 const legendItems: LegendItem[] = [
   { color: DefaultMarkerColor, label: 'Not Viewed' },
   { color: VisitedMarkerColor, label: 'Viewed' },
   { color: BookmarkedMarkerColor, label: 'Bookmarked' },
+  { color: BathroomColor, label: 'Bathroom', icon: bathroomIcon },
 ];
 
 /**
@@ -114,6 +119,10 @@ class LegendControl {
       colorDot.style.borderRadius = "25px"
       colorDot.style.backgroundColor = item.color;
       colorDot.style.marginRight = '8px';
+      if (item.icon) {
+        colorDot.innerHTML = item.icon;
+        colorDot.style.display = 'flex';
+      }
 
       const label = document.createElement('span');
       label.textContent = item.label;
@@ -266,6 +275,40 @@ export default function EventMap() {
 
       // store bookmarks in state because feature state can't be used in filters
       setBookmarked(bookmarkSet);
+
+      // Load bathrooms
+      if (!process.env.NEXT_PUBLIC_MAPTILER_BATHROOMS_DATA_ID) {
+        console.error("missing NEXT_PUBLIC_MAPTILER_BATHROOMS_DATA_ID")
+        return
+      }
+
+      // Create an image from SVG
+      const svgImage = new Image(35, 42);
+      svgImage.onload = () => {
+          map.addImage('bathroom-icon', svgImage)
+      }
+      function svgStringToImageSrc (svgString: string) {
+          return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgString)
+      }
+
+      svgImage.src = svgStringToImageSrc(bathroomIcon);
+
+      const bathroomsGeojson = await data.get(process.env.NEXT_PUBLIC_MAPTILER_BATHROOMS_DATA_ID);
+      map.addSource("bathrooms", {
+        type: "geojson",
+        data: bathroomsGeojson,
+        generateId: true,
+      });
+
+      map.addLayer({
+        id: "bathrooms-fills",
+        type: "symbol",
+        source: "bathrooms",
+        layout: {
+          "icon-image": "bathroom-icon",
+          "icon-size": .8,
+        },
+      });
     });
 
     map.on("click", "artists-fills", function (e) {

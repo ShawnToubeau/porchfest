@@ -10,8 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@maptiler/leaflet-maptilersdk": "^2.0.0",
-    "@maptiler/sdk": "^2.0.3",
+    "@maptiler/leaflet-maptilersdk": "^4.0.3",
+    "@maptiler/sdk": "^3.2.2",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-popover": "^1.0.7",
