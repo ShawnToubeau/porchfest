@@ -6,6 +6,8 @@ import { formatTime, MarkerData } from "./event-map";
 import clsx from "clsx";
 import { Badge } from "@/components/ui/badge";
 import { CrossIcon } from "../../public/icons/cross";
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut } from "@/components/ui/command";
+import { Calendar, Smile, Calculator, User, CreditCard, Settings } from "lucide-react";
 
 const fuseOptions: IFuseOptions<MarkerData> = {
   // isCaseSensitive: false,
@@ -130,4 +132,60 @@ function SearchIcon(props: SVGProps<SVGSVGElement>) {
       <path d="m21 21-4.3-4.3" />
     </svg>
   );
+}
+
+export function Searchbar2(props: SearchBarProps) {
+  const [searchValue, setSearchValue] = useState("");
+  const fuse = useCallback(
+    () => new Fuse(props.markers, fuseOptions),
+    [props.markers]
+  );
+
+  const results = useMemo(() => {
+    return fuse().search(searchValue);
+  }, [fuse, searchValue]);
+  
+  return (
+    <Command className="rounded-l-lg rounded-r-none border shadow-md w-[300px]" shouldFilter={false}>
+      <CommandInput 
+        value={searchValue}
+        onValueChange={(search) => setSearchValue(search)}
+        placeholder="Search artists" 
+
+      />
+      <CommandList hidden={results.length === 0}>
+        <CommandEmpty>No results found.</CommandEmpty>
+          {results.map((r) => (
+            <CommandItem 
+              key={r.refIndex}
+              onClick={() => {
+                props.onResultClick(r.item)
+              }}
+            >
+              {/* <Calendar /> */}
+              {/* <span>{r.item.artist_name}</span> */}
+              <div>
+                <p className="text-sm font-medium">
+                  {r.item.artist_name}
+                </p>
+                <div className="flex gap-1">
+                  {formatTime(r.item.start_time)}
+                  <div>-</div>
+                  {formatTime(r.item.end_time)}
+                </div>
+              </div>
+              <div>
+                {r.item.genres.length
+                  ? r.item.genres.sort().map((g) => (
+                      <Badge key={g} className="mr-1 mb-2">
+                        {g}
+                      </Badge>
+                    ))
+                  : "n/a"}
+              </div>
+            </CommandItem>
+          ))}
+      </CommandList>
+    </Command>
+  )
 }

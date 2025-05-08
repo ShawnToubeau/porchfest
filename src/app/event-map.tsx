@@ -28,7 +28,7 @@ import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
 import Link from "next/link";
-import {SearchBar} from "./searchbar";
+import {SearchBar, Searchbar2} from "./searchbar";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
@@ -430,7 +430,7 @@ export default function EventMap() {
   return (
     <div className="h-dvh w-full absolute" id="map">
       <div className="relative top-10 z-10 flex justify-center">
-        <SearchBar 
+        <Searchbar2 
           markers={markers}
           onResultClick={(marker) => {
             const map = mapRef.current
@@ -460,7 +460,7 @@ export default function EventMap() {
         />
         <Button
           variant="outline"
-          className="rounded-l-none"
+          className="rounded-l-none h-[47px]"
           onClick={() => setShowSheet((s) => !s)}
         >
           <MixerIcon />
