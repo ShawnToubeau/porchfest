@@ -283,7 +283,7 @@ export default function EventMap() {
       }
 
       // Create an image from SVG
-      const svgImage = new Image(42, 42);
+      const svgImage = new Image(42, 40);
       svgImage.onload = () => {
           map.addImage('bathroom-icon', svgImage)
       }
