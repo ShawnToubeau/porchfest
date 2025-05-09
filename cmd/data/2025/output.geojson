@@ -2881,7 +2881,6 @@
         "start_time": 1746460800000,
         "end_time": 1746468000000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.395984350000006,
@@ -4680,31 +4679,6 @@
       }
     },
     {
-      "id": 186,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.10801906986694,
-          42.394732950000005
-        ]
-      },
-      "properties": {
-        "artist_name": "Dadda",
-        "start_time": 1746468000000,
-        "end_time": 1746475200000,
-        "genres": [
-          "Rock"
-        ],
-        "location": {
-          "lat": 42.394732950000005,
-          "long": -71.10801906986694,
-          "address": "60 MURDOCK ST",
-          "google_maps_link": "https://maps.google.com/?q=42.394732950000005,-71.10801906986694"
-        }
-      }
-    },
-    {
       "id": 187,
       "type": "Feature",
       "geometry": {
@@ -5251,7 +5225,6 @@
         "start_time": 1746468000000,
         "end_time": 1746475200000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.3979192,
@@ -5601,7 +5574,6 @@
         "start_time": 1746468000000,
         "end_time": 1746475200000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.3900574,
@@ -5701,7 +5673,6 @@
         "start_time": 1746468000000,
         "end_time": 1746475200000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.39286875,
@@ -7415,7 +7386,6 @@
         "start_time": 1746468000000,
         "end_time": 1746475200000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.3972642,
@@ -7969,7 +7939,6 @@
         "start_time": 1746469800000,
         "end_time": 1746475200000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.394042999999996,
@@ -8119,7 +8088,6 @@
         "start_time": 1746471600000,
         "end_time": 1746475200000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.390755,
@@ -8898,7 +8866,6 @@
         "start_time": 1746475200000,
         "end_time": 1746482400000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.3953082,
@@ -9474,7 +9441,6 @@
         "start_time": 1746475200000,
         "end_time": 1746478800000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.386936750000004,
@@ -9927,7 +9893,6 @@
         "start_time": 1746475200000,
         "end_time": 1746482400000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.38511575,
@@ -10327,7 +10292,6 @@
         "start_time": 1746475200000,
         "end_time": 1746482400000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.3838841,
@@ -11363,7 +11327,6 @@
         "start_time": 1746475260000,
         "end_time": 1746482340000,
         "genres": [
-          ""
         ],
         "location": {
           "lat": 42.39069545,
