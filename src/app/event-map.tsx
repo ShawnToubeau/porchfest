@@ -384,6 +384,7 @@ export default function EventMap() {
     if (map) {
       const source = map.getSource("artists");
       if (source) {
+        // leftover from the old search - not sure how to init an empty filter
         let filters: FilterSpecification = [
           "all",
           [
@@ -443,7 +444,7 @@ export default function EventMap() {
               zoom: 16,
             });
 
-            // set point to visited
+            // set point to focused
             map.setFeatureState(
               { source: "artists", id: marker.id },
               { focused: true }
@@ -454,6 +455,7 @@ export default function EventMap() {
         />
         <Button
           variant="outline"
+          // match the height of the searchbar input
           className="rounded-l-none h-[47px]"
           onClick={() => setShowSheet((s) => !s)}
         >
