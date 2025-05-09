@@ -28,7 +28,7 @@ import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
 import Link from "next/link";
-import { Searchbar2 } from "./searchbar";
+import { Searchbar } from "./searchbar";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
@@ -430,7 +430,7 @@ export default function EventMap() {
   return (
     <div className="h-dvh w-full absolute" id="map">
       <div className="relative top-10 z-10 flex justify-center">
-        <Searchbar2
+        <Searchbar
           markers={markers}
           onResultClick={(marker) => {
             const map = mapRef.current
@@ -448,12 +448,6 @@ export default function EventMap() {
               { source: "artists", id: marker.id },
               { focused: true }
             );
-
-            // const { visitSet } = getMarkerLocalStorage();
-            // // track the state change in localstorage
-            // updateMarkerLocalStorage({
-            //   visitSet: visitSet.add(marker.id as number),
-            // });
 
             setCurrMarker(marker)
           }}
