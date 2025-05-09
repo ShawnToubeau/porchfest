@@ -28,7 +28,7 @@ import { Label } from "@/components/ui/label";
 import { BookmarkFilledIcon } from "../../public/icons/bookmark-filled";
 import { BookmarkIcon } from "../../public/icons/bookmark";
 import Link from "next/link";
-import {SearchBar, Searchbar2} from "./searchbar";
+import { Searchbar2 } from "./searchbar";
 
 const VisitedMarkerLSKey = "porchfest-data";
 
@@ -80,7 +80,7 @@ class LegendControl {
   private position: ControlPosition;
   private map?: Map;
   private container!: HTMLElement;
-  
+
   constructor(items: LegendItem[], position = 'top-right' as ControlPosition) {
     this.items = items;
     this.position = position;
@@ -240,7 +240,7 @@ export default function EventMap() {
 
       const geojson = await data.get(process.env.NEXT_PUBLIC_MAPTILER_DATA_ID);
 
-      const mks = geojson.features.map((f , idx)=> {
+      const mks = geojson.features.map((f, idx) => {
         return {
           ...(f.properties as MarkerData),
           id: idx,
@@ -314,10 +314,10 @@ export default function EventMap() {
       // Create an image from SVG
       const svgImage = new Image(42, 36);
       svgImage.onload = () => {
-          map.addImage('bathroom-icon', svgImage)
+        map.addImage('bathroom-icon', svgImage)
       }
-      function svgStringToImageSrc (svgString: string) {
-          return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgString)
+      function svgStringToImageSrc(svgString: string) {
+        return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgString)
       }
 
       svgImage.src = svgStringToImageSrc(bathroomIcon);
@@ -430,7 +430,7 @@ export default function EventMap() {
   return (
     <div className="h-dvh w-full absolute" id="map">
       <div className="relative top-10 z-10 flex justify-center">
-        <Searchbar2 
+        <Searchbar2
           markers={markers}
           onResultClick={(marker) => {
             const map = mapRef.current
@@ -538,10 +538,10 @@ export default function EventMap() {
                   <div className="mr-2 inline-block">Genres:</div>
                   {currMarker.genres.length
                     ? currMarker.genres.sort().map((g) => (
-                        <Badge key={g} className="mr-1 mb-2">
-                          {g}
-                        </Badge>
-                      ))
+                      <Badge key={g} className="mr-1 mb-2">
+                        {g}
+                      </Badge>
+                    ))
                     : "n/a"}
                 </DrawerDescription>
               </DrawerHeader>

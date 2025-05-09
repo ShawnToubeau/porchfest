@@ -1,13 +1,12 @@
 import { Input } from "@/components/ui/input";
 import { DropdownMenu } from "@/components/ui/dropdown-menu";
-import { SVGProps, useCallback, useEffect, useMemo, useState } from "react";
+import { SVGProps, useCallback, useMemo, useRef, useState } from "react";
 import Fuse, { IFuseOptions } from "fuse.js";
 import { formatTime, MarkerData } from "./event-map";
 import clsx from "clsx";
 import { Badge } from "@/components/ui/badge";
 import { CrossIcon } from "../../public/icons/cross";
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut } from "@/components/ui/command";
-import { Calendar, Smile, Calculator, User, CreditCard, Settings } from "lucide-react";
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
 
 const fuseOptions: IFuseOptions<MarkerData> = {
   // isCaseSensitive: false,
@@ -96,10 +95,10 @@ export function SearchBar(props: SearchBarProps) {
                     <div>
                       {r.item.genres.length
                         ? r.item.genres.sort().map((g) => (
-                            <Badge key={g} className="mr-1 mb-2">
-                              {g}
-                            </Badge>
-                          ))
+                          <Badge key={g} className="mr-1 mb-2">
+                            {g}
+                          </Badge>
+                        ))
                         : "n/a"}
                     </div>
                   </div>
@@ -136,6 +135,9 @@ function SearchIcon(props: SVGProps<SVGSVGElement>) {
 
 export function Searchbar2(props: SearchBarProps) {
   const [searchValue, setSearchValue] = useState("");
+  const [isFocused, setIsFocused] = useState(false);
+  const commandRef = useRef<HTMLDivElement | null>(null);
+
   const fuse = useCallback(
     () => new Fuse(props.markers, fuseOptions),
     [props.markers]
@@ -144,26 +146,37 @@ export function Searchbar2(props: SearchBarProps) {
   const results = useMemo(() => {
     return fuse().search(searchValue);
   }, [fuse, searchValue]);
-  
-  return (
-    <Command className="rounded-l-lg rounded-r-none border shadow-md w-[300px]" shouldFilter={false}>
-      <CommandInput 
-        value={searchValue}
-        onValueChange={(search) => setSearchValue(search)}
-        placeholder="Search artists" 
 
-      />
-      <CommandList hidden={results.length === 0}>
-        <CommandEmpty>No results found.</CommandEmpty>
+  return (
+    <div
+      ref={commandRef}
+      tabIndex={-1} // ensure it's focusable
+      onFocus={() => setIsFocused(true)}
+      onBlur={(e) => {
+        // Check if focus moved outside the container
+        if (!commandRef.current?.contains(e.relatedTarget)) {
+          setIsFocused(false);
+        }
+      }}
+    >
+      <Command className="rounded-l-lg rounded-r-none border shadow-md w-[300px]" shouldFilter={false}>
+        <CommandInput
+          value={searchValue}
+          onValueChange={(search) => setSearchValue(search)}
+          placeholder="Search artists"
+          onClear={() => setSearchValue("")}
+        />
+        <CommandList hidden={!isFocused || searchValue.length < 2}>
+          <CommandEmpty>No results found.</CommandEmpty>
           {results.map((r) => (
-            <CommandItem 
+            <CommandItem
               key={r.refIndex}
-              onClick={() => {
+              onSelect={() => {
+                setSearchValue(r.item.artist_name)
+                setIsFocused(false)
                 props.onResultClick(r.item)
               }}
             >
-              {/* <Calendar /> */}
-              {/* <span>{r.item.artist_name}</span> */}
               <div>
                 <p className="text-sm font-medium">
                   {r.item.artist_name}
@@ -176,16 +189,18 @@ export function Searchbar2(props: SearchBarProps) {
               </div>
               <div>
                 {r.item.genres.length
-                  ? r.item.genres.sort().map((g) => (
-                      <Badge key={g} className="mr-1 mb-2">
-                        {g}
-                      </Badge>
-                    ))
+                  // limit the genres listed to 3 to prevent overflow
+                  ? r.item.genres.slice(0, 3).sort().map((g) => (
+                    <Badge key={g} className="mr-1 mb-2">
+                      {g}
+                    </Badge>
+                  ))
                   : "n/a"}
               </div>
             </CommandItem>
           ))}
-      </CommandList>
-    </Command>
+        </CommandList>
+      </Command>
+    </div>
   )
 }
