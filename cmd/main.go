@@ -52,12 +52,12 @@ type FeatureCollection struct {
 
 func main() {
 	// Parse command-line flag
-	year := flag.String("year", "2025", "Data year: year of the event")
-	format := flag.String("format", "csv", "Output format: csv or geojson")
+	year := flag.String("year", "2026", "Data year: year of the event")
+	format := flag.String("format", "geojson", "Output format: csv or geojson")
 	flag.Parse()
 
 	// Open input CSV
-	inputFile, err := os.Open(fmt.Sprintf("data/%s/input.csv", *year))
+	inputFile, err := os.Open(fmt.Sprintf("cmd/data/%s/input.csv", *year))
 	if err != nil {
 		fmt.Println("Error opening input file:", err)
 		return
@@ -82,7 +82,7 @@ func main() {
 }
 
 func writeCSV(rows [][]string, year *string) {
-	outputFile, err := os.Create(fmt.Sprintf("data/%s/output.csv", *year))
+	outputFile, err := os.Create(fmt.Sprintf("cmd/data/%s/output.csv", *year))
 	if err != nil {
 		fmt.Println("Error creating output file:", err)
 		return
